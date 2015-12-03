@@ -1,0 +1,1 @@
+{'fbs': ['t', 'f'], 'slope': ['up', 'flat', 'down'], 'exang': ['no', 'yes'], 'sex': ['female', 'male'], 'restecg': ['left_vent_hyper', 'normal', 'st_t_wave_abnormality'], 'cp': ['typ_angina', 'asympt', 'non_anginal', 'atyp_angina'], 'class': ['negative', 'positive'], 'thal': ['fixed_defect', 'normal', 'reversable_defect']}

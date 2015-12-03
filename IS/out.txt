@@ -1,0 +1,926 @@
+1 idk idk
+['gray', 'pewter']
+[]
+2 match match
+['black', 'black']
+['black']
+3 idk idk
+['black', 'black']
+[]
+4 match match
+['black', 'silver']
+['silver']
+5 match match
+['mossy oak']
+['mossy oak']
+6 idk idk
+['black', 'black']
+[]
+7 idk idk
+['black', 'black']
+[]
+8 match match
+['black', 'black']
+['pink', 'black']
+9 idk match
+['black', 'black', 'miami']
+['miami', 'miami']
+10 idk idk
+['black', 'black']
+[]
+11 match match
+['brown', 'chocolate']
+['chocolate']
+12 idk idk
+['black', 'platinum']
+[]
+13 match match
+['black', 'black']
+['black']
+14 idk match
+['red w', 'platinum trim']
+['red w', 'platinum trim', 'red w', 'platinum trim']
+15 idk idk
+['black', 'black']
+[]
+16 idk idk
+['black', 'black']
+[]
+17 match match
+['green', 'green']
+['yellow', 'white', 'green', 'black white', 'black']
+18 idk match
+['black', 'black']
+['black']
+19 idk idk
+['multicolor', 'multicolor']
+[]
+20 idk idk
+['cross']
+[]
+21 match match
+['gray', 'grey', 'steel']
+['steel']
+22 idk match
+['blue', 'blue']
+['blue']
+23 idk idk
+['dr. pepper', 'black']
+[]
+24 idk idk
+['charcoal', 'black']
+[]
+25 idk idk
+['black', 'black']
+[]
+26 idk idk
+[]
+[]
+27 idk idk
+['multicolor', 'multicolor']
+[]
+28 nomatch match
+['black', 'black', 'platinum']
+['platinum', 'platinum']
+29 match match
+['yellow', 'yellow']
+['yellow', 'white', 'green', 'black white', 'black']
+30 idk match
+['metallic black', 'matrix']
+['matrix', 'matrix']
+31 match match
+['white', 'white']
+['white', 'white']
+32 idk idk
+['black', 'black']
+[]
+33 match match
+['black', 'black']
+['black']
+34 match match
+['black', 'black']
+['black', 'black']
+35 idk idk
+['turquoise light blue', 'gray']
+[]
+36 idk match
+['black', 'black']
+['black']
+37 idk idk
+['charcoal', 'black']
+[]
+38 idk idk
+['black', 'black']
+[]
+39 idk idk
+['black|green']
+[]
+40 match match
+['pink', 'pink']
+['pink', 'pink']
+41 idk idk
+['black chrome']
+[]
+42 idk nomatch
+['multicolor', 'multicolor']
+['brown']
+43 match match
+['black', 'pink']
+['black', 'pink', 'black', 'pink']
+44 match match
+['red', 'red']
+['red', 'red']
+45 idk idk
+['multicolor', 'multicolor']
+[]
+46 match match
+['green', 'green']
+['green', 'green']
+47 match match
+['red', 'red']
+['red', 'red']
+48 idk idk
+['black|gray|yellow']
+[]
+49 match match
+['pink', 'pink']
+['pink', 'pink']
+50 nomatch match
+['butterfly', '60s butterfly', 'butterfly', '60s butterfly']
+['peace', 'peace', 'butterfly']
+51 idk idk
+[]
+['peace', 'peace']
+52 idk idk
+[]
+['peace', 'peace']
+53 idk match
+['black', 'black', 'usa']
+['usa']
+54 nomatch match
+['brown', 'brown', 'usa']
+['cognac', 'cognac', 'usa']
+55 idk match
+['multicolor', 'multicolor', 'usa']
+['usa']
+56 nomatch nomatch
+['beige', 'beige']
+['tan', 'tan']
+57 nomatch match
+['brown', 'cafe']
+['cafe', 'cafe']
+58 idk idk
+['black']
+[]
+59 idk idk
+['black', 'black']
+[]
+60 idk match
+['black', 'black']
+['black']
+61 match match
+['silver', 'silver']
+['silver']
+62 idk nomatch
+['black', 'black']
+['peace']
+63 idk idk
+[]
+[]
+64 nomatch match
+['blue', 'blue', 'ink']
+['ink', 'cyan']
+65 match idk
+['multicolor', 'multicolor']
+[]
+66 match match
+['amazon']
+['forest', 'amazon']
+67 idk idk
+[]
+[]
+68 match match
+['dirt']
+['dirt']
+69 idk idk
+[]
+[]
+70 idk idk
+[]
+[]
+71 match match
+['pink', 'pink']
+['pink(pk)', 'pink(pk)']
+72 match match
+['black', 'black']
+['black']
+73 idk idk
+[]
+[]
+74 idk match
+['black', 'black']
+['black']
+75 match match
+['multicolor', 'multicolor', 'ink']
+['ink']
+76 idk idk
+['black', 'black']
+[]
+77 match match
+['pink hearts']
+['pink hearts', 'pink hearts']
+78 idk idk
+[]
+['tiger eyes', 'tiger eyes']
+79 match match
+['black', 'black']
+['black', 'black']
+80 match match
+['multicolor', 'multicolor', 'black']
+['black', 'usa']
+81 idk idk
+[]
+[]
+82 match match
+['blue', 'blue']
+['blue']
+83 match match
+['leopard']
+['leopard', 'leopard']
+84 match match
+['drop']
+['drop', 'drop']
+85 match match
+['blue flowers', 'butterfly']
+['butterfly', '60s butterfly']
+86 idk idk
+['multicolor', 'multicolor']
+[]
+87 match match
+['drop']
+['drop', 'drop']
+88 match match
+['autumn birds']
+['autumn birds', 'autumn birds']
+89 idk idk
+['black', 'black']
+[]
+90 idk idk
+[]
+[]
+91 match match
+['black', 'black', 'black']
+['black']
+92 match idk
+['multicolor', 'multicolor']
+[]
+93 idk idk
+[]
+[]
+94 idk idk
+['black', 'black']
+[]
+95 match match
+['multicolor', 'multicolor', 'black']
+['stealth black', 'stealth', 'silver', 'pure silver', 'custom designed', 'black', 'apple']
+96 nomatch match
+['blue', 'blue']
+['lava', 'lava', 'blue']
+97  match
+98  match
+99  idk
+100  idk
+101 idk idk
+['black', 'black']
+[]
+102 idk idk
+[]
+[]
+103 idk idk
+['multicolor', 'multicolor']
+[]
+104 idk idk
+['multicolor', 'multicolor']
+[]
+105 idk idk
+['blue', 'blue']
+[]
+106 idk match
+['clear']
+['clear']
+107 idk match
+['transparent', 'steel', 'stainless steel', 'rust', 'black', 'aluminum', 'transparent', 'steel', 'stainless steel', 'rust', 'black', 'aluminum']
+['transparent', 'steel', 'stainless steel', 'rust', 'black', 'aluminum']
+108 idk nomatch
+['red']
+['nickel', 'natural']
+109 idk match
+['red', 'translucent']
+['translucent', 'love']
+110 idk match
+['clear', 'clear']
+['clear']
+111 idk idk
+['pink', 'pink']
+[]
+112 idk idk
+[]
+[]
+113 nomatch idk
+[]
+['summer green', 'summer green']
+114 idk idk
+['black', 'black']
+[]
+115 idk match
+['black', 'black', 'as shown']
+['as shown']
+116 idk match
+['black', 'black', 'clear']
+['clear']
+117 idk idk
+['black|red']
+[]
+118 idk match
+['black', 'black']
+['black']
+119 nomatch match
+['beige', 'beige', 'tan']
+['tan', 'tan']
+120 idk idk
+[]
+[]
+121 match match
+['black', 'black']
+['black', 'black']
+122 idk nomatch
+['caf']
+['black', 'black']
+123 idk idk
+[]
+[]
+124 nomatch match
+['pink', 'magenta']
+['magenta', 'magenta']
+125 idk idk
+['light blue']
+[]
+126 idk match
+['black', 'black']
+['steelers', 'black']
+127 idk match
+['orange']
+['orange']
+128 idk idk
+[]
+[]
+129 idk nomatch
+['black']
+['multi']
+130 idk idk
+[]
+[]
+131 idk idk
+[]
+[]
+132 idk match
+['black', 'black']
+['black']
+133 idk idk
+['multicolor', 'multicolor']
+[]
+134 match match
+['brown', 'brown']
+['brown', 'brown']
+135 idk match
+['black', 'black']
+['platinum', 'black']
+136 match match
+['paisley 1']
+['paisley 1', 'paisley 1']
+137 match match
+['black']
+['black', 'white', 'black', 'white']
+138 idk idk
+[]
+[]
+139 idk idk
+[]
+[]
+140 match match
+['black', 'black']
+['black', 'black']
+141 idk idk
+['multicolor', 'multicolor']
+[]
+142 idk idk
+['multicolor', 'multicolor']
+[]
+143 nomatch match
+['green', 'green']
+['green tea', 'green tea']
+144 idk idk
+['black|green']
+[]
+145 match match
+['butterflies 2']
+['butterflies 2', 'butterflies 2']
+146 idk match
+['flash', 'flash', 'flash']
+['flash', 'flash']
+147 idk match
+['peace', 'peace']
+['peace']
+148 match match
+['butterflies 2']
+['butterflies 2', 'butterflies 2']
+149 match match
+['vintage']
+['vintage', 'vintage']
+150 idk match
+['black', 'black']
+['ink', 'ink', 'black']
+151 match match
+['black', 'black']
+['black', 'black']
+152 idk idk
+['multicolor', 'multi-color']
+[]
+153 match match
+['blue', 'blue']
+['blue', 'blue']
+154 idk idk
+['white', 'white']
+[]
+155 idk match
+['clear', 'clear']
+['apple', 'clear']
+156 idk idk
+['pink', 'pink']
+[]
+157 match match
+['green', 'green']
+['green', 'green']
+158 match match
+['purple', 'purple']
+['purple', 'purple']
+159 match match
+['gray', 'gray']
+['gray', 'gray']
+160 match match
+['paradise beach']
+['paradise beach', 'paradise beach']
+161 idk nomatch
+['black', 'black']
+['steel']
+162 match match
+['tile']
+['tile', 'tile']
+163 idk nomatch
+['white', 'sand', 'marine', 'drop']
+['wave']
+164 nomatch nomatch
+['yellow', 'yellow']
+['ballistic green', 'ballistic green']
+165 nomatch nomatch
+['blue', 'blue']
+['ballistic green', 'ballistic green']
+166 nomatch match
+['pink', 'pink', 'clear']
+['black', 'black', 'clear']
+167 nomatch nomatch
+['ballistic green']
+['black', 'black']
+168 nomatch match
+['black', 'black', 'apple']
+['blue', 'blue', 'apple']
+169 nomatch match
+['yellow', 'yellow', 'apple']
+['blue', 'blue', 'apple']
+170 nomatch match
+['red', 'red']
+['blue', 'blue', 'red']
+171 idk idk
+['pink', 'pink']
+[]
+172 nomatch match
+['black', 'black', 'red']
+['lime', 'lime', 'red']
+173 nomatch match
+['brown', 'brown', 'red']
+['lime', 'lime', 'red']
+174 nomatch match
+['blue', 'blue', 'red']
+['lime', 'lime', 'red']
+175 idk idk
+['as shown']
+[]
+176 idk idk
+['as shown']
+[]
+177 nomatch match
+['blue', 'blue', 'black']
+['black', 'black']
+178 nomatch match
+['gray', 'gray', 'black']
+['black', 'black']
+179 nomatch match
+['blue', 'blue', 'white']
+['white', 'white']
+180 nomatch match
+['black', 'black']
+['white', 'white', 'black']
+181 nomatch match
+['gray', 'gray', 'white']
+['white', 'white']
+182 idk match
+['brown', 'orange', 'apple']
+['apple']
+183 idk match
+['black', 'blue', 'apple']
+['apple']
+184 idk idk
+['brown', 'brown']
+[]
+185 idk match
+['red', 'red']
+['blue', 'red']
+186 idk match
+['black', 'anthracite']
+['blue', 'black']
+187 idk idk
+['black', 'black']
+[]
+188 idk idk
+['pink', 'magenta']
+[]
+189 idk match
+['balmy orange', 'soap']
+['soap']
+190 idk match
+['black', 'black', 'soap']
+['soap']
+191 idk nomatch
+['brown', 'brown']
+['soap']
+192 nomatch match
+['blue', 'blue', 'apple']
+['black', 'black', 'apple']
+193 nomatch match
+['red', 'red', 'apple']
+['black', 'black', 'apple']
+194 idk idk
+['coffee-cream']
+[]
+195 idk idk
+['beige', 'beige']
+[]
+196 nomatch nomatch
+['black', 'black']
+['surplus green', 'surplus green']
+197 nomatch nomatch
+['black', 'black']
+['surplus green', 'surplus green']
+198 idk match
+['black', 'black', 'aluminum']
+['aluminum']
+199 idk match
+['blue', 'blue', 'aluminum']
+['aluminum']
+200 idk nomatch
+['white', 'white']
+['wine']
+201 idk nomatch
+['black', 'black']
+['wine']
+202 idk nomatch
+['black', 'black']
+['wine']
+203 idk match
+['black', 'black', 'clear']
+['clear']
+204 idk nomatch
+['black', 'black']
+['clear']
+205 nomatch nomatch
+['maya']
+['block pink', 'block pink']
+206 nomatch nomatch
+['cross']
+['block pink', 'block pink']
+207 nomatch nomatch
+['maya']
+['lemon', 'lemon']
+208 nomatch nomatch
+['cross']
+['lemon', 'lemon']
+209 nomatch nomatch
+['orange', 'orange']
+['blinker white', 'blinker white']
+210 nomatch nomatch
+['black', 'black']
+['blinker white', 'blinker white']
+211 idk idk
+[]
+['camouflage green', 'camouflage green']
+212 match match
+['camouflage green']
+['camouflage green', 'camouflage green']
+213 nomatch nomatch
+['black', 'black']
+['camouflage green', 'camouflage green']
+214 nomatch nomatch
+['bohemian color']
+['royal vintage', 'royal vintage']
+215 idk idk
+[]
+['royal vintage', 'royal vintage']
+216 nomatch nomatch
+['argyle brown']
+['royal vintage', 'royal vintage']
+217 nomatch nomatch
+['midnight kitten']
+['polka dots:green &amp; teal', 'polka dots:green &amp; teal']
+218 nomatch nomatch
+['pink hearts']
+['polka dots:green &amp; teal', 'polka dots:green &amp; teal']
+219 idk idk
+['multicolor', 'multicolor']
+[]
+220 idk idk
+['multicolor', 'multicolor']
+[]
+221 idk idk
+['pink', 'magenta']
+[]
+222 idk idk
+['red', 'red']
+[]
+223 match match
+['black', 'black']
+['black', 'black']
+224 match match
+['black', 'black']
+['black', 'black']
+225 nomatch nomatch
+['gray', 'grey']
+['black', 'black']
+226 idk match
+['red', 'carmine']
+['red']
+227 idk idk
+['black', 'black']
+[]
+228 idk idk
+['blue', 'blue']
+[]
+229 idk idk
+['black', 'black']
+[]
+230 idk idk
+['red', 'red']
+[]
+231 nomatch nomatch
+['red', 'red']
+['black', 'black']
+232 nomatch nomatch
+['blue', 'blue']
+['black', 'black']
+233 nomatch nomatch
+['black', 'black']
+['blue', 'blue']
+234 nomatch nomatch
+['red', 'red']
+['blue', 'blue']
+235 idk match
+['turquoise', 'royal blue', 'love']
+['clear', 'vintage', 'love']
+236 idk match
+['gold', 'black', 'love']
+['clear', 'vintage', 'love']
+237 idk idk
+['brown', 'brown']
+[]
+238 match match
+['black', 'grey']
+['black', 'grey', 'black', 'grey']
+239 nomatch match
+['translucent green', 'matte']
+['matte black', 'matte black', 'matte']
+240 nomatch match
+['translucent red', 'matte']
+['matte black', 'matte black', 'matte']
+241 nomatch match
+['blue', 'blue', 'matte']
+['frost', 'frost', 'matte']
+242 nomatch match
+['beige', 'tan', 'matte']
+['frost', 'frost', 'matte']
+243 nomatch match
+['light blue', 'matte']
+['frost', 'frost', 'matte']
+244 idk idk
+['black', 'black']
+[]
+245 idk idk
+['beige', 'beige']
+[]
+246 nomatch match
+['red', 'red']
+['black', 'black', 'red']
+247 match match
+['black', 'black']
+['black', 'black']
+248 nomatch match
+['pink', 'magenta']
+['magenta', 'magenta']
+249 nomatch nomatch
+['red', 'red']
+['magenta', 'magenta']
+250 nomatch nomatch
+['black', 'black']
+['magenta', 'magenta']
+251 idk idk
+['black', 'black']
+[]
+252 idk idk
+['pink', 'magenta']
+[]
+253 idk nomatch
+['red', 'red']
+['aluminum']
+254 idk nomatch
+['pink', 'magenta']
+['aluminum']
+255 idk nomatch
+['black', 'black']
+['aluminum']
+256 nomatch nomatch
+['red', 'red']
+['black', 'black']
+257 nomatch nomatch
+['pink', 'magenta']
+['black', 'black']
+258 nomatch nomatch
+['pink', 'magenta']
+['black', 'black']
+259 idk match
+['love', 'flash', 'love', 'flash']
+['crimson red', 'crimson red', 'love']
+260 idk match
+['love', 'flash', 'love', 'flash']
+['crimson red', 'crimson red', 'love']
+261 idk idk
+['multicolor', 'multicolor']
+[]
+262 idk idk
+['lion']
+[]
+263 idk idk
+['red', 'red']
+[]
+264 idk idk
+['multicolor', 'multicolor']
+[]
+265 idk idk
+['multicolor', 'multicolor']
+[]
+266 idk match
+['black', 'black', 'usa']
+['usa']
+267 idk match
+['black|brown', 'usa']
+['usa']
+268 idk match
+['usa', 'usa']
+['usa']
+269 idk match
+['black', 'black', 'usa']
+['usa']
+270 idk idk
+[]
+[]
+271 idk match
+['black']
+['black']
+272 idk match
+['black']
+['black']
+273 nomatch nomatch
+['vintage']
+['black', 'black']
+274 match match
+['black', 'black']
+['black', 'black']
+275 idk nomatch
+['multicolor', 'multicolor']
+['ink']
+276  nomatch
+277  match
+278  idk
+279  idk
+280  match
+281  match
+282  idk
+283  idk
+284  idk
+285  match
+286  idk
+287  idk
+288  nomatch
+289  idk
+290  nomatch
+291  idk
+292  idk
+293  idk
+294  nomatch
+295  nomatch
+296  idk
+297  idk
+298  match
+299  idk
+300  idk
+301 idk idk
+[]
+['aluminum']
+302 match idk
+['multicolor', 'multicolor']
+[]
+303 match idk
+['multicolor', 'multicolor']
+[]
+304 idk idk
+['pink', 'pink']
+[]
+305 idk idk
+['black', 'black']
+[]
+306 idk idk
+[]
+[]
+307 idk idk
+[]
+[]
+308 idk idk
+[]
+[]
+309 idk idk
+[]
+[]
+310 idk idk
+[]
+[]
+311 nomatch match
+['black', 'black', 'florida']
+['florida', 'blue', 'florida']
+312 idk match
+['black', 'black', 'florida']
+['florida', 'blue', 'florida']
+313 idk match
+['black', 'black', 'florida']
+['florida', 'blue', 'florida']
+314 idk idk
+['black', 'black']
+[]
+315 idk match
+['silver', 'silver', 'anthracite']
+['anthracite']
+316 idk idk
+['black', 'black']
+[]
+317 idk idk
+['black', 'black']
+[]
+318 idk idk
+['black', 'black']
+[]
+319 nomatch nomatch
+['black', 'black']
+['aluminum']
+320 idk match
+['black', 'black', 'aluminum']
+['aluminum']
+321 idk idk
+['eternal love']
+[]
+322 nomatch nomatch
+['black', 'black']
+['acid green', 'acid green']
+323 nomatch nomatch
+['orange', 'orange']
+['acid green', 'acid green']
+324  nomatch
+325  nomatch
+extracting data from file is completed!
+pairs processed     :  325
+error parsing       :  3
+right prediction    :  193
+wrong prediction    :  101
+i dont know         :  106
+false_positive      :  69
+false negative      :  32
+coverage            :  67.0807453416
+accuracy            :  89.3518518519
+colors extrated for :  186
+extrated colors     :  ['custom designed', 'flash', 'love', 'apple', 'pure silver', 'yellow', 'lion', 'static', 'smitten', 'ink', 'pink', 'matrix', 'usa', '60s butterfly', 'stainless steel', 'peace', 'cross', 'lava', 'transparent', 'stealth', 'black', 'forest', 'orange', 'white', 'soap', 'red', 'steelers', 'butterfly', 'brown', 'nickel', 'dirt', 'blue', 'chocolate', 'amazon', 'cyan', 'wave', 'marine', 'silver', 'translucent', 'as shown', 'steel', 'multi', 'natural', 'black white', 'aluminum', 'miami', 'clear', 'drop', 'florida', 'matte', 'platinum', 'sand', 'green', 'glossy', 'vintage', 'stealth black', 'anthracite', 'rust', 'wine']
+accuracy : to be calculated

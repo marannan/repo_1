@@ -1,0 +1,28 @@
+color is found in manufacture part no along with other characters such as PNV-123-BLACK
+color is found in product name
+color is found as a substring such as blacktop in product description
+few colors in dictionary are confused with common words such as miami, back, florida and etc
+pink and pink(pk) are same or different?
+how to check if color is multicolor 
+
+9 idk nomatch		(miami is assumed as a color)
+11 match nomatch	(colors didnt match but actual color chocoloate in product 1 is found in product 2)
+13 match idk		(color 1 black is available as blacktop in product 2 so its is missed since its not a single word)
+14 idk nomatch 		(apple is extracted as a color for producte 2)
+17 match nomatch	(multiple colors available for the products but color for product 1 is extracted as green)
+21 match nomatch 	(steel is extracted in product 2 but its only matched against color value in product since we have a 						 color attribute which is grey but there is a steel string in product 1)
+25 idk nomatch 		(back is extracted as a color for product 2)
+29 match nomatch 	(multicolor in product but color has yellow and first color is black in product 2 so nomatch)
+30 idk match		(matrix is extracted as color from both products)
+33 match idk		(color is found in product name)
+42 idk nomatch 		(multicolor in product but color has yellow and first color is black in product 2 so nomatch)
+62 idk nomatch		(peace is extracted as a color)
+64 nomatch idk		(cyan is not extracted as color because cyan is appended with <li>)
+65 match idk		(gold-plated is not extracted as color)
+66 match match 		(amazon is extraced as a color in both)
+68 match match 		(dirt is extractef as a colot in both)
+71 match nomatch	(pink and pink(pk) are considered different)
+82 match idk 		(color is found in product name in product 2)
+95 match nomatch 	(actual color is multi color so should extract the color from product 1)
+98 idk match 		(color is "as shown")
+312 idk nomatch 	(florida is extracted as a color)
