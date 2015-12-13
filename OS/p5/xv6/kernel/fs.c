@@ -566,7 +566,7 @@ writei(struct inode *ip, char *src, uint off, uint n)
 
       if(bn < NDIRECT) 
       {
-        ip->addrs[off/BSIZE] &= FLAG1;
+        ip->addrs[off/BSIZE] &= FLAG_1;
         ip->addrs[off/BSIZE] |= sum_2;
       }
 
@@ -575,7 +575,7 @@ writei(struct inode *ip, char *src, uint off, uint n)
       {
         bp2 = bread(ip->dev, ip->addrs[NDIRECT]);
         a = (uint *)bp2->data;
-        a[bn] &= FLAG1;
+        a[bn] &= FLAG_1;
         a[bn] |= sum_2;
         bwrite(bp2);
         brelse(bp2);
