@@ -14,8 +14,16 @@ def google_search_8(query):
     urls = []
     from google import search
     for url in search(query, tld='es', lang='en', stop=5):
-        urls.append(url)    
-
+        urls.append(url)  
+        
+    if len(urls) == 0:
+        #print "Not found"
+        return ["Not found", "Not found", "Not found"]
+    if len(urls) < 3:
+        for i in range(len(urls),3):
+            urls.append("Not found")    
+        
+    
     return urls[0], urls[1], urls[2]
 
 def google_search_7():
