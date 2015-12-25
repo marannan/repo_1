@@ -201,13 +201,13 @@ def read_csv_data(data_file):
                     address = str(row[3]) + str(" ") + str(row[4]) + str(" ") + str(row[5])
                     zipcode = str(row[6])
                     print row_no
-                    print str("Name: " + name) 
-                    print str("Address: " + address)
-                    print str("Zip: " + zipcode)
+                    #print str("Name: " + name) 
+                    #print str("Address: " + address)
+                    #print str("Zip: " + zipcode)
                     url_1, url_2, url_3 = google_search_8(str(name+address))
-                    print url_1
-                    print url_2
-                    print url_3
+                    #print url_1
+                    #print url_2
+                    #print url_3
                     csv_writer.writerow([name, address, zipcode, url_1, url_2, url_3])                        
                     #time.sleep(2)
                     row_no = row_no + 1
