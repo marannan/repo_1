@@ -1,0 +1,7 @@
+*.obj
+*.pyc
+*.csv
+Interview/Cracking the Coding Interview, 5th Edition.pdf
+HCI/*.*
+OS/Materials/*.*
+Temp/*.*
