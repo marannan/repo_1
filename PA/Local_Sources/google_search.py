@@ -5,16 +5,71 @@ from googlesearch import GoogleSearch
 from pprint import pprint
 import time
 import urllib
-import mechanize
-from bs4 import BeautifulSoup
+#import mechanize
+#from bs4 import BeautifulSoup
 import re
-from pygoogle import pygoogle
+#from pygoogle import pygoogle
+
+us_states_dict = {
+'AL':'Alabama',
+'AK':'Alaska',
+'AZ':'Arizona',
+'AR':'Arkansas',
+'CA':'California',
+'CO':'Colorado',
+'CT':'Connecticut',
+'DE':'Delaware',
+'FL':'Florida',
+'GA':'Georgia',
+'HI':'Hawaii',
+'ID':'Idaho',
+'IL':'Illinois',
+'IN':'Indiana',
+'IA':'Iowa',
+'KS':'Kansas',
+'KY':'Kentucky',
+'LA':'Louisiana',
+'ME':'Maine',
+'MD':'Maryland',
+'MA':'Massachusetts',
+'MI':'Michigan',
+'MN':'Minnesota',
+'MS':'Mississippi',
+'MO':'Missouri',
+'MT':'Montana',
+'NE':'Nebraska',
+'NV':'Nevada',
+'NH':'New Hampshire',
+'NJ':'New Jersey',
+'NM':'New Mexico',
+'NY':'New York',
+'NC':'North Carolina',
+'ND':'North Dakota',
+'OH':'Ohio',
+'OK':'Oklahoma',
+'OR':'Oregon',
+'PA':'Pennsylvania',
+'RI':'Rhode Island',
+'SC':'South Carolina',
+'SD':'South Dakota',
+'TN':'Tennessee',
+'TX':'Texas',
+'UT':'Utah',
+'VT':'Vermont',
+'VA':'Virginia',
+'WA':'Washington',
+'WV':'West Virginia',
+'WI':'Wisconsin',
+'WY':'Wyoming'}
 
 def google_search_8(query):
     urls = []
     from google import search
     for url in search(query, tld='es', lang='en', stop=5):
-        urls.append(url)  
+        if "facebook" in str(url):
+            None
+        else:
+            urls.append(url)  
         
     if len(urls) == 0:
         #print "Not found"
@@ -191,7 +246,7 @@ def read_csv_data(data_file):
     url_1 = "Not found"
     url_2 = "Not found"
     url_3 = "Not found"
-    with open('eo1_with_links.csv', 'wb') as csvfile:
+    with open('eo1_with_links_10.csv', 'wb') as csvfile:
         csv_writer = csv.writer(csvfile, delimiter='\t',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow(["Name", "Address", "Zipcode", "URL_1", "URL_2", "URL_3"])                        
@@ -200,7 +255,7 @@ def read_csv_data(data_file):
             for row in csv_reader:
                 #for item in row:
                     #print item
-                if row_no == 230004:
+                if row_no == 11:
                     return
                 if row_no == 1:
                     row_no = row_no + 1
@@ -208,15 +263,23 @@ def read_csv_data(data_file):
                     name = str(row[1]) + str(" ") 
                     address = str(row[3]) + str(" ") + str(row[4]) + str(" ") + str(row[5])
                     zipcode = str(row[6])
-                    print row_no
+                    addres_part_1, state = str(address).rsplit(" ", 1)
+                    #print row_no
                     #print str("Name: " + name) 
                     #print str("Address: " + address)
+                    #print str("State: " + state)
                     #print str("Zip: " + zipcode)
+                    print str("Searching for: " + str("official site: "+name+address))
                     url_1, url_2, url_3 = google_search_8(str(name+address))
-                    #print url_1
+                    print url_1
                     #print url_2
                     #print url_3
-                    csv_writer.writerow([name, address, zipcode, url_1, url_2, url_3])                        
+                    print "------------------------------------------------------------"
+                    print str("Searching for: " + str(name+us_states_dict[state]))
+                    url_4, url_5, url_6 = google_search_8(str(name+us_states_dict[state]))
+                    print url_4                    
+                    print "------------------------------------------------------------"
+                    csv_writer.writerow([name, address, zipcode, url_1, url_4])                        
                     #time.sleep(2)
                     row_no = row_no + 1
             
