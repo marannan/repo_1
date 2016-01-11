@@ -62,11 +62,57 @@ us_states_dict = {
 'WI':'Wisconsin',
 'WY':'Wyoming'}
 
+common_sites = [
+"facebook", 
+"yahoo", 
+"faithstreet", 
+"guidestar", 
+"manta", 
+"donationplanet",
+"fundraise", 
+"taxexemptworld", 
+"orgcouncil", 
+"razoo", 
+"charitynavigator",
+"faqs.org",
+"yellowpages",
+"maprequest",
+"citizenaudit",
+"charityblossom",
+"nonprofitlocator",
+"wikipedia",
+"tripadvisor",
+"yelp",
+"nonprofitfacts",
+"propublica",
+"nonprofitlookup",
+"infofree",
+"foursquare",
+"christianvolunteering",
+"greatnonprofits",
+"unityworldwideministries",
+"parishesonline",
+"causeiq",
+"findthecompany",
+"charity-charities.org",
+"linkedin",
+"mapquest",
+"501c3lookup",
+"dailymail",
+"whitepages"]
+
+def is_common_site(url):
+    for site in common_sites:
+        if site in url:
+            return True
+    
+    return False
+
 def google_search_8(query):
     urls = []
     from google import search
     for url in search(query, tld='es', lang='en', stop=5):
-        if "facebook" in str(url):
+        if is_common_site(url) == True: 
             None
         else:
             urls.append(url)  
@@ -246,44 +292,82 @@ def read_csv_data(data_file):
     url_1 = "Not found"
     url_2 = "Not found"
     url_3 = "Not found"
-    with open('eo1_with_links_10.csv', 'wb') as csvfile:
+    with open('eo1_100.csv', 'wb') as csvfile:
         csv_writer = csv.writer(csvfile, delimiter='\t',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(["Name", "Address", "Zipcode", "URL_1", "URL_2", "URL_3"])                        
+        csv_writer.writerow(["ORGNAME", "STREET", "CITY", "STATE", "ZIP", "URL_1", "URL_2"])                        
         with open(data_file, 'rb') as csvfile:
             csv_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
             for row in csv_reader:
                 #for item in row:
                     #print item
-                if row_no == 11:
+                if row_no == 101:
                     return
                 if row_no == 1:
                     row_no = row_no + 1
                 else:
-                    name = str(row[1]) + str(" ") 
-                    address = str(row[3]) + str(" ") + str(row[4]) + str(" ") + str(row[5])
+                    org_name = str(row[1]) + str(" ") 
+                    street = str(row[3]) 
+                    city = str(row[4]) 
+                    state = str(row[5])
+                    state_full = us_states_dict[str(row[5])]
                     zipcode = str(row[6])
-                    addres_part_1, state = str(address).rsplit(" ", 1)
+                    address = org_name + street + city + state
                     #print row_no
-                    #print str("Name: " + name) 
-                    #print str("Address: " + address)
+                    #print str("Org Name: " + org_name) 
+                    #print str("Street: " + street)
+                    #print str("City: " + city)
                     #print str("State: " + state)
                     #print str("Zip: " + zipcode)
-                    print str("Searching for: " + str("official site: "+name+address))
-                    url_1, url_2, url_3 = google_search_8(str(name+address))
+                    print str(str(row_no - 1) + " - Searching for: " + str("official website of "+ org_name+ city + " " + state))
+                    url_1, url_2, url_3 = google_search_8(str(org_name + city + " " + state))
                     print url_1
-                    #print url_2
+                    print url_2
                     #print url_3
                     print "------------------------------------------------------------"
-                    print str("Searching for: " + str(name+us_states_dict[state]))
-                    url_4, url_5, url_6 = google_search_8(str(name+us_states_dict[state]))
-                    print url_4                    
-                    print "------------------------------------------------------------"
-                    csv_writer.writerow([name, address, zipcode, url_1, url_4])                        
+                    #print str(str(row_no - 1) + " Searching for: " + str(org_name + street + city +" " + state + " " + zipcode))
+                    url_4, url_5, url_6 = google_search_8(str(org_name+ street+ city +" "+ state+ " " + zipcode))
+                    #print url_4                    
+                    #print "------------------------------------------------------------"
+                    csv_writer.writerow([org_name, street, city, state, zipcode, url_1, url_2])                        
                     #time.sleep(2)
                     row_no = row_no + 1
             
     return 
+
+def validate_links(data_file):
+    row_no = 1
+    with open('eo1_100_hits.csv', 'wb') as op_dataset:
+            csv_writer = csv.writer(op_dataset, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            csv_writer.writerow(["ORGNAME", "STREET", "CITY", "STATE", "ZIP", "HITS", "OFFICIAL_LINK" ,"URL_1", "URL_2"])                        
+            with open(data_file, 'rb') as in_dataset:
+                csv_reader = csv.reader(in_dataset, delimiter=',', quotechar='"')
+                for row in csv_reader:  
+                    #print row
+                    if row_no == 1:
+                        row_no = row_no + 1
+                        
+                    else:
+                        row_no = row_no + 1
+                        official_link = str(row[5])
+                        url_1 = str(row[6])
+                        url_2 = str(row[7])
+                        print str(row_no - 1) + " " + str(official_link)
+                        if str(official_link) != 'NA':
+                            if str(official_link) in str(url_1) or str(official_link) in str(url_2) or str(url_1) in str(official_link) or str(url_2) in str(official_link):
+                                hit = 1
+                            else:
+                                hit = 0
+                        else:
+                            hit = 1
+                        csv_writer.writerow([row[0], row[1], row[2], row[3], row[4], hit, row[5], row[6], row[7]])                        
+                    
+    
+    
+    return 
+
+
 
 
 def main():
@@ -294,6 +378,8 @@ def main():
     
     #google_search_8()
     read_csv_data("../Dataset/eo1.csv")
+    #validate_links("eo1_100.csv")
+    
         
     return
 
