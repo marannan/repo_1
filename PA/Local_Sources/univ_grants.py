@@ -1,3 +1,5 @@
+#ashok_marannan
+
 import sys
 import os
 import csv
@@ -53,7 +55,7 @@ def read_csv_data(data_file, donor_col, recepient_col, grands_col):
                 #print row
                 #for item in row:
                     #print item
-                #if row_no == 230004:
+                #if row_no == stop_row:
                     #return
                 if row_no == 1:
                     row_no = row_no + 1
