@@ -99,7 +99,14 @@ common_sites = [
 "mapquest",
 "501c3lookup",
 "dailymail",
-"whitepages"]
+"whitepages",
+"twitter",
+"churchfinder",
+"http://nccs.urban.org/",
+"http://nccsweb.urban.org/",
+"airbnb",
+"orghunter",
+"superpages"]
 
 def is_common_site(url):
     for site in common_sites:
@@ -109,23 +116,36 @@ def is_common_site(url):
     return False
 
 def google_search_8(query):
+    retry  = 0
     urls = []
-    from google import search
-    for url in search(query, tld='es', lang='en', stop=5):
-        if is_common_site(url) == True: 
-            None
+    try:
+        
+        from google import search
+        for url in search(query, tld='es', lang='en', stop=5):
+            if is_common_site(url) == True: 
+                None
+            else:
+                urls.append(url)  
+            
+        if len(urls) == 0:
+            #print "Not found"
+            return ["NA", "NA", "NA"]
+        if len(urls) < 3:
+            for i in range(len(urls),3):
+                urls.append("NA")   
+                
+        return urls[0], urls[1], urls[2]
+        
+    except:
+        if retry == 5:
+            return "NA", "NA", "NA"
         else:
-            urls.append(url)  
-        
-    if len(urls) == 0:
-        #print "Not found"
-        return ["Not found", "Not found", "Not found"]
-    if len(urls) < 3:
-        for i in range(len(urls),3):
-            urls.append("Not found")    
-        
+            retry += 1
+            print "retrying..."
+            time.sleep(5)
+            google_search_8(query)
     
-    return urls[0], urls[1], urls[2]
+    
 
 def google_search_7():
     import urllib
@@ -287,25 +307,27 @@ def google_search_1(query):
     
 
 
-def read_csv_data(data_file):
+def search_urls(data_file):
     row_no = 1
-    url_1 = "Not found"
-    url_2 = "Not found"
-    url_3 = "Not found"
-    with open('eo1_100.csv', 'wb') as csvfile:
+    url_1 = "NA"
+    url_2 = "NA"
+    url_3 = "NA"
+    url_1_short, url_2_short = "NA" ,"NA"
+    with open('Dataset/eo1.csv', 'wb') as csvfile:
         csv_writer = csv.writer(csvfile, delimiter='\t',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(["ORGNAME", "STREET", "CITY", "STATE", "ZIP", "URL_1", "URL_2"])                        
+        csv_writer.writerow(["EIN","ORGNAME", "STREET", "CITY", "STATE", "ZIP", "URL_1", "URL_2"])                        
         with open(data_file, 'rb') as csvfile:
             csv_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
             for row in csv_reader:
                 #for item in row:
                     #print item
-                #if row_no == 101:
-                    #return
+                if row_no == 101:
+                    return
                 if row_no == 1:
                     row_no = row_no + 1
                 else:
+                    ein = str(row[0])
                     org_name = str(row[1]) + str(" ") 
                     street = str(row[3]) 
                     city = str(row[4]) 
@@ -321,15 +343,20 @@ def read_csv_data(data_file):
                     #print str("Zip: " + zipcode)
                     print str(str(row_no - 1) + " - Searching for: " + str("official website of "+ org_name+ city + " " + state))
                     url_1, url_2, url_3 = google_search_8(str(org_name + city + " " + state))
-                    print url_1
-                    print url_2
+                    if url_1 != "NA":
+                        url_1_short = re.search(r"(https?://.*?)/.*", url_1).group(1)
+                    print url_1_short
+                    if url_2 != "NA":
+                        url_2_short = re.search(r"(https?://.*?)/.*", url_2).group(1)
+                    print url_2_short                    
+
                     #print url_3
                     print "------------------------------------------------------------"
                     #print str(str(row_no - 1) + " Searching for: " + str(org_name + street + city +" " + state + " " + zipcode))
                     url_4, url_5, url_6 = google_search_8(str(org_name+ street+ city +" "+ state+ " " + zipcode))
                     #print url_4                    
                     #print "------------------------------------------------------------"
-                    csv_writer.writerow([org_name, street, city, state, zipcode, url_1, url_2])                        
+                    csv_writer.writerow([ein, org_name, street, city, state, zipcode, url_1_short, url_2_short])                        
                     #time.sleep(2)
                     row_no = row_no + 1
             
@@ -337,10 +364,10 @@ def read_csv_data(data_file):
 
 def validate_links(data_file):
     row_no = 1
-    with open('eo1_with_urls.csv', 'wb') as op_dataset:
+    with open('Dataset/eo1_100_dev_results.csv', 'wb') as op_dataset:
             csv_writer = csv.writer(op_dataset, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(["ORGNAME", "STREET", "CITY", "STATE", "ZIP", "HITS", "OFFICIAL_LINK" ,"URL_1", "URL_2"])                        
+            csv_writer.writerow(["EIN","ORGNAME", "STREET", "CITY", "STATE", "ZIP", "HITS", "OFFICIAL_LINK" ,"URL_1", "URL_2"])                        
             with open(data_file, 'rb') as in_dataset:
                 csv_reader = csv.reader(in_dataset, delimiter=',', quotechar='"')
                 for row in csv_reader:  
@@ -350,15 +377,9 @@ def validate_links(data_file):
                         
                     else:
                         row_no = row_no + 1
-                        official_link = str(row[5])
-                        url_1 = str(row[6])
-                        url_2 = str(row[7])
-                        if url_1 != "Not found":
-                            url_1_short = re.search(r"(https?://.*?)/.*", url_1).group(1)
-                        print url_1_short
-                        if url_2 != "Not found":
-                            url_2_short = re.search(r"(https?://.*?)/.*", url_2).group(1)
-                        print url_2_short
+                        official_link = str(row[6])
+                        url_1 = str(row[7])
+                        url_2 = str(row[8])
                         print str(row_no - 1) + " " + str(official_link)
                         if str(official_link) != 'NA':
                             if str(official_link) in str(url_1) or str(official_link) in str(url_2) or str(url_1) in str(official_link) or str(url_2) in str(official_link):
@@ -367,7 +388,7 @@ def validate_links(data_file):
                                 hit = 0
                         else:
                             hit = 1
-                        csv_writer.writerow([row[0], row[1], row[2], row[3], row[4], hit, row[5], url_1_short, url_2_short])                        
+                        csv_writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], hit, row[6], url_1, url_2])                        
                     
     
     
@@ -377,15 +398,8 @@ def validate_links(data_file):
 
 
 def main():
-    #results = []
-    #results = google_search_5("psg tech")
-    #for result in results:
-        #print result
-    
-    #google_search_8()
-    #read_csv_data("../Dataset/eo1.csv")
-    validate_links("eo1_100.csv")
-    
+    search_urls("../Dataset/eo1.csv")
+    #validate_links("Dataset/eo1_100_dev_op.csv")
         
     return
 
