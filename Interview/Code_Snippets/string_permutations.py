@@ -37,7 +37,7 @@ def perm(n1, n2):
             b[n1-1] = l
             perm(n1-1, n2)
         #b[n1-1] = 1
-        #perm(n1-1, n2)
+        perm(n1-1, n2)
     
  
 if __name__ == "__main__":# Driver program to test the above function
@@ -46,4 +46,4 @@ if __name__ == "__main__":# Driver program to test the above function
     a = list(string)
     permute(a, 0, n-1)
 
-    perm(3, 3)
+    #perm(3, 3)

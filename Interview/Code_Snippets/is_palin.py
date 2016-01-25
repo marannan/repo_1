@@ -12,7 +12,6 @@ def is_palin(string):
     i = 0
     j = len(string) - 1
     
-    #print string[2]
     
     while i < j:
         if str(string[i]).isalpha()== False:

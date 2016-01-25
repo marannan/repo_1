@@ -301,8 +301,8 @@ def read_csv_data(data_file):
             for row in csv_reader:
                 #for item in row:
                     #print item
-                if row_no == 101:
-                    return
+                #if row_no == 101:
+                    #return
                 if row_no == 1:
                     row_no = row_no + 1
                 else:
@@ -337,7 +337,7 @@ def read_csv_data(data_file):
 
 def validate_links(data_file):
     row_no = 1
-    with open('eo1_100_hits.csv', 'wb') as op_dataset:
+    with open('eo1_with_urls.csv', 'wb') as op_dataset:
             csv_writer = csv.writer(op_dataset, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(["ORGNAME", "STREET", "CITY", "STATE", "ZIP", "HITS", "OFFICIAL_LINK" ,"URL_1", "URL_2"])                        

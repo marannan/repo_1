@@ -89,10 +89,21 @@ sys_uptime(void)
   return xticks;
 }
 
-int sys_getsyscallnumtotal(void)
-{
-	return sys_call_count;
-}
+// int sys_getsyscallnumtotal(void)
+// {
+//   struct proc *p;
+//   int proc_count = 0;
+  
+
+//   acquire(&ptable.lock);
+//   for(p = ptable.proc; p < &ptable.proc[NPROC]; p++)
+//   {
+//     if(p->state == RUNNABLE || p->state == RUNNING || p->state == SLEEPING)
+//       proc_count++;
+//   }
+
+// 	return proc_count;
+// }
 
 int sys_getsyscallnumsuccess(void)
 {

@@ -13,7 +13,7 @@ bool isSubTree(Tree *root, Tree *rootSub)
 		return isSubTree((root->left, rootSub) || isSubTree(root->right, rootSub)
 }
 
-bool matchRoot(Tree *root1, Tree *root2)
+bool matchTree(Tree *root1, Tree *root2)
 {
 	if (root1 == NULL && root2 == NULL)
 		return true;

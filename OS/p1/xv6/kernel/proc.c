@@ -5,6 +5,7 @@
 #include "x86.h"
 #include "proc.h"
 #include "spinlock.h"
+#include "sysfunc.h"
 
 struct {
   struct spinlock lock;
@@ -441,6 +442,28 @@ procdump(void)
     }
     cprintf("\n");
   }
+}
+
+int sys_getsyscallnumtotal(void)
+{
+  struct proc *p;
+  int proc_count = 0;
+  
+
+  cprintf("inside proc_count syscall\n");
+  acquire(&ptable.lock);
+  for(p = ptable.proc; p < &ptable.proc[NPROC]; p++)
+  {
+    if(p->state == RUNNABLE || p->state == RUNNING || p->state == SLEEPING)
+    {
+      cprintf("process pid: %d process name: %s\n", p->pid, p->name);
+      proc_count++;
+    }
+  }
+
+  release(&ptable.lock);
+
+  return proc_count;
 }
 
 

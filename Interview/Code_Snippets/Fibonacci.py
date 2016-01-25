@@ -13,7 +13,7 @@ def main():
     print "fibonacci"
 
 
-    no = input("Enter no to print fibonacci series until the no : ")
+    no = 10#input("Enter no to print fibonacci series until the no : ")
     for i in range(100):
         if Fibonacci(i) <= no:
             print Fibonacci(i)
