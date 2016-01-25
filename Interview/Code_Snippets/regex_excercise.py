@@ -7,8 +7,14 @@ class URLExtract(object):
     
     def extract_home_page(self,url):
         
-        home_page = re.findall(r'(www.)',url)
-        return home_page
+        #home_page = re.match(r'.*\.(.*)\..*/.*/',url)
+        
+    
+        #home_page = re.search(r'(.*\..*\..*)(/.*/)*',url)
+        home_page = re.search(r"(.*\..*\..*)/.*/.*", url);
+        
+        
+        return home_page.group(1)
     
 if __name__ == "__main__":
     url_extract = URLExtract()
