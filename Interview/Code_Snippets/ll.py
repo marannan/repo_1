@@ -1,13 +1,11 @@
-import sys
-import os
+#imports
 
 
 class node:
     def __init__(self,data=None):
         self.data = data # contains the data
         self.next = None # contains the reference to the next node
-    
-    
+
 
 class linked_list:
     def __init__(self):
