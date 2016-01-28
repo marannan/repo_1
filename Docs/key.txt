@@ -1,16 +1,1 @@
-Your identification has been saved in /root/.ssh/id_rsa.
-Your public key has been saved in /root/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:h/zy/Krb70SmKhVPXhxtlBNycyQ3HnbdVXuy7nhBuaA marannan@wisc.edu
-The key's randomart image is:
-+---[RSA 4096]----+
-|            .o*B%|
-|            .oB=B|
-|           . o.=.|
-|       .... + oo.|
-|        S=.ooo.. |
-|        .oE+ .o  |
-|       .. o . .. |
-|      .  * . o.  |
-|       .+o===..  |
-+----[SHA256]-----+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDAAqxvlHtU1B+WTOBBgNBsX4Rg2ovG+1ulFgwQztc6ZIl7IGEU8r3u7RHdPQJzMxYphgPNgEnHwUgTYvh1MLA5Qu4JjGmDBxfaAM0iRuQjfHhXSM2BcDwT7c6WoTZr9RD96NtnKrH/KIaI3BtS2sP5M8BwhqSb39H2wwLsJ1uCl+kHkBcCUYSLMBvLOLxsQl21YNI9HCmNXnV8/yFRoamZiOGT3vD00EMTD34tsIX5nYS8GIZS/nOP8PYhG6h1F6ikaDsJMxw4P9iTYXOZGrnw4JmzsM96qNwl9UiqCjndB6FmHHtJwx2D6vx0L2s+7zx7xKfNg2Blw+4crxJ4gjuzEvMT3RlVTM/IyQ9K8crvOVcdpqiEsdsbKO4W+zVrkRDtd1qZ4qc4xMThJNaN0ghKdv/g+63ROPpNzluQuDJqPWmJpzeAn7LreMIdRf8VwK/kd10Gp/48FnBkZCWWT2N6UzWg3JwhP/tkguKKkVxIKf89IUFLNntQj6Ofe45tj2xy7ocyLZmvL5oGtc8UgPkhKMXGOI7/uFObE5bThZEE0kTB53mk+EegHWn62iXMJ5hcN5C1fm/t53HHPBy6x3Gs3MWp9y+WwPQlIkz+uJ5ey1/WHnfqyu2ZgpPP7+5f2xoRzFDDd0aYdtIZIGi1fleRrLjtpcZjK2wWgt5yjdmraw== marannan@wisc.edu
