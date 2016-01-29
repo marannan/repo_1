@@ -22,3 +22,9 @@ Reverting commits
 git reset --hard HEAD (resets the HEAD to latest commit)
 git rebase -i HEAR~n (lists the last n commits, remove the commits if needed save)
 git push repo_name master --force (syncs the local and remote git repository since we've rebased the local)
+
+
+Adding passpharse permanently
+-----------------------------
+eval $(ssh-agent)
+ssh-add
