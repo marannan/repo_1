@@ -1,0 +1,18 @@
+sex class
+cp class
+
+negative negative 0.7142857142857143
+negative negative 0.8974358974358974
+negative positive 0.6521739130434783
+negative negative 0.6097560975609756
+negative negative 0.9130434782608695
+negative positive 0.6097560975609756
+negative negative 0.6521739130434783
+negative negative 0.7500000000000000
+negative negative 0.8974358974358974
+negative negative 0.8974358974358974
+negative positive 0.6097560975609756
+negative negative 0.6097560975609756
+negative negative 0.7142857142857143
+
+10
