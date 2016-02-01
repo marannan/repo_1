@@ -444,26 +444,27 @@ procdump(void)
   }
 }
 
-int sys_getsyscallnumtotal(void)
-{
-  struct proc *p;
-  int proc_count = 0;
+//syscall to get no of process in the system. name of the call has to be changed appropriately
+// int sys_getsyscallnumtotal(void)
+// {
+//   struct proc *p;
+//   int proc_count = 0;
   
 
-  cprintf("inside proc_count syscall\n");
-  acquire(&ptable.lock);
-  for(p = ptable.proc; p < &ptable.proc[NPROC]; p++)
-  {
-    if(p->state == RUNNABLE || p->state == RUNNING || p->state == SLEEPING)
-    {
-      cprintf("process pid: %d process name: %s\n", p->pid, p->name);
-      proc_count++;
-    }
-  }
+//   cprintf("inside proc_count syscall\n");
+//   acquire(&ptable.lock);
+//   for(p = ptable.proc; p < &ptable.proc[NPROC]; p++)
+//   {
+//     if(p->state == RUNNABLE || p->state == RUNNING || p->state == SLEEPING)
+//     {
+//       cprintf("process pid: %d process name: %s\n", p->pid, p->name);
+//       proc_count++;
+//     }
+//   }
 
-  release(&ptable.lock);
+//   release(&ptable.lock);
 
-  return proc_count;
-}
+//   return proc_count;
+// }
 
 
