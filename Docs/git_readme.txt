@@ -26,5 +26,7 @@ git push repo_name master --force (syncs the local and remote git repository sin
 
 Adding passpharse permanently
 -----------------------------
+ssh-add
+will give error 
 eval $(ssh-agent)
 ssh-add

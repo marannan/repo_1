@@ -127,6 +127,7 @@ if __name__ == "__main__":
     ll_add.head = linked_lists_add_2(ll_1_rev.head, ll_2_rev.head, 0)
     linked_list_reverse(ll_add).display_nodes()
     
+    return
     
     
     
