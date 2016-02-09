@@ -579,7 +579,7 @@ int My_Shell()
 
     Parse_Arguments(Input_Command,Argv);
 
-    //Print_Args();
+    // Print_Args();
 
     if(Command_Executed == 1 || Command_Error == 1)
     	return 0;
@@ -648,7 +648,6 @@ int My_Shell()
 			}
 
 		}
-
 
 		execvp(Argv[0],Argv);
 		Error_Command();

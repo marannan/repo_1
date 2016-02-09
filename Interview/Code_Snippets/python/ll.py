@@ -55,7 +55,24 @@ class linked_list:
     
         print "data not found"
 
+    #deleting a node give the node itself
+    def del_node_2(self, node):
+        if node == None:
+            return 
         
+        #last node
+        if node.next == None: 
+            node.data = None #set it to dummy
+            return
+        
+        #first or middle node 
+        next = node.next
+        node.data = next.data
+        node.next = next.next
+        
+        #del next
+        
+        return
 
     def display_nodes(self):
         if self.head == None:

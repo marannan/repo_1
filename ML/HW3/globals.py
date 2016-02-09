@@ -14,6 +14,7 @@ class_values = {}
 class_count = {}
 y_1 = 0
 y_2 = 0
+
 def debug_print(debug_str):
     print debug_str
     

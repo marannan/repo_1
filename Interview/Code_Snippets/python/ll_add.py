@@ -1,7 +1,7 @@
 from ll import *
 from ll_reverse import *
 
-def add_linked_lists(ll_1, ll_2):
+def linked_lists_add(ll_1, ll_2):
     if ll_1.head == None and ll_2.head == None:
         return None
     
@@ -66,13 +66,54 @@ def add_linked_lists(ll_1, ll_2):
         
         return ll_added
         
+#recursive handles negative nos
+def linked_lists_add_2(node_1, node_2, carry=0):
+    
+    if node_1 == None and node_2 == None and carry == 0:
+        return None
+    
+    value = carry
+    
+    if node_1:
+        value = value + node_1.data
+        
+    if node_2:
+        value = value + node_2.data
+        
+    
+    new_node = node()
+    if value >= 0:
+        new_node.data = value % 10
+        carry = value / 10
+    
+    else: #handle the negative case
+        new_node.data = (-1) * ((value * -1) % 10) 
+        carry = (-1) * ((value * -1) / 10) 
+
+    if node_1 == None:
+        next_1 = None
+    
+    else:
+        next_1 = node_1.next
+        
+    if node_1 == None:
+        next_2 = None    
+        
+    else:
+        next_2 = node_2.next
+    
+     
+    new_node.next = linked_lists_add_2(next_1, next_2, carry)
+    
+    
+    return new_node
 
 if __name__ == "__main__":
     ll_1 = linked_list()
     ll_2 = linked_list()
     
-    ll_1.add_nodes([-9])
-    ll_2.add_nodes([9,9])
+    ll_1.add_nodes([9])
+    ll_2.add_nodes([-9,-9])
     
     ll_1_rev = linked_list_reverse(ll_1)
     ll_2_rev = linked_list_reverse(ll_2)
@@ -80,7 +121,11 @@ if __name__ == "__main__":
     #ll_2_rev.display_nodes()
 
     
-    linked_list_reverse(add_linked_lists(ll_1_rev,ll_2_rev)).display_nodes()
+    #linked_list_reverse(add_linked_lists(ll_1_rev,ll_2_rev)).display_nodes()
+    ll_add = linked_list()
+    ll_add.head = linked_lists_add_2(ll_1_rev.head, ll_2_rev.head, 0)
+    
+    linked_list_reverse(ll_add).display_nodes()
     
     
     

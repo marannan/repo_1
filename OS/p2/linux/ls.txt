@@ -1,0 +1,5 @@
+ls.txt
+Makefile
+mysh
+mysh.c
+Temp
