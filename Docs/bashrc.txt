@@ -98,5 +98,7 @@ fi
 #    . /etc/bash_completion
 #fi
 
-export PATH=$PATH:/media/ashok/My_Drive/Ashok/OneDrive/Github/Scripts
+export PATH=$PATH:/media/ashok/My_Drive/Ashok/OneDrive/Github/repo_1/Scripts/
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+eval `keychain --eval --agents ssh id_rsa`

@@ -30,3 +30,7 @@ ssh-add
 will give error 
 eval $(ssh-agent)
 ssh-add
+
+apt-get install keychain
+add the line to ~/.bashrc file 
+eval `keychain --eval --agents ssh id_rsa`
