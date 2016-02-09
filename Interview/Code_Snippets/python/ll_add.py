@@ -122,9 +122,9 @@ if __name__ == "__main__":
 
     
     #linked_list_reverse(add_linked_lists(ll_1_rev,ll_2_rev)).display_nodes()
+    
     ll_add = linked_list()
     ll_add.head = linked_lists_add_2(ll_1_rev.head, ll_2_rev.head, 0)
-    
     linked_list_reverse(ll_add).display_nodes()
     
     
