@@ -75,15 +75,18 @@ class linked_list:
         return
 
     def display_nodes(self):
+        list_data = []
         if self.head == None:
             print "node data in ll"
             return        
 
         cur_node = self.head 
         while cur_node:
-            print cur_node.data
+            list_data.append(cur_node.data)
+            #print cur_node.data
             cur_node = cur_node.next
 
+        print list_data
             
     def search_node(self, data):
         if head == None:
