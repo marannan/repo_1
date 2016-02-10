@@ -1,4 +1,6 @@
 #tree
+from random import randint
+
 class node:
     def __init__(self,data = None):
         self.data = data
@@ -7,74 +9,97 @@ class node:
         
     
 class tree:
-    def __init__(self):
-        self.root = None
+    def __init__(self,data = None):
+        self.root = node(data)
+        self.tree_data = []
+        self.node_added = False
         
-    def add_node(self, data):
-        if data != None:
-            child = node(data)
-          
-        #print "current tree before adding node"
-        #self.display_nodes()
-        
-        if self.root == None:
-            self.root = child
-            #print "current tree after adding node"
-            #self.display_nodes()            
-            return
     
-        parent = self.find_parent(self.root, data)
+    def add_node_bst(self, root, data):
+        child = node(data)
+        parent = self.find_parent_bst(root, data)
+        
         if data <= parent.data:
             parent.left = child
+
+        elif data > parent.data:
+            parent.right = child    
+        
+        
+    def add_node(self, parent, side, data):
+        if parent == None or side == None or data == None:
+            print "Error: adding child. check parameters"
+            
+        child = node(data)
+        
+        if str(side).lower() == "left":
+            parent.left = child
+
         else:
             parent.right = child
-        
-        #print "current tree after adding node"
-        #self.display_nodes()
+            
                  
-    def find_parent(self, node, data):
+    def find_parent_bst(self, node, data):
         if node == None:
             return node
 
-        if data <= node.data:
+        while node:
             parent = node
-            if self.find_parent(node.left, data) == None:
-                return parent
+            if data <= node.data:
+                node = node.left
+            else:
+                node = node.right
         
-        if data > node.data:
-            parent = node
-            if self.find_parent(node.right, data) == None:
-                return parent
-        
+        return parent
+    
+    
     def in_order_traversal(self, root):
         if root == None:
             return
         
         if self.in_order_traversal(root.left) != None:
-            print self.in_order_traversal(root.left)
+            self.in_order_traversal(root.left)
+            
         if root.data != None:
-            print root.data
+            self.tree_data.append(root.data)
+            #print self.tree_data
+            
         if self.in_order_traversal(root.right) != None:
-            print self.in_order_traversal(root.right)        
+            self.in_order_traversal(root.right)    
+            
             
     def display_nodes(self):
         if self.root == None:
             return self.root
         
+        self.tree_data = []
         self.in_order_traversal(self.root)
+        print self.tree_data
+        
+    
+    def get_tree_height(self, root):
+        if root == None:
+            return 0
+        
+        return max(self.get_tree_height(root.left),self.get_tree_height(root.right)) + 1
+    
+    
+    def tree_height(self):
+        return self.get_tree_height(self.root)
         
         
 
 if __name__ == "__main__":
-    tree = tree()
+    tree_bt = tree(4) 
+    tree_bt.add_node(tree_bt.root, "left", 3)
+    tree_bt.add_node(tree_bt.root, "right", 5)
+    tree_bt.add_node(tree_bt.root.left, "left", 2)
+    
+    tree_bt.display_nodes()
+    
+    tree_bst = tree(randint(0,9))
     for i in range(5):
-        tree.add_node(i)
-    #tree.add_node(0)
-    #tree.add_node(2)
-    tree.display_nodes()
+        tree_bst.add_node_bst(tree_bst.root,randint(0,9)) 
+        
+    tree_bst.display_nodes()
     
-    
-        
-        
-        
-        
