@@ -3,35 +3,27 @@ __author__ = 'Ashok Marannan'
 import sys
 import os
 
-def Fibonacci(no):
+def fib_recurse(no):
     if no <= 1:
         return no
     else:
-        return (Fibonacci(no-1) + Fibonacci(no-2))
+        return (fib_recurse(no-1) + fib_recurse(no-2))
 
 
-def fib(n):
-    a,b = 1,1
-    for i in range(n-1):
-        a,b = b,a+b
-    return a
-
-
-def main():
-    print "fibonacci"
-
-
-    no = 10#input("Enter no to print fibonacci series until the no : ")
-    for i in range(100):
-        if Fibonacci(i) <= no:
-            print Fibonacci(i)
-        else:
-            sys.exit()
-
+def fib_iterative(n):
+    first = 0
+    second = 1
+    
+    
+    for i in range(n):
+        third  = first + second
+        second = first
+        first = third
+    
+    return first
 
 if __name__ == "__main__":
-    #main()
-    print Fibonacci(10)
-    #print fib(5)
+    print fib_recurse(10)
+    print fib_iterative(10)
 
 
