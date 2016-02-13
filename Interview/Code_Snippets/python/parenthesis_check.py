@@ -11,6 +11,8 @@ def is_valid(s):
             return False
     return stack == []
 
+#push open parenthesis onto stack and whenever find a closing parenthesis, pop from stack and check 
+#if they match ie open and close then continue else return parenthesis expression is invalid
 def is_valid_2(string):
     if string == None:
         return False
@@ -22,10 +24,10 @@ def is_valid_2(string):
         if char in parenthesis.values():
             stack.append(char)
         else:
-            if parenthesis[char] != stack.pop():
+            if len(stack) == 0 or parenthesis[char] != stack.pop():
                 return False
     
     return stack == []
 
 if __name__ == "__main__":
-    print is_valid_2("{([)}")
+    print is_valid_2("()))()")
