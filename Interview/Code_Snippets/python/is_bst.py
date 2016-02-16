@@ -1,6 +1,7 @@
 #is bst
 #do inorder(left,root,right) traversal and it should be sorted array of elements 
 #left cannot be > root and right cannot be <= to root
+#use min max to limit how much left can be and how much right can be
 
 
 from tree import *

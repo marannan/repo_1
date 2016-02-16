@@ -18,8 +18,7 @@ def no_paths(m,n):
     ##some cells are marked non steppable 
     #count[1][2] = None
  
-    #Calculate count of paths for other cells in bottom-up manner using
-    #the recursive solution
+    #Calculate count of paths for other cells in bottom-up manner using the recursive solution
     for i in range(1,m):
         for j in range(1,n):
 

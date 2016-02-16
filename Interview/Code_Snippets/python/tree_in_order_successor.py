@@ -1,7 +1,7 @@
 #inorde successor (left, root, right)
 
 #if node has right branch then left most child of the right breach is its inorder successor
-#else move up until n is the left child for its parent
+#else move up until n is the left child for its parent instead of right child
 #return n
 
 

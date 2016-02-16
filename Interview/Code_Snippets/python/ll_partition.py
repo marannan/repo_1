@@ -1,5 +1,5 @@
 #partition list based on val x
-#use head_1 and tail_1 for list < x and head_2 and tail to list > x and merge them
+#use head_1 and tail_1 for list < x and head_2 and tail_2 to list > x and merge them
 
 from ll import *
 

@@ -2,7 +2,7 @@
 #perform inoder traversal
 #perform postorder traversal
 #get list of elements from inorder traversal between x and y
-#out of the elements, element at the highest index in post order traversal is the lca of x and y
+#out of the above elements, element at the highest index in post order traversal is the lca of x and y
 
 from tree import *
 from ll import *

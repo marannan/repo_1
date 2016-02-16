@@ -1,4 +1,13 @@
 
+#make matrix row zero if row contains 0
+#make matrix column zero if column contains 0
+
+#idea
+#****
+#use row and column arrays to store the what rows and columns have elements 0 
+#traverse thru the matrix and set the entire row 0 if that row has element 0 in row array 
+#same for column array
+
 def matrix_zeros(matrix):
     if len(matrix) == 0:
         return matrix

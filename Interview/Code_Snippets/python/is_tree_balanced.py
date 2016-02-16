@@ -1,4 +1,6 @@
 #tree is balanced
+#idea
+#****
 #heights of two subtrees should be <= 1
 
 

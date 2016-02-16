@@ -16,6 +16,7 @@ def find_magic_index(array, start, end):
     #we dont have to search the entire left. so left search limit is calculated below
     left_end = min(array[mid], mid - 1)
     left = find_magic_index(array, start, left_end)
+    
     if left >= 0:
         return left
     
