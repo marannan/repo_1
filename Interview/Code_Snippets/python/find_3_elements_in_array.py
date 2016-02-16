@@ -15,7 +15,7 @@ def find_3_elements(arr):
     # Create an array that will store index of a smaller
     # element on left side. If there is no smaller element
     # on left side, then smaller[i] will be -1.
-    smaller = [0]*10000
+    smaller = [0]*10
     smaller[0] = -1
     for i in range(1,n):
         if (arr[i] <= arr[min]):
@@ -27,7 +27,7 @@ def find_3_elements(arr):
     # Create another array that will store index of a
     # greater element on right side. If there is no greater
     # element on right side, then greater[i] will be -1.
-    greater = [0]*10000
+    greater = [0]*10
     greater[n-1] = -1
  
     for i in range(n-2,-1,-1):
@@ -47,3 +47,6 @@ def find_3_elements(arr):
  
     # If we reach here, then there are no such 3 numbers
     return None
+
+if __name__ == "__main__":
+    print find_3_elements([12, 11, 10, 5, 6, 2, 30])

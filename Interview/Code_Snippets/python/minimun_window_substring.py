@@ -25,16 +25,27 @@ import collections
 def min_window(s, t):
     left, right = 0, 0
     # count T chars
-    counter = collections.defaultdict(int)
+    counter = {}#collections.defaultdict(int)
     for a in t:
-        counter[a] += 1
+        if a in counter:
+            counter[a] += 1
+        else:
+            counter[a] = 1
 
     minwindow = len(s) + 1
     answer = None
 
     while right <= len(s):
         # check all chars in T are in the current answer
-        if all(map(lambda x: True if x<=0 else False, counter.values())):
+        
+        counter_empty = True
+        for char in counter:
+            if counter[char] > 0:
+                counter_empty = False
+                break
+        
+        #if all(map(lambda x: True if x<=0 else False, counter.values())):
+        if counter_empty == True:
             if minwindow > right-left:
                 minwindow = right-left
                 answer = s[left:right]
@@ -53,4 +64,4 @@ def min_window(s, t):
     return answer if answer else ''
 
 if __name__ == "__main__":
-    print min_window("this is a string", "tist")
+    print min_window("ADOBECODEBANC", "ABC")
