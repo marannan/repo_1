@@ -32,7 +32,7 @@ def find_sum(array, sum):
 
 
 def main():
-    array = [2,1,9,4,4,56,90,3]
+    array = [2,1,9,4,4,56,5,90,3]
     
     sum_pairs = find_sum(array,8)
     if len(sum_pairs) > 0:

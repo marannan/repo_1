@@ -1,3 +1,11 @@
+#find two elements that sum upto x in an array
+#idea
+#****
+#use hash and find element - sum is in hash else add element to hash
+
+#alternate solution
+#sort and use first and last pointer and add them to see sum  = x else move first or reduce last
+
 hash_table = {}
 
 class Solution(object):

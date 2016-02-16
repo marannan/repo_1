@@ -63,5 +63,43 @@ def min_window(s, t):
 
     return answer if answer else ''
 
+
+#Have a left and right pointer, initially both at zero
+#Move the right pointer forwards until [L..R] contains all the elements (or quit if right reaches the end).
+#Move the left pointer forwards until [L..R] doesn't contain all the elements. 
+#See if [L-1..R] is shorter than the current best.
+#keep track of how many of each element of B is in the subarray for checking whether the subarray is a potential solution.
+
+#Pseudocode of this algorithm.
+
+#size = bestL = A.length;
+#needed = B.length-1;
+#found = 0; left=0; right=0;
+#counts = {}; //counts is a map of (number, count)
+#for(i in B) counts.put(i, 0);
+
+#//Increase right bound
+#while(right < size) {
+    #if(!counts.contains(right)) continue;
+    #amt = count.get(right);
+    #count.set(right, amt+1);
+    #if(amt == 0) found++;
+    #if(found == needed) {
+        #while(found == needed) {
+            #//Increase left bound
+            #if(counts.contains(left)) {
+                #amt = count.get(left);
+                #count.set(left, amt-1);
+                #if(amt == 1) found--;
+            #}
+            #left++;
+        #}
+        #if(right - left + 2 >= bestL) continue;
+        #bestL = right - left + 2;
+        #bestRange = [left-1, right] //inclusive
+    #}
+#}
+
+
 if __name__ == "__main__":
     print min_window("ADOBECODEBANC", "ABC")
