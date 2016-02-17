@@ -15,25 +15,41 @@ def can_run(job):
     return True
 
 
+def check_circular_dependency(job):
+    for dependency_job in job_graph[job]:
+        dependency_jobs = job_graph[dependency_job]
+        if job in dependency_jobs:
+            return True
+        
+    
+    return False
+
+
 def schedule(job):
+    
+    if check_circular_dependency(job):
+        print "job " + str(job) + " cannot be run because of cicular dependency"
+        return
        
     if can_run(job):
         #print job
         finished_jobs.append(job)
         return
     
-    dependency = job_graph[job]
-    for job_d in dependency:
-        schedule(job_d)
+    for dependency in job_graph[job]:
+        schedule(dependency)
     schedule(job)
         
 
 if __name__ == "__main__":
+    
     job_graph = {7:[8], 8:[], 1:[2], 2:[3,4], 3:[5], 4:[], 5:[], 6:[]}
+    #job_graph = {1:[2], 2:[1]}
     for job in job_graph.keys():
-        job in finished_jobs:
+        if job in finished_jobs:
             continue
         schedule(job)
+    
     
     print finished_jobs
         
