@@ -11,6 +11,11 @@ class node:
 
 #build a tree with root as array and left child as first digit of array and right as first two digits recursively
 #print all leaves 
+#idea
+#****
+#process single digit or two digits
+#build a tree eith left taking single digit and right with two digits
+
 
 #http://www.geeksforgeeks.org/find-all-possible-interpretations/
 
@@ -47,6 +52,6 @@ def print_tree_leaves(root):
     
 
 if __name__ == "__main__":
-    root = print_words(0, "", [1,1])
+    root = print_words(0, "", [1,2,1,1])
     print_tree_leaves(root)
 

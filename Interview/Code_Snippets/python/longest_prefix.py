@@ -6,6 +6,7 @@ def to_string(prefix):
 #continue with second 
 #stop if atleast one word doesnt have the char that is being matched
 #return the first word until last matched char
+
 def longest_prefix(str_list):
     if len(str_list) == 0:
         return ""

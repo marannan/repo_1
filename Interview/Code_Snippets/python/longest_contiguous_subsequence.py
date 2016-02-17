@@ -42,4 +42,3 @@ def findLongestConseqSubseq(array):
             ans = max(ans, j - arr[i])
 
     return ans;
-}

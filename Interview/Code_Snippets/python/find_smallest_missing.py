@@ -6,6 +6,7 @@
 #2) We traverse the array containing all positive numbers and to mark presence of an element x, we change the sign of value at index x to negative
 #3) We traverse the array again and print the first index which has positive value
 
+
 #if array has 1 then 0th element will be changed to -ve and so on so iterate for first pass to make array negative
 #second pass to find first positive element and return index + 1
 #if element is present our first pass would have made arrat[element - 1] as -ve 

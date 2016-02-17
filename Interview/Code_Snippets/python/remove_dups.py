@@ -25,6 +25,7 @@ def remove_dup(array):
       
     return array
 
+#sort
 #start from 1
 #initialise read_ptr and write_ptr to 1
 #if element at read_ptr is not equal to read_ptr - 1
@@ -50,6 +51,7 @@ def remove_dup_2(A):
  
 if __name__ == "__main__":
     #print remove_dup([1,2,4,4])
+    #sort it 
     print remove_dup_2([1,2,2,4,4,3,3])
     #print remove_dup(list("ashokk"))
     #print to_string(set(list("ashokk")))
