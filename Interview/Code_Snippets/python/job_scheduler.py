@@ -1,3 +1,11 @@
+#job scheduler
+#build a graph of jobs and edges between jobs and their dependent jobs
+
+#iterate thru all nodes
+#schedule a job only if can be run (meaning it shouldnt have any dependencies or all the dependencies are already have run)
+#if job has dependent jobs then schedule them (recursive call)
+#finally schedule this job
+
 
 finished_jobs = []
 
