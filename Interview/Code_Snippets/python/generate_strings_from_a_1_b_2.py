@@ -9,12 +9,12 @@ class node:
         self.left = None
         self.right = None
 
-#build a tree with root as array and left child as first digit of array and right as first two digits recursively
-#print all leaves 
+
 #idea
 #****
-#process single digit or two digits
-#build a tree eith left taking single digit and right with two digits
+#process single digit or process two digits
+#build a tree with root as array and left child as first digit of array and right as first two digits recursively
+#print all leaves 
 
 
 #http://www.geeksforgeeks.org/find-all-possible-interpretations/

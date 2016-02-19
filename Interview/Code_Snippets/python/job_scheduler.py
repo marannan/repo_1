@@ -3,6 +3,7 @@
 
 #iterate thru all nodes
 #schedule a job only if can be run (meaning it shouldnt have any dependencies or all the dependencies are already have run)
+#check for circular dependencies
 #if job has dependent jobs then schedule them (recursive call)
 #finally schedule this job
 
