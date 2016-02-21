@@ -1,21 +1,15 @@
-The bug in target3 is an integer overflow bug.  The user is expected to provide a string argument that
-includes a count of the number of widgets they want to input and then data representing those widgets.
-When the count is compared to MAX_WIDGETS to determine whether or not the memcpy() occurs, it is 
-compared as an signed integer.  Our count value is multiplied by 20 and then supplied as an argument to 
-memcpy().  This creates an opportunity for integer overflow. This can be exploited to get 
-around the MAX_WIDGETS limit and overflow the buffer. 
-In our exploit, we set up the usual buffer overflow code-- a long series of NOPs, the shellcode, and
-a pointer back into the NOPs region.  However, at the beginning we add our count value as well.  The
-buffer is of size 241*20 (4820), so it will overflow the target buffer enough to overwrite the EIP.  
-The count is the key to this exploit.  We chose to use the value 2147483889.  When the target program 
-parses this number to a signed integer, it looks like a negative number (-2147483407).  Then the count 
-is passed to foo().  Since it is a negative number, it passes the (count < MAX_WIDGETS) test.  However, 
-when it is multiplied by 20 before being used by memcpy(), the leading 1 in the binary representation 
-overflows.  The result is the positive number 4820, which is the length of our buffer and thus the 
-length we want to copy. This will overwrite the EIP with a pointer back into the NOP region of our
-buffer, and then the code for starting up a root shell is executed. 
+Goal:
+We're going to attack the memcpy in target3 which copies 240 with a bounds check on signed integer limit.
+With the attack we'll get access to sh with root access
+
+Idea: 
+We need to overflow the the integer in a way it passes the bounds check but overflow the buffer while copying.
+We can use a huge negative value for the count so that "if (count < MAX_WIDGETS)" will pass. But when this negative value is multiplied by 20 which will overflow the count variable resulting in a positive value more than 240*20 = 4200 to overwrite the buffer and EIP.
 
 
-
-
-   
+Steps:
+1) Make the attack buffer and send over to strcpy with following recepie.
+2) Add noop sled as a safe landing point for modified eip. Can be found by trail and error. 
+3) Add the count value to the starting of the buffer. This count value is picked to be 2147483889 which when assigned to 		signed integer will overflow and become negative -2147483407. Which will pass the bounds checking but when multiplied 		with 20 will again overflow the value and makes it 4280 which is good enough to overflow buf in foo() to overwrite EIP
+4) Add the address (4 bytes) of landing point to be overwritten in the place of EIP. 
+    It can be found by knowing the ESP/EBP of foo() buffer is allocated to figure out buffer region address.

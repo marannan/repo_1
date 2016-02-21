@@ -1,5 +1,5 @@
 Goal:
-We're going to attack the nstrcpy in target which copies to 241 instead of 240 due to a code bug.
+We're going to attack the nstrcpy in target2 which copies to 241 instead of 240 due to a code bug.
 With the attack we'll get access to sh with root access
 
 Idea: 
@@ -11,4 +11,4 @@ Steps:
 2) Add noop sled as a safe landing point for modified eip. Can be found by trail and error. 
 3) Add shellcode from alephone.
 4) Add the last byte to overwrite the least significant byte of SFP in bar() in a way in now points to a new location.
-   Four bytes from the new location is where new EIP should be.  We have to calculate this landing point using ESP/EBP in bar() to find a suitable address in buffer region which was overwitten by us.
+    Four bytes from the new location is where new EIP should be.  We have to calculate this landing point using ESP/EBP in bar() to find a suitable address in buffer region which was overwitten by us.

