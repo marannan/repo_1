@@ -1,0 +1,14 @@
+Goal:
+We're going to attack the unsecured version of the strcpy in target which copies to 240 without bounds checking.
+With the attack, we'll get access to sh with root access
+
+Idea: 
+We need to overflow the buffer and overwrite the EIP and point it somewhere in the buffer region where our shellcode is  copied.
+
+
+Steps:
+1) Make the attack buffer and send over to strcpy with following recepie.
+2) Add noop sled as a safe landing point for modified EIP. This can be found by trail and error. 
+3) Add shellcode from alephone.
+4) Add the address (4 bytes) of landing point to be overwritten in the place of EIP. 
+   It can be found by knowing the ESP/EBP of bar() buffer is allocated to figure out buffer region address.
