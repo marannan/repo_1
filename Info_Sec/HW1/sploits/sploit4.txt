@@ -3,33 +3,17 @@ We're going to attack the double free in target2 which frees pointer q twice.
 With the attack we'll get access to sh with root access
 
 Idea: 
-We need to overflow the buffer with 241 byes with last byte used to overwrite the least significant byte of saved stack pointer. So with this when the function returns, the SFP will point to a new location and four bytes from the location will be the new EIP, which we'll tailor it to point back into our buffer where shellcode is ready to make the attack.
+Input buffer is copied into the p pointer and location we can write arbitrarily to location where q is allocated and freed.
+Now the sceond free is called on q again it should normally do nothing. But with this vulnerability, we'll craft a chunk header at pointer q to cause the free() to write four bytes of memory anywhere. 
 
-
-
-This exploit uses a double free vulnerability to gain root shell.  The pointer
-in question that is freed twice is q.  Since the input buffer is copied into the p pointer
-location we can write arbitrarily to where the freed q CHUNK was located.  When free is
-called on q again it should normally do nothing.  But with this vulnerability we were able 
-to craft a CHUNK header which located at q will cause free to write 4 bytes anywhere 
-we choose in memory.
-
-To craft this CHUNK we first set the FREEBIT to 1 in the chunk, thereby the free function 
-will continue trying to free this CHUNK.  We craft two other CHUNKS for the left and right
-pointers which are on either side of the q CHUNK.  The right CHUNK is located above in memory,
-and the left CHUNK is located below, opposite to convention.  For this exploit we only really
-care about the left CHUNK which we set the FREEBIT for as well.
-
-At line 117 & 118 of the tmalloc.c we see this code:
-      q->s.r      = p->s.r;
-      p->s.r->s.l = q;
-      
-Although a little confusing, it first copies the right pointer of the crafted chunk to the
-right pointer of the left CHUNK.  It then writes the pointer of the left chunk to the 
-location specified for the left pointer of the right CHUNK.  If we set the left pointer for
-the right chunk to be the EIP we can arbitrarily right the address of the left CHUNK to it.
-That is our exploit.  The only thing left is the garbage written in the right pointer of the
-left CHUNK.  When EIP jumps to the left CHUNK address it needs to jump over that garbage.
-In x86 we used "\xeb\x0c" to jump 12 bytes to the 0x90 nop section of the buffer.  The
-shellcode as per usual was located at the end of the buffer with the nop sled leading to it.
-So once it jumps those bytes the program counter will ride the sled to the shellcode.
+Steps:
+1) Make the attack buffer and send over to strcpy with following recepie.
+2) Add noop sled as a safe landing point for modified eip. This can be found by trail and error. 
+3) Add shellcode from alephone.
+4) Craft the chunk inorder to take adavantage of the double free vulnerability
+   To craft this we'll first set the Free Bit to 1 in the chunk, thereby the free() 
+   will continue trying to free this chunk during the second call. We craft two other chunks for left and right
+   pointers which are on either side of the chunk pointed by q pointer. The right one is above in memory, and the left below. 
+   In this exploit we'll have to worry about the left chunk, so we set the Free Bit for this.
+   Buffer first copies the right pointer of the crafted chunk to the right pointer of the left one. Now it overwrites the pointer of the left chunk to the address specified for the left pointer of the right chunk.  Now we set the left pointer of the right chunk to be the EIP, we can arbitrarily write the address of the left to point to it. Lastly we write some garbage in the right pointer of the left chunk. EIP has to jump over that garbage. So we used "\xeb\x0c" to jump 12 bytes to the 0x90 nop section of the buffer.
+   So we have already have shellcode filled in to do our job.
