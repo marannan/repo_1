@@ -10,10 +10,6 @@ Steps:
 1) Make the attack buffer and send over to strcpy with following recepie.
 2) Add noop sled as a safe landing point for modified eip. This can be found by trail and error. 
 3) Add shellcode from alephone.
-4) Craft the chunk inorder to take adavantage of the double free vulnerability
-   To craft this we'll first set the Free Bit to 1 in the chunk, thereby the free() 
-   will continue trying to free this chunk during the second call. We craft two other chunks for left and right
-   pointers which are on either side of the chunk pointed by q pointer. The right one is above in memory, and the left below. 
-   In this exploit we'll have to worry about the left chunk, so we set the Free Bit for this.
-   Buffer first copies the right pointer of the crafted chunk to the right pointer of the left one. Now it overwrites the pointer of the left chunk to the address specified for the left pointer of the right chunk.  Now we set the left pointer of the right chunk to be the EIP, we can arbitrarily write the address of the left to point to it. Lastly we write some garbage in the right pointer of the left chunk. EIP has to jump over that garbage. So we used "\xeb\x0c" to jump 12 bytes to the 0x90 nop section of the buffer.
-   So we have already have shellcode filled in to do our job.
+4) Craft the chunk inorder to take adavantage of the double free vulnerability.
+To craft this we'll first set the Free Bit to 1 in the chunk, thereby the free() will continue trying to free this chunk during the second call. We craft two other chunks for left and right pointers which are on either side of the chunk pointed by q pointer. The right one is above in memory, and the left below. 
+In this exploit we'll have to worry about the left chunk, so we set the Free Bit for this. Buffer first copies the right pointer of the crafted chunk to the right pointer of the left one. Now it overwrites the pointer of the left chunk to the address specified for the left pointer of the right chunk.  Now we set the left pointer of the right chunk to be the EIP, we can arbitrarily write the address of the left to point to it. Lastly we write some garbage in the right pointer of the left chunk. EIP has to jump over that garbage. So we used "\xeb\x0c" to jump 12 bytes to the 0x90 noop section of the buffer. So we have already have shellcode filled in to do our job.

