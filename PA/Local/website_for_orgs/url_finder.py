@@ -5,9 +5,13 @@ from googlesearch import GoogleSearch
 from pprint import pprint
 import time
 import urllib
+import httplib2
+from bs4 import BeautifulSoup
+import urllib2
+import re
+
 #import mechanize
 #from bs4 import BeautifulSoup
-import re
 #from pygoogle import pygoogle
 
 us_states_dict = {
@@ -99,7 +103,41 @@ common_sites = [
 "mapquest",
 "501c3lookup",
 "dailymail",
-"whitepages"]
+"whitepages",
+"churchfinder",
+"punchbowl",
+"usachurches",
+"nccsweb"]
+
+def format_urls(urls_list):
+    urls = ""
+    
+    for url in urls_list:
+        if urls == "":
+            urls = url
+        else:
+            urls = urls + " , " + str(url)
+
+    #print urls
+    return urls
+
+def exract_links(url):
+     
+    try:
+        
+        resp = urllib2.urlopen(url)
+        soup = BeautifulSoup(resp, from_encoding=resp.info().getparam('charset'))
+        
+        urls_list = []
+        for link in soup.find_all('a', href=True):
+            #if "www." in link['href']:
+            urls_list.append(link['href'])
+
+    except:
+        return []
+    
+    return urls_list
+
 
 def is_common_site(url):
     for site in common_sites:
@@ -108,7 +146,7 @@ def is_common_site(url):
     
     return False
 
-def google_search_8(query):
+def google_search(query):
     urls = []
     from google import search
     for url in search(query, tld='es', lang='en', stop=5):
@@ -123,168 +161,9 @@ def google_search_8(query):
     if len(urls) < 3:
         for i in range(len(urls),3):
             urls.append("Not found")    
-        
+            
     
     return urls[0], urls[1], urls[2]
-
-def google_search_7():
-    import urllib
-    import json as m_json
-    query = raw_input ( 'Query: facebook' )
-    query = urllib.urlencode ( { 'q' : query } )
-    response = urllib.urlopen ( 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&' + query ).read()
-    json = m_json.loads ( response )
-    results = json [ 'responseData' ] [ 'results' ]
-    for result in results:
-        title = result['title']
-        url = result['url']   # was URL in the original and that threw a name error exception
-        print ( title + '; ' + url )    
-
-
-def google_search_6():
-    from GoogleScraper import scrape_with_config, GoogleSearchError
-    
-    # See in the config.cfg file for possible values
-    config = {
-        'use_own_ip': True,
-        'keyword': 'Let\'s go bubbles!',
-        'search_engines': ['yandex', 'bing'],
-        'num_pages_for_keyword': 1,
-        'scrape_method': 'selenium',
-        'sel_browser': 'chrome',
-        'do_caching': False
-    }
-    
-    try:
-        search = scrape_with_config(config)
-    except GoogleSearchError as e:
-        print(e)
-    
-    # let's inspect what we got
-    
-    for serp in search.serps:
-        print(serp)
-        print(serp.search_engine_name)
-        print(serp.scrape_method)
-        print(serp.page_number)
-        print(serp.requested_at)
-        print(serp.num_results)
-        # ... more attributes ...
-        for link in serp.links:
-            print(link)    
-
-
-def google_search_5(query):
-    from xgoogle.search import GoogleSearch, SearchError
-    urls = [] 
-    try:
-        gs = GoogleSearch(query)
-        gs.results_per_page = 100
-        results = gs.get_results()
-        results_len =  min(len(results), 20)
-        for res in range(0,results_len):
-            #print res.title.encode('utf8')
-            #print res.desc.encode('utf8')
-            #print results[res].url.encode('utf8')
-            urls.append(results[res].url.encode('utf8'))
-        if len(results) == 0:
-            print "Not found"
-            return ["Not found", "Not found", "Not found"]
-        if len(urls) < 3:
-            for i in range(len(urls),3):
-                urls.append("Not found")
-            
-        return urls
-    except SearchError, e:
-        print "Search failed: %s" % e   
-        return ["Error", "Error", "Error"]
-
-
-def google_search_4():
-    sys.path.append('/home/ashokmarannan/Downloads/google_appengine')
-    from google.appengine.api import search
-    
-    # a query string like this comes from the client
-    query = "stories"
-    try:
-        index = search.Index(name='yourindex', namespace='yournamespace')
-        search_results = index.search("stories")
-        returned_count = len(search_results.results)
-        number_found = search_results.number_found
-        for doc in search_results:
-            print type(doc)
-    except search.Error:
-        print "error"     
-        
-        
-def google_search_3(query):
-    urls = []
-    results = []
-    g = pygoogle(query)
-    g.pages = 5
-    #print '*Found %s results*'%(g.get_result_count())
-    results = g.get_urls()  
-    if len(results) > 0:
-        for result in range(0,3):
-            urls.append(results[result])
-    
-    return urls
-    
-
-
-def google_search_2(query, depth="10"):
-    urls = []
-    
-    br = mechanize.Browser()
-    br.set_handle_robots(False)
-    br.addheaders = [('User-agent','chrome')]
-    term = query.replace(" ", '+')
-    g_query = "http://www.google.com/search?q="+term
-    html_text = br.open(g_query).read()
-    soup = BeautifulSoup(html_text)
-    search = soup.findAll('div',attrs={'id':'search'})
-    search_text = str(search[0])
-    soup_1 = BeautifulSoup(search_text)
-    list_items = soup_1.findAll('li')
-    regex = "q(?!.*q).*?&amp"
-    pattern = re.compile(regex)
-    
-    result_array = []
-    for li in list_items:
-        soup_2 = BeautifulSoup(str(li))
-        links = soup_2.findAll('a')
-        source_link = links[0]
-        source_url = re.findall(pattern, str(source_link))
-        if len(source_url) > 0:
-            result_array.append(str(source_url[0].replace("q=","").replace("&amp","")))
-    
-    for result in range(0,3):
-        urls.append(result_array[result])
-        
-    return urls
-
-
-def google_search_1(query):
-    urls = [] 
-    try:
-        gs = GoogleSearch(query)
-        #gs.results_per_page = 50
-        results = gs.top_results()
-        results_len =  min(len(results), 3)
-        for res in range(0,results_len):
-            urls.append(results[res]['url'])
-        if len(results) == 0:
-            print "Not found"
-            return ["Not found", "Not found", "Not found"]
-        if len(urls) < 3:
-            for i in range(len(urls),3):
-                urls.append("Not found")
-            
-        return urls
-    except:
-        print "Search failed" 
-        return ["Error", "Error", "Error"]
-    
 
 
 def read_csv_data(data_file):
@@ -295,14 +174,14 @@ def read_csv_data(data_file):
     with open('eo1_100.csv', 'wb') as csvfile:
         csv_writer = csv.writer(csvfile, delimiter='\t',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(["ORGNAME", "STREET", "CITY", "STATE", "ZIP", "URL_1", "URL_2"])                        
+        csv_writer.writerow(["ORGNAME", "STREET", "CITY", "STATE", "ZIP", "URL", "SECOND_LEVEL_LINKS"])                        
         with open(data_file, 'rb') as csvfile:
             csv_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
             for row in csv_reader:
                 #for item in row:
                     #print item
-                #if row_no == 101:
-                    #return
+                if row_no == 102:
+                    return
                 if row_no == 1:
                     row_no = row_no + 1
                 else:
@@ -320,16 +199,23 @@ def read_csv_data(data_file):
                     #print str("State: " + state)
                     #print str("Zip: " + zipcode)
                     print str(str(row_no - 1) + " - Searching for: " + str("official website of "+ org_name+ city + " " + state))
-                    url_1, url_2, url_3 = google_search_8(str(org_name + city + " " + state))
+                    url_1, url_2, url_3 = google_search(str(org_name + city + " " + state))
                     print url_1
-                    print url_2
+                    #print url_2
+                    if url_1 != "Not found":
+                        urls_1_list = exract_links(url_1)
+                    if url_2 != "Not found":
+                        urls_2_list = exract_links(url_2)                    
+                        
+                    second_level_urls = format_urls(urls_1_list)
+                    print second_level_urls
                     #print url_3
                     print "------------------------------------------------------------"
                     #print str(str(row_no - 1) + " Searching for: " + str(org_name + street + city +" " + state + " " + zipcode))
-                    url_4, url_5, url_6 = google_search_8(str(org_name+ street+ city +" "+ state+ " " + zipcode))
+                    url_4, url_5, url_6 = google_search(str(org_name+ street+ city +" "+ state+ " " + zipcode))
                     #print url_4                    
                     #print "------------------------------------------------------------"
-                    csv_writer.writerow([org_name, street, city, state, zipcode, url_1, url_2])                        
+                    csv_writer.writerow([org_name, street, city, state, zipcode, url_1, second_level_urls])                        
                     #time.sleep(2)
                     row_no = row_no + 1
             
@@ -377,7 +263,7 @@ def main():
         #print result
     
     #google_search_8()
-    read_csv_data("../Dataset/eo1.csv")
+    read_csv_data("../../Dataset/eo1.csv")
     #validate_links("eo1_100.csv")
     
         

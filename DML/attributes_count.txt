@@ -1,0 +1,591 @@
+total products: 40000
+error parsing : 17
+---------------------------
+total attributes: 585
+attributes : no of products
+---------------------------
+product name : 39983
+product type : 39983
+product segment : 39983
+product long description : 39779
+brand : 31242
+product short description : 21154
+gtin : 19997
+upc : 19646
+country of origin: components : 17557
+category : 16030
+manufacturer part number : 15480
+warranty information : 14938
+manufacturer : 10290
+color : 9389
+actual color : 9388
+assembled product length : 9270
+assembled product width : 9192
+assembled product height : 9059
+warranty length : 4662
+condition : 3508
+composite wood code : 3291
+type : 2906
+e-waste recycling compliance required : 2773
+cpsc-regulated indicator : 2602
+has mercury : 2151
+operating system : 1863
+multipack indicator : 1808
+battery type : 1766
+features : 1702
+screen size : 1634
+number of batteries : 1492
+hard drive capacity : 1399
+processor type : 1345
+energy star : 1154
+ram memory : 1022
+release date : 989
+connector type : 966
+memory capacity : 933
+processor speed : 899
+california residents prop 65 warning required : 863
+material : 853
+processor core type : 816
+electronics certifications : 772
+digital video formats : 709
+warranty provider : 676
+operating system required : 675
+solid-state drive : 652
+ram memory type : 652
+video game platform : 607
+wireless : 594
+touchscreen : 563
+monitor type : 531
+wireless keyboard included : 527
+keyboard included : 527
+computer mouse included : 527
+computer mouse type : 527
+desktop computer type : 520
+size : 493
+compatible devices : 450
+publisher : 427
+interface type : 292
+isbn-13 : 251
+number of pages : 249
+battery life : 241
+abridged : 239
+recommended use : 238
+assembly required : 234
+volts : 233
+resolution : 231
+compatible brands : 210
+rack size : 207
+depth : 206
+bluetooth : 204
+display technology : 201
+batteries included : 200
+display resolution : 188
+genre : 180
+cooperative gameplay available : 176
+online multiplayer available : 176
+downloadable content available : 176
+gender : 176
+subgenre : 175
+internal/external : 174
+graphic card : 172
+package quantity : 171
+aspect ratio : 168
+energy guide: appliance labeling rule required : 164
+peripherals required : 163
+finish : 156
+average customer rating : 156
+maximum weight : 155
+product accessories included : 150
+mount type : 150
+maximum recommended age : 134
+minimum recommended age : 134
+is wireless microphone : 133
+system requirements : 130
+refresh rate : 127
+number of audio inputs : 126
+widescreen : 125
+modified date : 125
+created by : 125
+modified by : 125
+created date : 125
+form : 123
+lifestage : 120
+supported media formats : 116
+packaging instructions : 102
+dot id : 99
+recommended screen size : 99
+device type : 93
+wireless technology : 90
+watts : 89
+hdmi connector : 88
+audio/video cable type : 88
+technology : 86
+digital audio formats : 86
+batteries required : 82
+amps : 79
+maximum number of offline players : 78
+internet protocol : 77
+adjustable tilt : 76
+frequency range : 76
+total units : 75
+volume unit : 73
+series title : 72
+compatible models : 71
+processor brand : 69
+remote control included : 63
+earpiece type : 63
+capacity : 62
+number of channels : 61
+languages : 61
+record label : 60
+output power : 60
+base unit of measure : 60
+age group : 56
+audio decoder : 56
+maximum number of online players : 55
+enclosure color : 55
+write speed : 53
+has parental controls : 52
+mounting pattern : 52
+duration : 50
+battery size : 50
+number of poles : 50
+cord length : 49
+mpaa rating : 48
+cold crank amp : 48
+maximum ram supported : 47
+number of outlets : 47
+style : 47
+studio & production company : 46
+frequency response range : 45
+analog tv tuner : 45
+response time : 45
+power rating : 45
+electronics carrying case type : 44
+number of speakers : 44
+cable length : 41
+maximum energy surge rating : 41
+surge suppression : 41
+shielding material : 41
+output mode : 40
+available instant content sources : 40
+instruction manual included : 40
+connector gender : 39
+impedance : 39
+maximum watts per channel : 38
+tv & monitor mounting components : 38
+save big : 38
+read speed : 37
+fastener type : 36
+automatic document feeder : 36
+paper size : 35
+power type : 33
+maximum load weight : 33
+operating power consumption : 33
+video game collection : 33
+musician : 32
+diameter : 32
+number of ports : 30
+data transfer rate : 30
+items included : 30
+instruction manual languages : 29
+actors : 28
+maximum print resolution : 28
+number of sheets : 28
+distance from wall : 28
+age range : 28
+automatic two-sided printing : 28
+in-line microphone : 28
+maximum operating temperature : 27
+minimum operating temperature : 27
+printing speed : 26
+dvd region code : 26
+number of discs : 25
+clamping level : 25
+din size : 25
+has circuit breaker : 24
+recording time : 23
+sports team : 23
+supported networking standards : 23
+version : 23
+refillable : 22
+pattern : 22
+shipping weight : 22
+contrast ratio range : 22
+headphones included : 22
+noise filtration : 21
+maximum monthly volume : 21
+department of transportation hazard class : 21
+recommended location : 21
+hard drive type : 21
+director : 20
+thermal management type : 20
+brightness : 20
+number of drive bays : 19
+on-screen display : 19
+theme : 19
+quality tested for walmart : 19
+data line protection : 19
+product dimensions : 19
+internal memory : 18
+shipping depth : 18
+shipping height : 18
+shipping width : 18
+number of megapixels : 17
+headset type : 17
+humidity range : 17
+signal-to-noise ratio : 17
+diagonal size : 16
+response bandwidth : 16
+number of pieces : 16
+sensitivity : 16
+personalizable : 16
+color pages per minute : 16
+vehicle model : 16
+made in country : 15
+hardware included : 15
+total harmonic distortion : 15
+compatible cameras : 15
+maximum page yield : 14
+speaker driver types : 14
+apps installed : 14
+input connector type : 14
+bus speed : 14
+maximum output : 14
+maximum data transfer rate : 14
+talk time : 13
+title : 13
+cell phone service provider : 13
+viewing angle : 13
+enclosure type : 13
+occasion : 12
+messaging supported : 12
+multifunctional : 12
+book type : 12
+age restriction : 12
+gain level : 12
+low pass frequency range : 12
+hdtv : 12
+frequency : 11
+battery watt hour : 11
+speed : 11
+microphone included : 11
+volume capacity : 11
+has cooling fan : 11
+software included : 11
+top mount depth : 11
+battery weight : 11
+number of presets : 10
+shape : 10
+usb version : 10
+media load type : 10
+backlight type : 10
+attachment style : 10
+video modes : 10
+printer cartridge type : 10
+cordless : 9
+wire gauge : 9
+cord material : 9
+character : 9
+number of equalizers : 9
+target audience : 9
+esrb rating : 9
+has expiration : 9
+digital camera type : 8
+number in series : 8
+video streaming quality : 8
+percentage of postconsumer content : 8
+percentage of preconsumer content : 8
+has warranty : 8
+number of hdmi connections : 8
+sd speed class : 8
+adjustable height : 8
+surround sound mode : 8
+high pass frequency range : 8
+gifts by recipient : 8
+upscaling : 7
+remote control type : 7
+music media format : 7
+compatible cars : 7
+recordable media formats : 7
+number of line sources : 7
+number of shelves : 7
+battery backup : 7
+has headphone jack : 7
+bottom mount depth : 7
+bass boost frequency : 7
+television type : 7
+printing technology : 6
+screwdriver tip size : 6
+diaphragm size : 6
+number of power modules : 6
+crossover slope : 6
+flash modes : 6
+hdcp compatible : 6
+equalizer type : 6
+stereo reception system : 6
+portable : 6
+computer software type : 6
+usb port : 6
+pump included : 5
+video output standard : 5
+total pixels : 5
+maximum video bandwidth : 5
+optical zoom : 5
+ergonomic : 5
+image sensor : 5
+body material : 5
+focal length : 5
+exposure modes : 5
+edition : 5
+input signal voltage : 5
+pet type : 5
+number of drawers : 5
+base material : 5
+standby power consumption : 5
+roll length : 5
+maximum storage temperature : 5
+minimum storage temperature : 5
+has phase shift selector : 5
+iso range : 5
+antenna type : 5
+sports league : 5
+cover material : 4
+computer cooling type : 4
+pole color : 4
+digital image formats : 4
+maximum operating range : 4
+primary distributor id : 4
+streaming services : 4
+recommended surface : 4
+offset distance : 4
+has installed keylock : 4
+fill material : 4
+recommended room : 4
+headphone technology : 4
+portable radio type : 4
+audio power amplifier class : 4
+display modes : 4
+lockable : 4
+base type : 4
+thickness : 4
+compatible tape width : 4
+motherboard form factor : 3
+faceplate style : 3
+skin type : 3
+frame finish : 3
+dialer type : 3
+ringer control : 3
+health concern : 3
+has face detection : 3
+number of a/v inputs : 3
+maximum image resolution : 3
+white balance presets : 3
+maximum travel distance : 3
+magnet type : 3
+maximum dvds held : 3
+manual white balance : 3
+optical sensor size : 3
+clothing type : 3
+mounting hardware included : 3
+number of audio outputs : 3
+wireless capabilities : 3
+maximum shutter speed : 3
+lens construction : 3
+ink color : 3
+image processor brand : 3
+minimum shutter speed : 3
+dialing modes : 3
+self-timer delay : 3
+color depth : 3
+gauge : 3
+remote controlled : 3
+wall mountable : 3
+media included : 3
+image stabilization type : 3
+hardware lock type : 3
+effective sensor resolution : 3
+number of substations : 3
+musical instrument type : 3
+fabric material : 3
+number of speeds : 3
+number of lines : 3
+standby time : 3
+focus type : 3
+sensor resolution : 3
+zoom adjustment : 3
+exposure compensation : 3
+dialer location : 3
+adjustable fan : 3
+number of cartridges : 3
+magnification : 3
+anti-aging : 3
+caller id : 2
+laptop bag & case style : 2
+error correcting : 2
+charger included : 2
+has lid : 2
+animal type : 2
+environmental certifications : 2
+led indicator : 2
+number of exposure metering zones : 2
+minimum focus range : 2
+image resolution yield : 2
+cable connector type : 2
+special effects : 2
+has magnetic shield : 2
+microphone output : 2
+continuous shooting speed : 2
+display location : 2
+transmission range : 2
+microphone technology : 2
+flash sync speed : 2
+voice control : 2
+ships in multiple boxes : 2
+aperture range : 2
+orientation : 2
+frame material : 2
+audio turntable speed : 2
+web technology supported : 2
+number of autofocus zones : 2
+is signal booster : 2
+nominal voltage : 2
+pages per minute : 2
+reading level : 2
+camera accessory bundle type : 2
+wireless network security protocols : 2
+has clock : 2
+educational focus : 2
+image stabilization : 2
+has shoulder strap : 2
+shooting programs : 2
+maximum shooting speed : 2
+chuck size : 2
+pet size : 2
+radio antenna frequency band type : 2
+programmable : 2
+coffee filter size : 2
+top material : 2
+base color : 2
+tuner mode : 2
+assembled product weight : 2
+reverse mode : 2
+maximum view angle : 2
+j-box location : 2
+number of pins : 2
+additional compartments : 2
+depth without door & handles : 2
+maximum rpm : 2
+drive system : 2
+shutter speed range : 2
+number of controllable devices : 2
+nutritional data required : 2
+sport type : 2
+viewfinder type : 2
+absorbency : 2
+voice-activated : 2
+fitness goal : 2
+has stand : 2
+field of view crop factor : 2
+pest type : 2
+data storage : 2
+manual operation : 2
+sound level : 2
+output waveform : 2
+effective flash distance : 2
+vertical viewing angle : 2
+stand base type : 2
+recording speed : 1
+adjustable depth : 1
+charging time : 1
+grip type : 1
+manufacturer zip code : 1
+gps device type : 1
+made from recycled materials : 1
+clothing size : 1
+number of recording modes : 1
+framed : 1
+barcode type : 1
+optical disk drive type : 1
+flash type : 1
+retractable : 1
+handle style : 1
+maximum frequency response : 1
+holding capacity : 1
+instructions : 1
+rating reason : 1
+line coding format : 1
+flavor : 1
+coupler type : 1
+ram memory speed : 1
+copy speed : 1
+manufacturer city : 1
+number of handsets : 1
+audio studio rack type : 1
+has casters : 1
+light bulb type : 1
+detachable faceplate : 1
+bed size : 1
+flash guide number : 1
+satellite-ready : 1
+number of rack units : 1
+dlna-certified : 1
+energy star version : 1
+decibels : 1
+shop by personality : 1
+video recorder : 1
+lcd screen resolution : 1
+number of tabs : 1
+cordless phone standard : 1
+waterproof : 1
+interface speed : 1
+speakerphone capability : 1
+antenna direction : 1
+recharge time : 1
+recording mode : 1
+warnings : 1
+caliber : 1
+hd radio : 1
+horsepower : 1
+automatic voltage regulation : 1
+data usage : 1
+manufacturer phone number : 1
+antenna connector type : 1
+number of ringtones : 1
+manufacturer street : 1
+partner originated base upc : 1
+automatic shutoff : 1
+industrial : 1
+read format : 1
+remote control model : 1
+energy consumption per year : 1
+dialed calls memory : 1
+computer monitor type : 1
+number of utilized ram slots : 1
+circuit breaker type : 1
+number of cameras : 1
+maximum expandable memory : 1
+has disc changer : 1
+cellular network technology : 1
+designer : 1
+cell phone case type : 1
+compact stereo features : 1
+bd profiles : 1
+map datum : 1
+latency timing : 1
+bicycle frame size : 1
+manufacturer state : 1
+woofer size : 1
+scent : 1
+network cable type : 1
+mini-jack adapter : 1
+animal health concern : 1
+storage media type : 1
+alphanumeric character : 1
+computer replacement part type : 1
+number of recording layers : 1
+number of antennas : 1
+message recorder : 1
+data integrity check types : 1
+manufacturer web site : 1
+resistance : 1
