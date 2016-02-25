@@ -3,6 +3,7 @@ import json
 import traceback
 import sys
 import operator
+import 
 
 
 attributes = {}
@@ -62,8 +63,37 @@ def extract_json():
         print "name: " + str(sort_attr[i][0])
         print "no of occurance: " + str(len(sort_attr[i][1]))
         print "percent missing: " + str(percent_missing)
-        print "attribute type: " + str(type(sort_attr[i][1][0][0]))
+        #print "attribute type: " + str(type(sort_attr[i][1][0][0]))
+        if str(sort_attr[i][0]) == "product name" or str(sort_attr[i][0]) == "product long description" or str(sort_attr[i][0]) == "product short description" or str(sort_attr[i][0]) == "brand" or str(sort_attr[i][0]) == "gtin" or str(sort_attr[i][0]) == "upc" or str(sort_attr[i][0]) == "country of origin: components":
+            len_min = 99999999
+            len_max = 0
+            len_total = 0
+            values_list = attributes[str(sort_attr[i][0])]
+            no_values  = len(values_list)
+            len_list = []
+            for value in values_list:
+                #print value 
+                #print len(str(value)) - 5
+                len_value = len(str(value)) - 5
+                len_list.append(len_value)
+                len_total = len_total + len_value
+                if len_value > len_max:
+                    len_max = len_value
+                if len_value <= len_min:
+                    len_min = len_value
+            
+            #print len_list
+            len_ave = len_total / no_values
+            print "Type: textual"
+            print "len min: " + str(len_min)
+            print "len max: " + str(len_max)
+            print "len average: " + str(len_ave)
+                
+        
         print "----------------------------------------" 
+        
+    
+    
 
 
     #for (key,value) in reversed(sorted_attributes):
