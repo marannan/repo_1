@@ -9,7 +9,6 @@ import re
 import traceback
 
 
-science_dict = ["science", "research", "education", "training", "certification", "accreditation", "exploration"]   
 
 unvi_list = [
 "UNIVERSITY OF WISCONSIN FOUNDATION", 
