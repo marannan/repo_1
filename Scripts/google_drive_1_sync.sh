@@ -1,7 +1,7 @@
 #!/bin/sh
-cd /media/ashok/My_Drive/Ashok/Google_Drive_2/
+cd /media/ashok/My_Drive/Ashok/Google_Drive_1/
 echo "-----------------------------------------------------------------------"
-echo "| syncing google drive at /media/ashok/My_Drive/Ashok/Google_Drive_2/ |"
+echo "| syncing google drive at /media/ashok/My_Drive/Ashok/Google_Drive_1/ |"
 echo "-----------------------------------------------------------------------"
 grive sync
 echo "--------------"
