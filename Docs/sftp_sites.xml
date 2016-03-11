@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3 version="3.12.0.2" platform="*nix">
+    <Servers>
+        <Folder expanded="1">My Sites
+            <Server>
+                <Host>beatrice.aae.wisc.edu</Host>
+                <Port>22</Port>
+                <Protocol>1</Protocol>
+                <Type>0</Type>
+                <User>marannan</User>
+                <Pass encoding="base64">MHghQm9yYW5nZQ==</Pass>
+                <Logontype>1</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>Beatrice</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir />
+                <SyncBrowsing>0</SyncBrowsing>
+                <DirectoryComparison>0</DirectoryComparison>Beatrice
+            </Server>
+            <Server>
+                <Host>macaroni-02.cs.wisc.edu</Host>
+                <Port>22</Port>
+                <Protocol>1</Protocol>
+                <Type>0</Type>
+                <User>marannan</User>
+                <Pass encoding="base64">MHghV0NTb3Jhbmdl</Pass>
+                <Logontype>1</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>macaroni-02</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir />
+                <SyncBrowsing>0</SyncBrowsing>
+                <DirectoryComparison>0</DirectoryComparison>macaroni-02
+            </Server>
+        </Folder>
+    </Servers>
+</FileZilla3>
