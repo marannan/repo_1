@@ -1,0 +1,1 @@
+Readme for Color extraction and product matching module
