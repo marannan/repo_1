@@ -3,7 +3,6 @@ import json
 import traceback
 import sys
 import operator
-import 
 
 
 attributes = {}

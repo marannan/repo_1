@@ -1,0 +1,9 @@
+Create a new keypair: (go with the defaults)
+
+ssh-keygen
+Copy the public key to the server: (password for the last time)
+
+ssh-copy-id user@my.server.com
+From now on the server should recognize your key and not ask you for the password anymore:
+
+ssh user@my.server.com
