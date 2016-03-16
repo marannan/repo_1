@@ -1,4 +1,13 @@
-PA/eo1.csv
-PA/eo2.csv
-PA/eo3.csv
-PA/eo4.csv
+*.pdf
+*.obj
+*.zip
+*.o
+*.pyc
+*.csv
+*.pdf
+*.out
+HCI/*.*
+OS/Materials/*.*
+PA/guidestar/*.*
+ML/Others/*.*
+PA/Loca/Dataset/*.*
