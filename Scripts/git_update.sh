@@ -5,7 +5,7 @@ echo "syncing github repo at"
 pwd
 echo "-----------------"
 git add *
-git commit -m $1
+git commit -am $1
 git push
 echo "----------"
 echo "completed! "
