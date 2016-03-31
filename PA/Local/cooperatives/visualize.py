@@ -187,10 +187,12 @@ def plot_map_bokeh(data_file, column_name, sample_size = None, marker_size = 2):
         hover.tooltips = '@desc'   
         plot.add_tools(hover, PanTool(), WheelZoomTool(), PreviewSaveTool(), ResetTool(), ResizeTool())
         
+        print type(plot)
+        
         time_stamp = str(time.strftime("%H:%M:%S")).replace(':',"_")                  
         file_name = "maps/core_501c_others_" + column_name.lower() + "_" + "sample_size_" + str(sample_size) + "_time_" + time_stamp + ".html"
         
-        output_file(file_name)
+        output_file(file_name,title=title)
         show(plot)
         
     except:
