@@ -1,0 +1,4 @@
+trends:
+compensation : https://plot.ly/~marannan/208
+ass_eoy : https://plot.ly/~marannan/210
+tot_rev : https://plot.ly/~marannan/212
