@@ -1,24 +1,41 @@
-from bokeh.io import output_file, show
+from bokeh.document import Document
+from bokeh.embed import file_html
+from bokeh.models.glyphs import Circle
 from bokeh.models import (
-    GMapPlot, GMapOptions, ColumnDataSource, Circle, DataRange1d, PanTool, WheelZoomTool, BoxSelectTool
-)
+    GMapPlot, Range1d, ColumnDataSource, LinearAxis,
+    PanTool, WheelZoomTool, BoxSelectTool, ResetTool,
+    GMapOptions, NumeralTickFormatter, PrintfTickFormatter)
+from bokeh.resources import INLINE
+from bokeh.io import output_file, show
 
-map_options = GMapOptions(lat=30.29, lng=-97.73, map_type="roadmap", zoom=11)
+gmap_options = GMapOptions(lat=30.2861, lng=-97.7394, map_type="roadmap", zoom=13)
+
+x_range = Range1d()
+y_range = Range1d()
 
 plot = GMapPlot(
-    x_range=DataRange1d(), y_range=DataRange1d(), map_options=map_options, title="Austin"
-)
+        x_range=x_range, y_range=y_range,
+        map_options=gmap_options,
+        title = "Austin")
+
 
 source = ColumnDataSource(
     data=dict(
-        lat=[30.29, 30.20, 30.29],
-        lon=[-97.70, -97.74, -97.78],
+        lat=[30.2861, 30.2855, 30.2869],
+        lon=[-97.7394, -97.7390, -97.7405],
+        fill=['orange', 'blue', 'green']
     )
 )
 
-circle = Circle(x="lon", y="lat", size=15, fill_color="blue", fill_alpha=0.8, line_color=None)
+circle = Circle(x="lon", y="lat", size=15, fill_color="fill", line_color="black")
 plot.add_glyph(source, circle)
 
-plot.add_tools(PanTool(), WheelZoomTool(), BoxSelectTool())
-output_file("gmap_plot.html")
+plot.add_tools(PanTool(), WheelZoomTool(), ResetTool())
+
+xaxis = LinearAxis(axis_label="lat", major_tick_in=0, formatter=NumeralTickFormatter(format="0.000"))
+plot.add_layout(xaxis, 'below')
+
+yaxis = LinearAxis(axis_label="lon", major_tick_in=0, formatter=PrintfTickFormatter(format="%.3f"))
+plot.add_layout(yaxis, 'left')
+
 show(plot)

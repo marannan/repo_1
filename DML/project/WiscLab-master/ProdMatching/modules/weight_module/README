@@ -1,0 +1,18 @@
+Title  : Weight Module
+Author : Kavin Mani
+Email  : kavin@cs.wisc.edu
+
+Description:
+
+This module comapares the weights of two given products and returns a value which indicates if the products have identical weights or not. 
+Using a regular expression, the weights are extracted from the given product description and compared. Both the numerical value and measurement unit (lbs,kgs,grams,tons etc.) are compared individually and the match is identified. 
+
+If the products do not match in weight, a list [0,1] is returned. ( where 0 indicates that product weights do not match, 1 - confidence score)
+If the products match in weight, a list [1,1] is returned. ( where 1 indicates that product weights match, 1 - confidence score)  
+If the weights of one or both the products are missing in the product description, a list [-1,1] is returned. (where -1 indicates cannot predict match/no match, 1 -confidence score)
+
+To use the module:
+
+Install using setup.py
+
+
