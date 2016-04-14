@@ -209,7 +209,17 @@ def generate_features():
                 #x_i.append(-1)
 
         #JaroWinkler Features
-        tfidf_keys = ['Product Name', 'Product Type' , 'Product Segment', 'Product Long Description']
+        tfidf_keys = ['Product Name', 
+                      'Product Type' , 
+                      'Product Segment', 
+                      'Product Long Description', 
+                      'Product Short Description', 
+                      'Category', 
+                      'GTIN', 
+                      'Manufacturer', 
+                      'Warranty Information', 
+                      'Condition',
+                      'Country of Origin: Components']
         for attr in tfidf_keys:
             try:
                 p_name1 = uni_to_ascii(prod1[attr])[0].lower()
