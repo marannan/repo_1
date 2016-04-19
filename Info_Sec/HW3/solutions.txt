@@ -1,0 +1,59 @@
+CS 642
+HW #3
+
+
+Part A
+------
+
+Algorithm: Brute Force password cracking
+----------------------------------------
+#loop the cracking program starting from 0 to a very large no
+large_val = 999999999999999999
+for i = range(0,large_val): 
+	#compute hash
+	hash = hashlib.sha256('ace', ',' +  i + ',' + '8593018378')
+
+	#check if the computed hash is same as given hash
+	if hash == '2558e533b6051e6d40e84bd03d19193b7090fa016b9b247f86d129d5f608':
+		#password is found 
+		password = i
+		break
+
+
+The password used for encryption: 
+--------------------------------
+307049632
+
+
+Run Time:
+---------
+Worst case is O(n) , where n is the range
+
+
+Merits of Proposal: 
+------------------
+This uses a proven and difficult to hack SHA-256 function for generating the hash.
+Use of salt which can make the cracking via brute force very difficult as it introduces another parameter for generating hash. 
+Proposal looks simple and yet resonably secure. 
+
+
+Suggestions:
+------------
+Instead of using username, salt and password to generate the hash, encrypted forms of the same can be used to generate the hash, which would double the security and make the attack very diffucult to succeed.
+
+
+
+
+Part B
+------
+
+Security risks:
+------------------------------
+1. Attackers can modify the amount in the message without needing to modify the ciphertext. Because amount is availble in the first 16 bytes of the message. IV is xor'ed witht eh output of the cipher block, attackers can change the IV inorder to change the amount from #101.00 to 901.00 without getting caught.
+
+2. It uses Tag but this is based on a plain text hash computation and since attackers can have access to the plain text, it'll be easy for them to generate the Tag and construct an modified ciphertext without being detected during decryption and thus making attack successful. 
+
+Suggestions:
+-----------
+1. Make sure the design doesnt have any inmportant information like amount to be deposited in the first 16 bytes which makes it easier to be modified. 
+2. Tags should be computed based on cipher text which makes the modifying very difficult compared to modifying plain text.

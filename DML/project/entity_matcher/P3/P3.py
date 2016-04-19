@@ -90,8 +90,8 @@ def extract_json():
     try:
         lines_processed = 0
         with open("elec_pairs_stage1.txt") as product_pairs:
-            for line in product_pairs:
-            #for line in [next(product_pairs) for x in xrange(1000)]:
+            #for line in product_pairs:
+            for line in [next(product_pairs) for x in xrange(1000)]:
                 (pairid, wid, json_1, vid, json_2, label) =  line.split("?")
                 #get_attributes(json_1)
                 #get_attributes(json_2)
@@ -166,14 +166,17 @@ def generate_features():
         #entity matcher from old project
         #result_brand, result_color, result_dimension, result_weight, result_mpn, result_upc, result_variation \
         results = []
+        time_modules_started = datetime.datetime.now().replace(microsecond=0)
         results = matcher(v[0], v[1])
-
+        time_modules_ended = datetime.datetime.now().replace(microsecond=0)
+        #print "time taken for modules : " + str(time_modules_ended-time_modules_started)        
         x_i.extend(results)
 
 
 
         #Brand Name feature
         #prefix matching
+        time_brand_started = datetime.datetime.now().replace(microsecond=0)
         try:
             try:
                 brand1 = uni_to_ascii(prod1['Brand'])[0].lower()
@@ -195,7 +198,11 @@ def generate_features():
         except:
             x_i.append(-1)
             pass
-
+    
+        time_brand_ended = datetime.datetime.now().replace(microsecond=0)
+        #print "time taken for brand : " + str(time_brand_ended-time_brand_started)        
+        
+        
         #TFIDF Features
         #tfidf_keys = ['Product Name', 'Product Type' , 'Product Segment', 'Product Long Description']
         #for attr in tfidf_keys:
@@ -220,6 +227,9 @@ def generate_features():
                       'Warranty Information', 
                       'Condition',
                       'Country of Origin: Components']
+        
+        #adding jaro_wrinkler score
+        time_jaro_winkler_started = datetime.datetime.now().replace(microsecond=0)
         for attr in tfidf_keys:
             try:
                 p_name1 = uni_to_ascii(prod1[attr])[0].lower()
@@ -231,12 +241,69 @@ def generate_features():
                 x_i.append(temp)
             except:
                 x_i.append(-1)
+            
+        time_jaro_winkler_ended = datetime.datetime.now().replace(microsecond=0)
+        #print "time taken for jaro_winkler : " + str(time_jaro_winkler_ended-time_jaro_winkler_started)        
+                
+        
+        #adding jaro score
+        time_jaro_started = datetime.datetime.now().replace(microsecond=0)
+        for attr in tfidf_keys:
+            try:
+                p_name1 = uni_to_ascii(prod1[attr])[0].lower()
+                p_name2 = uni_to_ascii(prod2[attr])[0].lower()
+                p_name1 = re.sub('^a-zA-z0-9 ','',p_name1)
+                p_name2 = re.sub('^a-zA-z0-9 ','',p_name2)
+                temp = pyst.jaro(p_name1, p_name2)
+                #print temp
+                x_i.append(temp)
+            except:
+                x_i.append(-1) 
+        
+        time_jaro_ended = datetime.datetime.now().replace(microsecond=0)
+        #print "time taken for jaro : " + str(time_jaro_ended-time_jaro_started)            
+                
+                
+        #adding levenshtein score
+        #time_levenshtein_started = datetime.datetime.now().replace(microsecond=0)
+        #for attr in tfidf_keys:
+            #try:
+                #p_name1 = uni_to_ascii(prod1[attr])[0].lower()
+                #p_name2 = uni_to_ascii(prod2[attr])[0].lower()
+                #p_name1 = re.sub('^a-zA-z0-9 ','',p_name1)
+                #p_name2 = re.sub('^a-zA-z0-9 ','',p_name2)
+                #temp = pyst.levenshtein(p_name1, p_name2)
+                ##print temp
+                #x_i.append(temp)
+            #except:
+                #x_i.append(-1)                
+        #time_levenshtein_ended = datetime.datetime.now().replace(microsecond=0)
+        ##print "time taken for levenshtein : " + str(time_levenshtein_ended-time_levenshtein_started)
+        
+    
+        ##adding needleman_wunsch score
+        #time_needleman_wunsch_started = datetime.datetime.now().replace(microsecond=0)
+        #for attr in tfidf_keys:
+            #try:
+                #p_name1 = uni_to_ascii(prod1[attr])[0].lower()
+                #p_name2 = uni_to_ascii(prod2[attr])[0].lower()
+                #p_name1 = re.sub('^a-zA-z0-9 ','',p_name1)
+                #p_name2 = re.sub('^a-zA-z0-9 ','',p_name2)
+                #temp = pyst.needleman_wunsch(p_name1, p_name2)
+                ##print temp
+                #x_i.append(temp)
+            #except:
+                #x_i.append(-1)                    
+        
+        #time_needleman_wunsch_ended = datetime.datetime.now().replace(microsecond=0)
+        ##print "time taken for needleman_wunsch : " + str(time_needleman_wunsch_ended-time_needleman_wunsch_started)        
 
+        
         #Finally append to training set
         X.append(x_i)
         if count % 1000 == 0:
             pass
-            #print str(count)
+        print str(count)
         count += 1
     return X,y
 
