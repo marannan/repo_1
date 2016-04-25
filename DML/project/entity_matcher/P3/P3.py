@@ -15,6 +15,7 @@ import scipy
 import sklearn.ensemble as en
 import sklearn.neural_network as nn
 import numpy as np
+import pandas as pd
 
 from brand.BrandNameMatcher import match_products as brand_matcher
 from color.color_module import find_match as color_matcher
@@ -27,7 +28,7 @@ upc = upc_matcher()
 from variation.variation_module import predict_match as variation_matcher
 
 
-
+pair_id_missing = []
 d = {}
 #All Brand dictionary
 abn = [line.strip().split("\t")[0] for line in open("elec_brand_dic.txt")]
@@ -88,18 +89,24 @@ def matcher(json_1, json_2):
 
 def extract_json():
     try:
-        lines_processed = 0
-        with open("elec_pairs_stage1.txt") as product_pairs:
-            #for line in product_pairs:
-            for line in [next(product_pairs) for x in xrange(1000)]:
-                (pairid, wid, json_1, vid, json_2, label) =  line.split("?")
+        lines_processed = 1
+        with open("elec_pairs_stage3_test1_20K_anon.txt") as product_pairs:
+            for line in product_pairs:
+            #for line in [next(product_pairs) for x in xrange(1000)]:
+                #(pairid, wid, json_1, vid, json_2, label) =  line.split("?")
+                (pairid, wid, json_1, vid, json_2) =  line.split("?")
                 #get_attributes(json_1)
                 #get_attributes(json_2)
-                d[pairid] = [json_1, json_2, label]
-                #lines_processed = lines_processed + 1
+                #d[pairid] = [json_1, json_2, label]
+                d[pairid] = [json_1, json_2]
+                #print lines_processed
+                lines_processed = lines_processed + 1
 
     except Exception,e:
         traceback.print_exc(file=sys.stdout)
+        
+    
+    #print "total lines : " + str(lines_processed)
 
 def uni_to_ascii(input):
     if isinstance(input,unicode):
@@ -151,13 +158,22 @@ def generate_features():
             prod1 = json.loads(v[0])
             prod2 = json.loads(v[1])
         except:
+            pair_id_missing.append(k)
+            print k
             continue
 
+        continue
+
+    file_1 = open("missing_pair.txt", mode='wb')
+    for pair_id in pair_id_missing:
+        file_1.write(str(str(pair_id) + "\n"))    
+        
+        
         #Assigning a label for given pair
-        if v[2].split("\n")[0] == "MATCH":
-            y.append(1)
-        else:
-            y.append(0)
+        #if v[2].split("\n")[0] == "MATCH":
+            #y.append(1)
+        #else:
+            #y.append(0)
 
         #Generate features for the given pair
         x_i = []
@@ -246,21 +262,21 @@ def generate_features():
         #print "time taken for jaro_winkler : " + str(time_jaro_winkler_ended-time_jaro_winkler_started)        
                 
         
-        #adding jaro score
-        time_jaro_started = datetime.datetime.now().replace(microsecond=0)
-        for attr in tfidf_keys:
-            try:
-                p_name1 = uni_to_ascii(prod1[attr])[0].lower()
-                p_name2 = uni_to_ascii(prod2[attr])[0].lower()
-                p_name1 = re.sub('^a-zA-z0-9 ','',p_name1)
-                p_name2 = re.sub('^a-zA-z0-9 ','',p_name2)
-                temp = pyst.jaro(p_name1, p_name2)
-                #print temp
-                x_i.append(temp)
-            except:
-                x_i.append(-1) 
+        ##adding jaro score
+        #time_jaro_started = datetime.datetime.now().replace(microsecond=0)
+        #for attr in tfidf_keys:
+            #try:
+                #p_name1 = uni_to_ascii(prod1[attr])[0].lower()
+                #p_name2 = uni_to_ascii(prod2[attr])[0].lower()
+                #p_name1 = re.sub('^a-zA-z0-9 ','',p_name1)
+                #p_name2 = re.sub('^a-zA-z0-9 ','',p_name2)
+                #temp = pyst.jaro(p_name1, p_name2)
+                ##print temp
+                #x_i.append(temp)
+            #except:
+                #x_i.append(-1) 
         
-        time_jaro_ended = datetime.datetime.now().replace(microsecond=0)
+        #time_jaro_ended = datetime.datetime.now().replace(microsecond=0)
         #print "time taken for jaro : " + str(time_jaro_ended-time_jaro_started)            
                 
                 
@@ -298,6 +314,9 @@ def generate_features():
         #time_needleman_wunsch_ended = datetime.datetime.now().replace(microsecond=0)
         ##print "time taken for needleman_wunsch : " + str(time_needleman_wunsch_ended-time_needleman_wunsch_started)        
 
+        
+        #add pair id at the last
+        x_i.append(k)
         
         #Finally append to training set
         X.append(x_i)
@@ -350,9 +369,25 @@ def extract_brand(prod_name):
 
 
 if __name__ == "__main__":
+    
     print "entity matcher"
     extract_json()
     X,y = generate_features()
+    
+    ##write the feature data set to a file
+    #data_set = pd.DataFrame(X)
+    
+    #data_set.to_csv("data_set_unlabelled.csv", index = False)
+    #file_1 = open("missing_pair,txt", mode='wb')
+    #for pair_id in pair_id_missing:
+        #file_1.write(str(str(pair_id) + "\n"))
+        ##print pair_id
+    #print "data_set is written to file"
+
+    #time_ended = datetime.datetime.now().replace(microsecond=0)
+    #print "time taken : " + str(time_ended-time_started)    
+    exit()
+    
     #print X[:10]
     x_t = X[:len(X)/2]
     y_t = y[:len(X)/2]
@@ -384,7 +419,7 @@ if __name__ == "__main__":
     print "precision: %f" %(float(TP)/float(TP + FP))
     print "recall: %f" %(float(TP)/(TP + FN))
 
-    import pandas as pd
+    
 
     data_set = pd.DataFrame(X)
     data_set["LABEL"] = pd.Series(y)

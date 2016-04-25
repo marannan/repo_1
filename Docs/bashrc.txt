@@ -102,3 +102,5 @@ export PATH=$PATH:/media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 eval `keychain --eval --agents ssh id_rsa`
+export PATH=$PATH:/opt/domino #added by domino
+export PATH=$PATH:/opt/domino #added by domino
