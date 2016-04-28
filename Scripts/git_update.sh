@@ -8,6 +8,6 @@ echo "status       : started"
 git add *
 git commit -a -m "$(date)"
 git push
-echo "----------"
-echo "completed! "
-echo "----------"
+echo "status 	   : completed"
+echo "time         : $(date)"
+echo "-----------------------------------------------------------"
