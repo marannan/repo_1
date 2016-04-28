@@ -1,3 +1,0 @@
-[NbConvertApp] Converting notebook code/data_process.ipynb to notebook
-[NbConvertApp] Executing notebook with kernel: python3
-[NbConvertApp] Writing 28869 bytes to code/data_process.ipynb

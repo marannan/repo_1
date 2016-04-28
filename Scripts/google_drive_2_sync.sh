@@ -1,9 +1,11 @@
 #!/bin/sh
+echo "----------------------------------------------------------"
 cd /media/ashok/My_Drive/Ashok/Google_Drive_2/
-echo "-----------------------------------------------------------------------"
-echo "| syncing google drive at /media/ashok/My_Drive/Ashok/Google_Drive_2/ |"
-echo "-----------------------------------------------------------------------"
+echo "google drive : sync"
+echo "directory    : $(pwd)"
+echo "time         : $(date)"
+echo "status       : started"
 grive sync
-echo "--------------"
-echo "| completed! |"
-echo "--------------"
+echo "status 	   : completed"
+echo "time         : $(date)"
+echo "-----------------------------------------------------------"
