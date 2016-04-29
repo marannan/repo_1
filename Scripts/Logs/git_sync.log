@@ -1,13 +1,6 @@
+
 ----------------------------------------------------------
 git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
-time         : Fri Apr 29 17:08:01 CDT 2016
+time         : Fri Apr 29 17:12:01 CDT 2016
 status       : started
-[master 881f74c] Fri Apr 29 17:08:01 CDT 2016
- 2 files changed, 15 insertions(+), 15 deletions(-)
- rewrite Scripts/git_update.sh (82%)
-To git@github.com:marannan/repo_1.git
-   0377e6a..881f74c  master -> master
-status 	   : completed
-time         : Fri Apr 29 17:08:05 CDT 2016
------------------------------------------------------------
