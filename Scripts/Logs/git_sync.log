@@ -18,3 +18,13 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 15:46:10 CDT 2016
 status       : started
+[master fd02ff7] Fri Apr 29 15:46:11 CDT 2016
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+status 	   : completed
+time         : Fri Apr 29 15:46:11 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 15:47:03 CDT 2016
+status       : started
