@@ -1,4 +1,5 @@
 #!/bin/sh
+source /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/ssh-agent.cf
 echo "----------------------------------------------------------" >> /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/Logs/git_sync.log
 cd /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1 >> /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/Logs/git_sync.log
 echo "git          : sync" >> /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/Logs/git_sync.log
