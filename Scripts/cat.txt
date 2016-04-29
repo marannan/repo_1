@@ -1,0 +1,11 @@
+cat.txt
+cd.sh
+git_update.sh
+google_drive_1_sync.sh
+google_drive_2_sync.sh
+google_git_update.sh
+intellij.sh
+Logs
+ssh-agent.cf
+ssh_beatrice.sh
+ssh_macaroni-01.sh

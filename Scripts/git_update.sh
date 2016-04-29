@@ -9,6 +9,6 @@ echo "status       : started"
 git add *
 git commit -a -m "$(date)"
 git push origin master
-echo "status 	   : completed"
+echo "status 	     : completed"
 echo "time         : $(date)"
 echo "-----------------------------------------------------------"
