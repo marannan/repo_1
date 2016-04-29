@@ -16,3 +16,9 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 14:13:01 CDT 2016
 status       : started
+[master 43c25ac] Fri Apr 29 14:13:01 CDT 2016
+ 3 files changed, 14 insertions(+), 11 deletions(-)
+ delete mode 100644 Scripts/git_sync.log
+status 	   : completed
+time         : Fri Apr 29 14:13:03 CDT 2016
+-----------------------------------------------------------
