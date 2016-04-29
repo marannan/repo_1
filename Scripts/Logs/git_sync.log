@@ -3,3 +3,14 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 15:42:03 CDT 2016
 status       : started
+[master a8bda90] Fri Apr 29 15:42:03 CDT 2016
+ 3 files changed, 39 insertions(+), 12 deletions(-)
+ create mode 100644 cd
+status 	   : completed
+time         : Fri Apr 29 15:42:03 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 15:43:01 CDT 2016
+status       : started
