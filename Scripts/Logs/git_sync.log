@@ -18,3 +18,75 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 16:00:01 CDT 2016
 status       : started
+[master 45d5b6f] Fri Apr 29 16:00:01 CDT 2016
+ 1 file changed, 15 insertions(+)
+status 	   : completed
+time         : Fri Apr 29 16:00:02 CDT 2016
+-----------------------------------------------------------
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 16:03:51 CDT 2016
+status       : started
+status 	   : completed
+time         : Fri Apr 29 16:03:52 CDT 2016
+-----------------------------------------------------------
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 16:04:28 CDT 2016
+status       : started
+status 	   : completed
+time         : Fri Apr 29 16:04:28 CDT 2016
+-----------------------------------------------------------
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 16:11:19 CDT 2016
+status       : started
+status 	   : completed
+time         : Fri Apr 29 16:11:20 CDT 2016
+-----------------------------------------------------------
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 16:14:45 CDT 2016
+status       : started
+status 	   : completed
+/home/ashok/Github/Scripts/git_update.sh: 10: /home/ashok/Github/Scripts/git_update.sh: ashok: not found
+time         : Fri Apr 29 16:14:45 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 16:16:02 CDT 2016
+status       : started
+status 	   : completed
+/media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/git_update.sh: 10: /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/git_update.sh: ashok: not found
+time         : Fri Apr 29 16:16:02 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 16:16:29 CDT 2016
+status       : started
