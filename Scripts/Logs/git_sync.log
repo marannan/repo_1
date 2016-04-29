@@ -3,3 +3,16 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 16:56:10 CDT 2016
 status       : started
+[master d22cfab] Fri Apr 29 16:56:10 CDT 2016
+ 1 file changed, 5 insertions(+), 20 deletions(-)
+ rewrite Scripts/Logs/git_sync.log (78%)
+status 	   : completed
+time         : Fri Apr 29 16:56:10 CDT 2016
+-----------------------------------------------------------
+To git@github.com:marannan/repo_1.git
+   3bd23f7..d22cfab  master -> master
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 16:58:52 CDT 2016
+status       : started
