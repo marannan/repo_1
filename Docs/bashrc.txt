@@ -40,12 +40,12 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+    # We have color support; assume it's compliant with Ecma-48
+    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+    # a case would tend to support setf rather than setaf.)
+    color_prompt=yes
     else
-	color_prompt=
+    color_prompt=
     fi
 fi
 
@@ -91,16 +91,26 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-#if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-#    . /etc/bash_completion
-#fi
-
 export PATH=$PATH:/media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 eval `keychain --eval --agents ssh id_rsa`
 export PATH=$PATH:/opt/domino #added by domino
 export PATH=$PATH:/opt/domino #added by domino
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+#if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+#    . /etc/bash_completion
+#fi
+export PATH=$PATH:/opt/domino #added by domino
+export PATH=$PATH:/opt/domino #added by domino
+
+alias python='/usr/bin/python2'
+alias python2='/usr/bin/python2'
+alias python3='/usr/bin/python3'
+
+if [ -x /usr/bin/keychain ]; then
+  /usr/bin/keychain --quiet --clear $HOME/.ssh/id_rsa
+fi
