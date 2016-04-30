@@ -3,3 +3,11 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 17:51:01 CDT 2016
 status       : started
+[master 557da93] Fri Apr 29 17:51:01 CDT 2016
+ 3 files changed, 13 insertions(+), 3 deletions(-)
+ create mode 100644 Scripts/cat.txt
+To git@github.com:marannan/repo_1.git
+   aae1785..557da93  master -> master
+status 	     : completed
+time         : Fri Apr 29 17:51:05 CDT 2016
+-----------------------------------------------------------
