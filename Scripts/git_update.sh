@@ -1,5 +1,4 @@
 #!/bin/bash
-source /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1/Scripts/ssh-agent.cf
 echo "----------------------------------------------------------"
 cd /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 echo "git          : sync"
