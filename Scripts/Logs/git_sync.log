@@ -45,3 +45,13 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 22:40:01 CDT 2016
 status       : started
+[master 08c07bd] Fri Apr 29 22:40:02 CDT 2016
+ 1 file changed, 5 insertions(+)
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+status 	     : completed
+time         : Fri Apr 29 22:40:05 CDT 2016
+-----------------------------------------------------------
