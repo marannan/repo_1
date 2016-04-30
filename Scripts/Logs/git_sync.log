@@ -33,3 +33,10 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri Apr 29 22:31:01 CDT 2016
 status       : started
+[master 7f5c95c] Fri Apr 29 22:31:01 CDT 2016
+ 2 files changed, 10 insertions(+), 2 deletions(-)
+To git@github.com:marannan/repo_1.git
+   454b262..7f5c95c  master -> master
+status 	     : completed
+time         : Fri Apr 29 22:31:05 CDT 2016
+-----------------------------------------------------------
