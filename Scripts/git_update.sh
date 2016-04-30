@@ -7,7 +7,7 @@ echo "time         : $(date)"
 echo "status       : started"
 git add *
 git commit -a -m "$(date)"
-git push origin master
+git push https://marannan:0x!Gorange@github.com/marannan/repo_1.git master
 echo "status 	     : completed"
 echo "time         : $(date)"
 echo "-----------------------------------------------------------"
