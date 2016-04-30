@@ -1,3 +1,5 @@
+git push https://marannan:0x!Gorange@github.com/marannan/repo_1.git master
+
 ----------------------------------------------------------
 git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
@@ -26,3 +28,8 @@ and the repository exists.
 status 	     : completed
 time         : Fri Apr 29 22:16:05 CDT 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri Apr 29 22:31:01 CDT 2016
+status       : started
