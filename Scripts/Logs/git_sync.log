@@ -84,3 +84,17 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Sat Apr 30 02:00:01 CDT 2016
 status       : started
+[master de239fa] Sat Apr 30 02:00:02 CDT 2016
+ 3 files changed, 15 insertions(+)
+ create mode 100644 Scripts/Logs/google_drive_1_sync.log
+ create mode 100644 Scripts/Logs/google_drive_sync_2.log
+To git@github.com:marannan/repo_1.git
+   74fea77..de239fa  master -> master
+status 	     : completed
+time         : Sat Apr 30 02:00:09 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Mon May  2 01:00:01 CDT 2016
+status       : started
