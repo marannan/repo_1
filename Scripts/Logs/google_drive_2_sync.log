@@ -1,0 +1,179 @@
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2
+time         : Mon May  2 03:00:01 CDT 2016
+status       : started
+Reading local directories
+Synchronizing folders
+Reading remote server file list
+Detecting changes from last sync
+Synchronizing files
+sync "./Docs/Github/repo_1/.git/COMMIT_EDITMSG" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/index" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/HEAD" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/objects/7a/42d937f3ce076c1ce6debb8ac75b81928b3901" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/bc/39d999e0a46315d600bb68dd58bc486cacee17" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/29/a850ae356e76acf73aaee125420916abb0c5cf" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/35/eaf05aec201ad865de17b7a0567854e83f924e" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/38/12c5491e99641cd8c90121cb59c7a14660518b" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/git_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_1_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_2_sync.log" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_sync_2.log" deleted in local. deleting remote
+sync "./Fotos/Milwakee" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161209.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155731.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_131250.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152954.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152050.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161217.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161729.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151438.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170047.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_130331.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155724.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153009.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151927.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170138.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152449.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151506.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153416.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170201.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153322.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_173143.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151103.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151904.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155752.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_122323.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151333.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161438.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_121540.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172759.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_150749.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161455.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161227.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152536.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143745.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_173012.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170148.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161521.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155938.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172749.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152403.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161511.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165844.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161255.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_160151.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165920.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152629.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_130327.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_130303.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153602.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151703.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143731.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152651.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_173134.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153627.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155834.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_124315.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152633.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_120653.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153217.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165723.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_150751.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143740.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_160133.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172924.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165728.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170217.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155647.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151744.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172806.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153616.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_122314.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_121802.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143846.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151401.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152405.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165933.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_150756.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143801.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_122202.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_173124.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151110.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151940.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_120700.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152416.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170049.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172929.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172941.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172946.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172745.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_172742.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165858.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165905.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170109.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170115.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170057.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_170229.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_165848.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161541.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161549.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161535.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161431.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161320.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_161419.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_160413.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_160939.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_160312.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155829.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155825.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_155806.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153705.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153657.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153647.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153356.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153326.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_153341.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152922.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152901.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152935.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152523.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152529.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152221.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152502.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152219.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_152207.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151902.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151756.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151855.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151414.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151417.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151404.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151046.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143844.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_151054.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143829.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_150800.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143632.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143819.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143636.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_130258.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_143627.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_124322.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_124342.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_122146.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_121808.jpg" created in remote. creating local
+sync "./Fotos/Milwakee/IMG_20160430_122151.jpg" created in remote. creating local
+sync "./sync_test" deleted in remote. deleting local
+sync "./TitaniumBackup" deleted in remote. deleting local
+sync "./Others" created in remote. creating local
+sync "./Others/TitaniumBackup" created in remote. creating local
+Finished!
+status 	   : completed
+time         : Mon May  2 03:09:22 CDT 2016
+-----------------------------------------------------------
