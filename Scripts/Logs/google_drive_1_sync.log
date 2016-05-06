@@ -6,3 +6,19 @@ status       : started
 status 	   : completed
 time         : Mon May  2 02:05:12 CDT 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_1
+time         : Wed May  4 02:00:01 CDT 2016
+status       : started
+status 	     : completed
+time         : Wed May  4 02:07:43 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_1
+time         : Thu May  5 02:00:01 CDT 2016
+status       : started
+status 	     : completed
+time         : Thu May  5 02:05:27 CDT 2016
+-----------------------------------------------------------
