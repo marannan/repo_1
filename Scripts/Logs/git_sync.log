@@ -138,3 +138,16 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Sun May  8 01:10:52 CDT 2016
 status       : started
+[master fd26230] Sun May  8 01:10:54 CDT 2016
+ 2 files changed, 14 insertions(+)
+ create mode 100644 Scripts/wifi_connect.sh
+To git@github.com:marannan/repo_1.git
+   5cce42b..fd26230  master -> master
+status 	     : completed
+time         : Sun May  8 01:10:56 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Tue May 10 01:00:01 CDT 2016
+status       : started
