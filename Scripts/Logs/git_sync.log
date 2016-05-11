@@ -151,3 +151,15 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Tue May 10 01:00:01 CDT 2016
 status       : started
+[master 6a39325] Tue May 10 01:00:07 CDT 2016
+ 2 files changed, 21 insertions(+)
+To git@github.com:marannan/repo_1.git
+   fd26230..6a39325  master -> master
+status 	     : completed
+time         : Tue May 10 01:00:12 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Wed May 11 01:00:01 CDT 2016
+status       : started
