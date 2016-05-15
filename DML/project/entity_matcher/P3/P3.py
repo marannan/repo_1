@@ -90,7 +90,7 @@ def matcher(json_1, json_2):
 def extract_json():
     try:
         lines_processed = 1
-        with open("elec_pairs_stage3_test1_20K_anon.txt") as product_pairs:
+        with open("elec_pairs_stage4.txt") as product_pairs:
             for line in product_pairs:
             #for line in [next(product_pairs) for x in xrange(1000)]:
                 #(pairid, wid, json_1, vid, json_2, label) =  line.split("?")
@@ -152,7 +152,6 @@ def generate_features():
     y = []
     count = 0
     for k in d:
-
         try:
             v = d[k]
             prod1 = json.loads(v[0])
@@ -162,12 +161,7 @@ def generate_features():
             print k
             continue
 
-        continue
-
-    file_1 = open("missing_pair.txt", mode='wb')
-    for pair_id in pair_id_missing:
-        file_1.write(str(str(pair_id) + "\n"))    
-        
+        #continue    
         
         #Assigning a label for given pair
         #if v[2].split("\n")[0] == "MATCH":
@@ -374,19 +368,22 @@ if __name__ == "__main__":
     extract_json()
     X,y = generate_features()
     
-    ##write the feature data set to a file
-    #data_set = pd.DataFrame(X)
+    #write the feature data set to a file
+    data_set = pd.DataFrame(X)
     
-    #data_set.to_csv("data_set_unlabelled.csv", index = False)
-    #file_1 = open("missing_pair,txt", mode='wb')
+    data_set.to_csv("data_set_unlabelled_stage_4.csv", index = False)
+    
+    exit()
+    
+    #file_1 = open("missing_pair_stage_4.txt", mode='wb')
     #for pair_id in pair_id_missing:
         #file_1.write(str(str(pair_id) + "\n"))
-        ##print pair_id
+        #print pair_id
     #print "data_set is written to file"
 
     #time_ended = datetime.datetime.now().replace(microsecond=0)
     #print "time taken : " + str(time_ended-time_started)    
-    exit()
+    #exit()
     
     #print X[:10]
     x_t = X[:len(X)/2]

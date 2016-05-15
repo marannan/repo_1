@@ -187,3 +187,18 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri May 13 01:12:10 CDT 2016
 status       : started
+[master c8dce25] Fri May 13 01:12:12 CDT 2016
+ 1 file changed, 12 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+status 	     : completed
+time         : Fri May 13 01:12:12 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Sun May 15 01:00:01 CDT 2016
+status       : started
