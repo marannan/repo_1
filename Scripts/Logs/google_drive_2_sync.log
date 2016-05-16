@@ -903,3 +903,123 @@ Finished!
 status 	     : completed
 time         : Tue May 10 03:05:51 CDT 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2
+time         : Sun May 15 03:00:01 CDT 2016
+status       : started
+Reading local directories
+Synchronizing folders
+Reading remote server file list
+Detecting changes from last sync
+Synchronizing files
+sync "./Docs/Github/repo_1/.git/COMMIT_EDITMSG" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/index" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/HEAD" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/objects/05/889598ec6f3744ed0023a8f4f18b65d6186fbe" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/10/7c41bb563db0a5689607fec62b0addd0388b0e" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/18/6a9770d096b0b338476cd1cc20c15c928e0712" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/1d/9c36eea7831cb36fba66a8ca5e317f69e52975" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/1e/eb1568eeb8d17e0fe2da4eb03831d3896c8d26" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/6e/a1e42cb2baa2cf50bf708c6e4d89b066966ffc" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/71/70e79717ad4fed1420fe0bf5b37c01f68a2d08" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/74/c40ac69db683f9f6b8d297b0ee2bf3cac198d2" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/7a/021099796549b62be5559178c17482247ad87b" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/bb/45a737ab8508be3e0647bb2bbd233f03bc8607" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/c8/dce2599055d10f93bccbbd783f9e3e807e2d59" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/cb/a09a2409a1c7ea1676b9a4b212eb1bca292081" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/cb/d3b5ea5c4abda372afb097b8035d031368c385" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/29/f3a2bbb3579462077643372e81a50368e72d5a" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/2d/f676880d05c4b6d0a42cdc667104f6e393f3e7" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/2f/87dafe921c7194653598ced587cc2b579d3e26" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/37/bd4baac81cff45a5628cb9a70f12b852e0cfed" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/85/2bf089b6c3e9f60c52691f4117d887945468ec" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/a5/121086c6843e86ae1ead7030052941d0360b7b" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/5a/38e588b244ae20b50df7e83f8f07221173b2e6" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/a6/3b7e73239261cb9e55de4bc86b3fb31febc978" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/e4/a54bb43ed06f13f3dee2859432815601b35f3e" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/ea/fd560dc9f3b06ed4b53c28f3ab770d834b9188" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/f9/c6c421326db5f59783193ae44971be48a66e0e" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/fb/7253825765936ad3e2e12278bd7e4914772607" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/43/6e502d769655f93af1a2dbd146c0b93e1d038d" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/45/e84b8b3e6f0d4caf88c28ed18476951013a99f" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/4d/cb7ea4bdae44c2756b8d846fee434052170208" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/4f/ce627c72a5a59937959699ecac6c646100b43e" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/50/0cc890cfec31237973c704aaafac9e9ede8038" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/50/0e831ea5b478088de9a8743b7d0ead0c702234" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/DML/project/entity_matcher/P3/data_set_unlabelled_stage_4.csv" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/DML/project/entity_matcher/P3/elec_pairs_stage4.txt" doesn't exist in server, uploading
+exception: /build/grive2-AQU3J3/grive2-0.5/libgrive/src/http/CurlAgent.cc(191): Throw in function long int gr::http::CurlAgent::ExecCurl(const string&, gr::DataStream*, const gr::http::Header&)
+Dynamic exception type: boost::exception_detail::clone_impl<gr::http::Error>
+[gr::expt::BacktraceTag*] = #0 0x52effb grive gr::Exception::Exception()
+#1 0x507d05 grive gr::http::Error::Error()
+#2 0x5073a2 grive gr::http::CurlAgent::ExecCurl(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::DataStream*, gr::http::Header const&)
+#3 0x507667 grive gr::http::CurlAgent::Request(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::SeekStream*, gr::DataStream*, gr::http::Header const&)
+#4 0x51028b grive gr::AuthAgent::Request(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::SeekStream*, gr::DataStream*, gr::http::Header const&)
+#5 0x501cc7 grive gr::v2::Syncer2::Upload(gr::Resource*)
+#6 0x500672 grive gr::v2::Syncer2::Create(gr::Resource*)
+#7 0x4f1617 grive gr::Resource::SyncSelf(gr::Syncer*, gr::Val const&)
+#8 0x4f1201 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#9 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#10 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#11 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#12 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#13 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#14 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#15 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#16 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#17 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#18 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#19 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#20 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#21 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#22 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#23 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#24 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#25 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#26 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#27 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#28 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#29 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#30 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#31 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#32 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#33 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#34 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#35 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#36 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#37 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#38 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#39 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#40 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#41 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#42 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#43 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#44 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#45 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#46 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#47 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#48 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#49 0x4e80e3 grive gr::State::Sync(gr::Syncer*, gr::Val const&)
+#50 0x4ee4db grive gr::Drive::Update()
+#51 0x4c7e2f grive Main(int, char**)
+#52 0x4c89ea grive main
+#53 0x7fe67039b830 /lib/x86_64-linux-gnu/libc.so.6 __libc_start_main
+#54 0x4c69d9 grive _start
+
+[gr::http::CurlCodeTag*] = 56
+[gr::http::CurlErrMsgTag*] = SSL read: error:00000000:lib(0):func(0):reason(0), errno 104
+[gr::http::RequestHeadersTag*] = Content-Type: multipart/related; boundary="file_contents"
+Content-Length: 71566596
+Authorization: Bearer ya29.CjPjAqaDQ-YKwYyck-2AzjZ6V0408ljqNtLEqOKztS0_1mCDd6eU4W3rnBClEKnAzL2lL0I
+GData-Version: 3.0
+
+[gr::http::UrlTag*] = https://www.googleapis.com/upload/drive/v2/files?uploadType=multipart
+
+status 	     : completed
+time         : Sun May 15 11:07:11 CDT 2016
+-----------------------------------------------------------

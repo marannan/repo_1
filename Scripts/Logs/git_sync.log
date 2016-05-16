@@ -202,3 +202,21 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Sun May 15 01:00:01 CDT 2016
 status       : started
+[master a512108] Sun May 15 01:00:08 CDT 2016
+ 6 files changed, 20045 insertions(+), 14 deletions(-)
+ create mode 100644 DML/project/entity_matcher/P3/elec_pairs_stage4.txt
+ rename DML/project/entity_matcher/P3/{missing_pair.txt => missing_pair_stage_3.txt} (100%)
+ create mode 100644 DML/project/entity_matcher/P3/missing_pair_stage_4.txt
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File DML/project/entity_matcher/P3/elec_pairs_stage4.txt is 68.25 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To git@github.com:marannan/repo_1.git
+   500e831..a512108  master -> master
+status 	     : completed
+time         : Sun May 15 01:11:17 CDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Tue May 17 01:00:01 IST 2016
+status       : started
