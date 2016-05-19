@@ -220,3 +220,15 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Tue May 17 01:00:01 IST 2016
 status       : started
+[master c20c9de] Tue May 17 01:00:06 IST 2016
+ 3 files changed, 146 insertions(+)
+To git@github.com:marannan/repo_1.git
+   a512108..c20c9de  master -> master
+status 	     : completed
+time         : Tue May 17 01:01:22 IST 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Fri May 20 01:00:01 IST 2016
+status       : started
