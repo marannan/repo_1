@@ -1056,3 +1056,36 @@ GData-Version: 3.0
 status 	     : completed
 time         : Tue May 17 03:05:25 IST 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2
+time         : Fri May 20 03:00:01 IST 2016
+status       : started
+Reading local directories
+Synchronizing folders
+exception: /build/grive2-AQU3J3/grive2-0.5/libgrive/src/http/CurlAgent.cc(191): Throw in function long int gr::http::CurlAgent::ExecCurl(const string&, gr::DataStream*, const gr::http::Header&)
+Dynamic exception type: boost::exception_detail::clone_impl<gr::http::Error>
+[gr::expt::BacktraceTag*] = #0 0x52effb grive gr::Exception::Exception()
+#1 0x507d05 grive gr::http::Error::Error()
+#2 0x5073a2 grive gr::http::CurlAgent::ExecCurl(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::DataStream*, gr::http::Header const&)
+#3 0x507667 grive gr::http::CurlAgent::Request(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::SeekStream*, gr::DataStream*, gr::http::Header const&)
+#4 0x51028b grive gr::AuthAgent::Request(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::SeekStream*, gr::DataStream*, gr::http::Header const&)
+#5 0x506407 grive gr::http::Agent::Get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::DataStream*, gr::http::Header const&)
+#6 0x537cf8 grive gr::v2::Feed2::GetNext(gr::http::Agent*)
+#7 0x4ed99a grive gr::Drive::SyncFolders()
+#8 0x4ede11 grive gr::Drive::DetectChanges()
+#9 0x4c7db1 grive Main(int, char**)
+#10 0x4c89ea grive main
+#11 0x7f4f1891e830 /lib/x86_64-linux-gnu/libc.so.6 __libc_start_main
+#12 0x4c69d9 grive _start
+
+[gr::http::CurlCodeTag*] = 6
+[gr::http::CurlErrMsgTag*] = Could not resolve host: www.googleapis.com
+[gr::http::RequestHeadersTag*] = Authorization: Bearer ya29.CjPnAqXO9YKZUmeKpmxdHm5TN1kvLi8Jq-aT2l-Hny-PvEnUO1q7tbTznLZmromAV-yZZd8
+GData-Version: 3.0
+
+[gr::http::UrlTag*] = https://www.googleapis.com/drive/v2/files?maxResults=1000&q=%27me%27+in+readers+and+trashed%3dfalse+and+mimeType%3d%27application/vnd.google-apps.folder%27
+
+status 	     : completed
+time         : Fri May 20 03:02:59 IST 2016
+-----------------------------------------------------------

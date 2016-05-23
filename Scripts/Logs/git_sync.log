@@ -232,3 +232,18 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Fri May 20 01:00:01 IST 2016
 status       : started
+[master 496b414] Fri May 20 01:00:06 IST 2016
+ 3 files changed, 53 insertions(+)
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+status 	     : completed
+time         : Fri May 20 01:00:10 IST 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Tue May 24 01:00:01 IST 2016
+status       : started
