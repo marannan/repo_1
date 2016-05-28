@@ -1089,3 +1089,606 @@ GData-Version: 3.0
 status 	     : completed
 time         : Fri May 20 03:02:59 IST 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2
+time         : Tue May 24 03:00:01 IST 2016
+status       : started
+Reading local directories
+Synchronizing folders
+Reading remote server file list
+Detecting changes from last sync
+Synchronizing files
+sync "./Docs/Github/repo_1/.git/COMMIT_EDITMSG" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/index" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/HEAD" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/objects/04/0fec5b4dbb871fd784512824c60d877ede41db" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/08/927a46627bba390e9becf1778d97f50c75e67d" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/1c/2538f3df87c9c1a6670de344fb95be5bbf2aaa" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/1f/e168cb436490e9cabb85855db29c178dbc3de6" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/20/5a41a21fc4a3b311ab91cc4359600d4a95589e" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/7b/712af80ec3bd88685a5774d4cbe962092a0faf" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/ab/9ca82503156eca1d0c2af47b9a13252a200bf5" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/b5/a740b747bca6f5b143051a0d4b290d70749e1c" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/c2/0c9dece781cf4821dddac51862277b4602b744" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/cb/0b2a5150457c3f6928ff7282359a8d0e248653" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/28/550f8f5338e122632283b37d77de317fc263a9" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/29/ff6ca185803d9b29465a4134eebdee2198f7dc" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/84/06cf1abad374e36588be0304d5353bf7f91f8e" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/94/461bdd1df9e8b868f1e8af131f17112fe15c44" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/9c/dc0b1066960c3caf60b845e0480876e90df1fc" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/a2/e3c4d7ae854f37330012f19f758c9bbcf5d07f" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/de/aa793c7d9cc3e48f6bb3f6fb77e49416b132bc" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/f1/7a1439b4a76fbd1d8c052b6f9de0ae72dff3e3" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/fd/cda6541c5aea0d0df40596f7f67f52c1da4a5a" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/49/3f349fcf315fa37c3db89deea4c6d36a3debbb" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/49/6b4145623250c9ae98c0d5a9a1a6f643ebd07c" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/DML/project/entity_matcher/P3/elec_pairs_stage4.txt" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/DML/project/entity_matcher/P3/missing_pair_stage_3.txt" doesn't exist in server, uploading
+request failed due to auth token expired: 401 (body: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "authError",
+    "message": "Invalid Credentials",
+    "locationType": "header",
+    "location": "Authorization"
+   }
+  ],
+  "code": 401,
+  "message": "Invalid Credentials"
+ }
+}
+). refreshing token
+sync "./Docs/Github/repo_1/DML/project/entity_matcher/P3/missing_pair_stage_4.txt" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/DML/project/entity_matcher/P3/P3.py" changed in local. uploading
+sync "./Docs/Github/repo_1/DML/project/entity_matcher/P3/missing_pair.txt" deleted in local. deleting remote
+sync "./Docs/Github/repo_1/Scripts/Logs/git_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_1_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_2_sync.log" changed in local. uploading
+sync "./Others/TitaniumBackup/android-20160501-080354.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/android-20160501-080354.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/android.autoinstalls.config.google.nexus-20160501-082910.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/android.autoinstalls.config.google.nexus-20160501-082910.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/busradar.madison-20160501-091545.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/busradar.madison-20160501-091545.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/co.vine.android-20160501-094150.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/co.vine.android-20160501-094150.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.korean-20160501-084946.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.latin-20160501-084803.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.latin-20160501-084803.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.pinyin-20160501-085045.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.pinyin-20160501-085045.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.keep-20160501-091333.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.keep-20160501-091333.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.oasisfeng.greenify.pro-20160501-090709.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.oasisfeng.greenify.pro-20160501-090709.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.phyora.apps.reddit_now-20160501-092236.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.phyora.apps.reddit_now-20160501-092236.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.pushbullet.android-20160501-092725.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.pushbullet.android-20160501-092725.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qti.qualcomm.datastatusnotification-20160501-082803.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.bvalosek.cpuspy-20160501-082851.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.bvalosek.cpuspy-20160501-082851.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.cpuid.cpu_z-20160501-082852.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.cpuid.cpu_z-20160501-082852.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.dealnews.android.ui-20160501-082859.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.dealnews.android.ui-20160501-082859.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.Dealsofamerica-20160501-082906.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.Dealsofamerica-20160501-082906.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.drippler.android.updates-20160501-082928.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.drippler.android.updates-20160501-082928.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.ebay.mobile-20160501-083106.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.contacts-20160501-082844.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.downloads-20160501-082924.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.downloads-20160501-082924.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.downloads.ui-20160501-082926.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.downloads.ui-20160501-082926.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.media-20160501-091845.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.media-20160501-091845.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.partnerbookmarks-20160501-082758.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.partnerbookmarks-20160501-082758.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.certinstaller-20160501-081458.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.nfc-20160501-092209.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.printservice.recommendation-20160501-092710.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.contacts-20160501-082844.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.connmo-20160501-082815.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.shell-20160501-093102.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.vending-20160501-090510.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.ebay.mobile-20160501-083106.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.gcs-20160501-084507.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.calculator-20160501-081155.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.intsig.camscanner-20160501-081404.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.TitaniumBackupPro-20160501-093857.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.TitaniumBackupPro-20160501-093857.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.ACCOUNTS-20160501-080231.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.ACCOUNTS-20160501-080231.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.APP_WIDGETS-20160501-081053.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.APP_WIDGETS-20160501-081053.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.BLUETOOTH_PAIRINGS-20160501-081120.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.BLUETOOTH_PAIRINGS-20160501-081120.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.COUNTRY_LANG_TZ-20160501-082850.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.COUNTRY_LANG_TZ-20160501-082850.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.DATA_USAGE-20160501-082856.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.twitter.android-20160501-093923.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.twitter.android-20160501-093923.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.twitter.android-5d3c19ac6aea4004c8ec32588b392bf8.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.ubercab-20160501-094117.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.ubercab-20160501-094117.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.umetime.umetimeapp-20160501-090927.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.umetime.umetimeapp-20160501-090927.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.uzumapps.wakelockdetector-20160501-094248.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.uzumapps.wakelockdetector-20160501-094248.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.verizon.omadm-20160501-082917.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.verizon.omadm-20160501-082917.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.vertumus.yitax-20160501-095128.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.vertumus.yitax-20160501-095128.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.gcs-20160501-084507.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.hangoutsdialer-20160501-090907.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.hangoutsdialer-20160501-090907.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.inputmethod.hindi-20160501-084512.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.inputmethod.hindi-20160501-084512.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.magazines-20160501-085338.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.magazines-20160501-085338.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.emergency-20160501-083215.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.emergency-20160501-083215.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.externalstorage-20160501-083237.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.externalstorage-20160501-083237.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.facelock-20160501-093859.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.facelock-20160501-093859.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.hotwordenrollment-20160501-092335.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.hotwordenrollment-20160501-092335.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.htmlviewer-20160501-091034.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.htmlviewer-20160501-091034.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.inputdevices-20160501-091107.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.inputdevices-20160501-091107.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.tag-20160501-093819.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.talk-20160501-090710.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.talk-20160501-090710.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.talk-489cb308f9018afe1e74348d32e2bcd8.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.tts-20160501-090629.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.tts-20160501-090629.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.videos-20160501-085223.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.videos-20160501-085223.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.webview-20160501-080520.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.webview-20160501-080520.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.youtube-1154ee2766df095f23033274c4fce73e.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.linkedin.android-324f20521192e5c253422498e366aa30.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.medium.reader-20160501-091855.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.medium.reader-20160501-091855.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.microsoft.skydrive-20160501-092337.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.microsoft.skydrive-20160501-092337.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.mixplorer-20160501-091954.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.mixplorer-20160501-091954.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.mobilefootie.wc2010-20160501-083345.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.mobilefootie.wc2010-20160501-083345.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.mobilefootie.wc2010-3e65b9645534926ddeebeb2391fbce83.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.musixmatch.android.lyrify-20160501-092001.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.musixmatch.android.lyrify-20160501-092001.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.statementservice-20160501-091331.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.statementservice-20160501-091331.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.stk-20160501-093103.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.stk-20160501-093103.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.systemui-20160501-093736.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.systemui-20160501-093736.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.vending-20160501-090510.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.deskclock-20160501-082726.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.deskclock-20160501-082726.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.dialer-20160501-092505.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.dialer-20160501-092505.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.ext.services-20160501-080352.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.ext.services-20160501-080352.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.ext.shared-20160501-080353.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.ext.shared-20160501-080353.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.feedback-20160501-091843.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.feedback-20160501-091843.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gm-20160501-083453.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gm-20160501-083453.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.quicinc.cne.CNEService-20160501-082808.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.skype.raider-20160501-093105.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.skype.raider-20160501-093105.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.skype.raider-c3b85763008b3e24e8827ba11c41d78e.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.snapchat.android-20160501-093258.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.snapchat.android-20160501-093258.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.Splitwise.SplitwiseMobile-07df73109eba21adadf579118e508f1a.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.Splitwise.SplitwiseMobile-20160501-093433.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.Splitwise.SplitwiseMobile-20160501-093433.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.spotify.music-20160501-093503.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.spotify.music-20160501-093503.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher-20160501-092211.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher-20160501-092211.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher-30e351ddacb4d0ef5bb98e5cb9120c17.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher.prime-20160501-092235.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher.prime-20160501-092235.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.touchtype.swiftkey-20160501-093604.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.touchtype.swiftkey-20160501-093604.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.omadm.service-20160501-082918.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.omadm.service-20160501-082918.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.pacprocessor-20160501-092504.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.pacprocessor-20160501-092504.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.phone-20160501-092557.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.phone-20160501-092557.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.printservice.recommendation-20160501-092710.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.ebay.mobile-759848c2f0586923a1e294d3ae63aba5.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.flipkart.android-20160501-083319.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.flipkart.android-20160501-083319.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.cloudprint-20160501-082743.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.cloudprint-20160501-082743.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.docs-20160501-082945.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.docs-20160501-082945.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.enterprise.dmagent-20160501-082911.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.enterprise.dmagent-20160501-082911.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/devian.tubemate.home-20160501-093905.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/flipboard.app-20160501-083238.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/flipboard.app-20160501-083238.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/flipboard.app-dd88ba65fe59af17604f1d50fd0909f8.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/in.alphawolf.wallmax-20160501-094253.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/in.alphawolf.wallmax-20160501-094253.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/net.dinglisch.android.taskerm-20160501-093849.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/net.dinglisch.android.taskerm-20160501-093849.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/net.dinglisch.android.taskerm-75830577c971e177d974d712dd2ec61f.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/net.slickdeals.android-20160501-093239.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/net.slickdeals.android-20160501-093239.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/org.adaway-20160501-080232.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.connmo-20160501-082815.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.dcmo-20160501-082759.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.dcmo-20160501-082759.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.diagmon-20160501-082800.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.diagmon-20160501-082800.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.sprintdm-20160501-093602.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.sprintdm-20160501-093602.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.bookmarkprovider-20160501-081125.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.bookmarkprovider-20160501-081125.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.calllogbackup-20160501-081307.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.calllogbackup-20160501-081307.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.captiveportallogin-20160501-081453.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.captiveportallogin-20160501-081453.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.carrierconfig-20160501-082757.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.carrierconfig-20160501-082757.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.cellbroadcastreceiver-20160501-081454.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.cellbroadcastreceiver-20160501-081454.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.certinstaller-20160501-081458.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.packageinstaller-20160501-092445.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.packageinstaller-20160501-092445.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.partnersetup-20160501-085043.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.partnersetup-20160501-085043.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.play.games-20160501-085132.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.play.games-20160501-085132.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.setupwizard-20160501-093036.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.setupwizard-20160501-093036.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.syncadapters.contacts-20160501-084510.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.syncadapters.contacts-20160501-084510.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gm.exchange-20160501-083233.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gm.exchange-20160501-083233.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gms-20160501-085431.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gms-20160501-085431.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.GoogleCamera-20160501-081308.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.GoogleCamera-20160501-081308.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.GoogleCamera-9400717bf850e2ed2d85593fe9bd0346.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.googlequicksearchbox-20160501-083721.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gm-c5f874226b3379e13afc2ed45fa26a55.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.googlequicksearchbox-20160501-083721.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.korean-20160501-084946.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.keep-c046ead3d7092ed7509e4ef2715a0023.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.onetimeinitializer-20160501-085042.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.tag-20160501-093819.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.youtube-20160501-095216.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.imdb.mobile-6205a661c07e8cccac36432737a80d37.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.intsig.camscanner-20160501-081404.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.DATA_USAGE-20160501-082856.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.linkedin.android-20160501-091423.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.musixmatch.android.lyrify-a1494e3e1ab904a841a896d3998312e9.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qti.qualcomm.datastatusnotification-20160501-082803.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.quicinc.cne.CNEService-20160501-082808.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.touchtype.swiftkey-aab0e93b4644ee739003ddff61f9ea93.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.vertumus.yitax-75fe9985802781742fb7442df2fa6083.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/devian.tubemate.home-20160501-093905.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/org.adaway-20160501-080232.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.keychain-20160501-091420.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.keychain-20160501-091420.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.location.fused-20160501-083452.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.location.fused-20160501-083452.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.managedprovisioning-20160501-095057.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.managedprovisioning-20160501-095057.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.mms.service-20160501-091958.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.mms.service-20160501-091958.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.mtp-20160501-091959.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.mtp-20160501-091959.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.musicfx-20160501-092000.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.musicfx-20160501-092000.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.nfc-20160501-092209.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.youtube-20160501-095216.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.grarak.kerneladiutor-20160501-091410.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.grarak.kerneladiutor-20160501-091410.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.hbo.hbonow-20160501-090908.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.hbo.hbonow-20160501-090908.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.hopper.mountainview.play-20160501-091009.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.hopper.mountainview.play-20160501-091009.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.imdb.mobile-20160501-091036.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.imdb.mobile-20160501-091036.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.atfwd-20160501-082804.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.atfwd-20160501-082804.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.qcrilmsgtunnel-20160501-082805.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.qcrilmsgtunnel-20160501-082805.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.qti.rcsbootstraputil-20160501-092739.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.qti.rcsbootstraputil-20160501-092739.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.qti.rcsimsbootstraputil-20160501-082806.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.qti.rcsimsbootstraputil-20160501-082806.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.timeservice-20160501-082807.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.qualcomm.timeservice-20160501-082807.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.WALLPAPER-20160501-094305.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.WALLPAPER-20160501-094305.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.WIFI_AP_LIST-20160501-095053.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.WIFI_AP_LIST-20160501-095053.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_CALL_LOG-20160501-081305.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_CALL_LOG-20160501-081305.xml.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_MESSAGES-20160501-091906.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_MESSAGES-20160501-091906.xml.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_WIFI_AP_LIST-20160501-095054.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_WIFI_AP_LIST-20160501-095054.xml.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.lge.entitlement-20160501-083231.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.lge.entitlement-20160501-083231.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.lge.HiddenMenu-20160501-092807.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.lge.HiddenMenu-20160501-092807.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.lge.lifetimer-20160501-091421.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.lge.lifetimer-20160501-091421.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.linkedin.android-20160501-091423.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.tycho-20160501-092714.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.tycho-20160501-092714.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.walletnfcrel-20160501-080336.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.walletnfcrel-20160501-080336.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.backuptransport-20160501-084506.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.backuptransport-20160501-084506.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.calculator-20160501-081155.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/org.codeaurora.ims-20160501-092443.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/org.codeaurora.ims-20160501-092443.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/org.connectbot-20160501-082809.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/org.connectbot-20160501-082809.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/ru.meefik.busybox-20160501-081127.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/ru.meefik.busybox-20160501-081127.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/stericson.busybox-20160501-081138.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/stericson.busybox-20160501-081138.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.chrome-20160501-081507.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.chrome-20160501-081507.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.defcontainer-20160501-092444.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.defcontainer-20160501-092444.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.documentsui-20160501-082919.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.documentsui-20160501-082919.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.dreams.basic-20160501-081117.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.dreams.basic-20160501-081117.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.walmart.android-20160501-094307.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.walmart.android-20160501-094307.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.walmart.android-52f1ed944700c1bb375ef33963c00880.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.whatsapp-20160501-094447.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.whatsapp-20160501-094447.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.whatsapp-7c60ee6bac97f161db8bf2b9e0d5fa73.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.woot.android.main-20160501-080214.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.woot.android.main-20160501-080214.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.yahoo.mobile.client.android.weather-20160501-094343.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.yahoo.mobile.client.android.weather-20160501-094343.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.zc.android-20160501-095312.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.zc.android-20160501-095312.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/devian.tubemate.home-0ad042decee1d118fb087618f77600be.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.settings-20160501-093035.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.settings-20160501-093035.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.telephony-20160501-092541.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.telephony-20160501-092541.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.userdictionary-20160501-094149.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.userdictionary-20160501-094149.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.proxyhandler-20160501-092724.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.proxyhandler-20160501-092724.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.mxtech.videoplayer.ad-20160501-092047.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.mxtech.videoplayer.ad-20160501-092047.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.nis.app-20160501-091109.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.nis.app-20160501-091109.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.oasisfeng.greenify-20160501-090659.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.oasisfeng.greenify-20160501-090659.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.amazon.mShop.android.shopping-20160501-080244.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.amazon.mShop.android.shopping-20160501-080244.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.amazon.mShop.android.shopping-cea8c31b67d2643c08cdb2f3daf8768b.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.backupconfirm-20160501-082756.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.backupconfirm-20160501-082756.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.bluetooth-20160501-081121.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.bluetooth-20160501-081121.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.bluetoothmidiservice-20160501-081119.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.bluetoothmidiservice-20160501-081119.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.imgur.mobile-20160501-091054.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.imgur.mobile-20160501-091054.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.instagram.android-20160501-091201.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.instagram.android-20160501-091201.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.intangibleobject.securesettings.plugin-20160501-092803.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.intangibleobject.securesettings.plugin-20160501-092803.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.launcher-20160501-085019.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.launcher-20160501-085019.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.launcher.layouts.bullhead-20160501-092208.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.launcher.layouts.bullhead-20160501-092208.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.marvin.talkback-20160501-093820.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.marvin.talkback-20160501-093820.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.music-20160501-085253.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.music-20160501-085253.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.onetimeinitializer-20160501-085042.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.printspooler-20160501-092711.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.printspooler-20160501-092711.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.blockednumber-20160501-081118.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.blockednumber-20160501-081118.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.calendar-20160501-081304.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.providers.calendar-20160501-081304.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.vpndialogs-20160501-094247.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.vpndialogs-20160501-094247.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.wallpaper.livepicker-20160501-091543.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.wallpaper.livepicker-20160501-091543.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.wallpapercropper-20160501-082802.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.wallpapercropper-20160501-082802.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.yadayada-20160501-080335.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.yadayada-20160501-080335.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gsf-20160501-090615.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gsf-20160501-090615.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gsf.login-20160501-083704.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.gsf.login-20160501-083704.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.japanese-20160501-084702.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.japanese-20160501-084702.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.server.telecom-20160501-092542.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.server.telecom-20160501-092542.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.settings-20160501-092808.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.settings-20160501-092808.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sharedstoragebackup-20160501-082801.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sharedstoragebackup-20160501-082801.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.shell-20160501-093102.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.maps-20160501-091549.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.maps-20160501-091549.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.messaging-20160501-091910.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.messaging-20160501-091910.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.photos-20160501-092636.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.apps.photos-20160501-092636.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.calendar-20160501-081158.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.calendar-20160501-081158.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.calendar-37dc8fb542aad3757f0484c1012bd685.apk.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.configupdater-20160501-082809.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.configupdater-20160501-082809.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.contacts-20160501-082816.properties" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.google.android.contacts-20160501-082816.tar.gz" deleted in remote. deleting local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.dcmo-20160506-070121.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.pinyin-20160506-070511.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher-affba81c91a6cbcb800512d603f28fe9.apk.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.shell-20160506-071009.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher.prime-20160506-070952.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.docs-20160510-070432.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.managedprovisioning-20160506-071425.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.maps-20160510-070746.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.DATA_USAGE-20160510-070424.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.server.telecom-20160506-070957.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.ebay.mobile-20160510-070436.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.inputdevices-20160506-070823.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.teslacoilsw.launcher.prime-20160506-070952.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.picsart.studio-20160510-070400.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.spotify.music-20160510-070830.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.gms-20160510-070549.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.WALLPAPER-20160506-071205.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.imdb.mobile-20160506-070817.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.messaging-20160510-070759.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.managedprovisioning-20160506-071425.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.qualcomm.qti.rcsimsbootstraputil-20160506-070124.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.walletnfcrel-20160506-070014.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.mtp-20160510-070800.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.calculator-20160510-070413.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.wallpapercropper-20160506-070123.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.yadayada-20160506-070014.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.hashcode.walloid-20160510-070358.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.amazon.mShop.android.shopping-20160510-070411.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.ext.services-20160506-070015.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.instagram.android-20160510-070718.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/android.autoinstalls.config.google.nexus-20160506-070133.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.touchtype.swiftkey-20160510-070834.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.phyora.apps.reddit_now-20160510-070808.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.magazines-20160510-070543.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.inputmethod.hindi-20160506-070507.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.systemui-20160506-071120.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.snapchat.android-20160506-071042.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.umetime.umetimeapp-20160506-070815.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.server.telecom-20160506-070957.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.providers.calendar-20160510-070416.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.nis.app-20160506-070823.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.settings-20160506-071007.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.yadayada-20160506-070014.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.vertumus.yitax-20160510-071015.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.emergency-20160506-070157.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.pacprocessor-20160506-070956.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.talk-20160510-070716.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.qualcomm.atfwd-20160506-070123.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.intsig.camscanner-20160506-070100.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_MESSAGES-20160510-070757.xml.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.keramidas.TitaniumBackupPro-20160506-071122.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.calculator-20160510-070413.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.documentsui-20160510-070428.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.wallpaper.livepicker-20160506-070913.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.certinstaller-20160506-070103.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.gsf-20160510-070714.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.sdm.plugins.connmo-20160506-070126.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/stericson.busybox-20160506-070020.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.calendar-2176f489c94fec4b57ea03d6f5df9ad3.apk.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.gm-20160510-070516.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.location.fused-20160506-070231.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.emergency-20160506-070157.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.cellbroadcastreceiver-20160506-070102.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.onetimeinitializer-20160506-070510.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.calendar-20160510-070414.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.japanese-20160506-070508.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.inputmethod.korean-20160506-070509.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/busradar.madison-20160510-070744.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.DATA_USAGE-20160510-070424.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.ext.services-20160506-070015.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.lge.entitlement-20160506-070158.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.oasisfeng.greenify-20160510-070716.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.nfc-20160506-070945.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.gcs-20160510-070539.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.verizon.omadm-20160506-070134.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.providers.downloads-20160510-070429.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.proxyhandler-20160506-071003.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.mms.service-20160506-070928.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.providers.settings-20160506-071008.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.qti.qualcomm.datastatusnotification-20160506-070123.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.certinstaller-20160506-070103.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.keramidas.virtual.XML_WIFI_AP_LIST-20160510-071013.xml.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.syncadapters.contacts-20160506-070507.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.chrome.beta-20160510-070353.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/org.connectbot-20160506-070126.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.qualcomm.qti.rcsimsbootstraputil-20160506-070124.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.talk-e504085e4b6871175d9d32eb677df949.apk.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.drippler.android.updates-20160510-070430.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.providers.blockednumber-20160506-070017.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.springwalk.mediaconverter-20160510-070402.properties" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.tag-20160506-071120.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.twitter.android-20160510-070845.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.play.games-20160506-070511.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.microsoft.skydrive-20160510-070809.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.lge.lifetimer-20160506-070855.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.google.android.apps.maps-20160510-070746.tar.gz" created in remote. creating local
+sync "./Others/TitaniumBackup/com.android.proxyhandler-20160506-071003.properties" created in remote. creating local
+exception: /build/grive2-AQU3J3/grive2-0.5/libgrive/src/http/CurlAgent.cc(191): Throw in function long int gr::http::CurlAgent::ExecCurl(const string&, gr::DataStream*, const gr::http::Header&)
+Dynamic exception type: boost::exception_detail::clone_impl<gr::http::Error>
+[gr::expt::BacktraceTag*] = #0 0x52effb grive gr::Exception::Exception()
+#1 0x507d05 grive gr::http::Error::Error()
+#2 0x5073a2 grive gr::http::CurlAgent::ExecCurl(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::DataStream*, gr::http::Header const&)
+#3 0x507667 grive gr::http::CurlAgent::Request(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::SeekStream*, gr::DataStream*, gr::http::Header const&)
+#4 0x51028b grive gr::AuthAgent::Request(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::SeekStream*, gr::DataStream*, gr::http::Header const&)
+#5 0x506407 grive gr::http::Agent::Get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, gr::DataStream*, gr::http::Header const&)
+#6 0x5379d9 grive gr::Syncer::Download(gr::Resource*, boost::filesystem::path const&)
+#7 0x4f18fd grive gr::Resource::SyncSelf(gr::Syncer*, gr::Val const&)
+#8 0x4f1201 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#9 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#10 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#11 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#12 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#13 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#14 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#15 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#16 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#17 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#18 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#19 0x4f52d5 grive boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>::operator()(gr::Resource*, gr::Syncer*, gr::DateTime&, gr::Val const&) const
+#20 0x4f4a85 grive void boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> >::operator()<boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list1<gr::Resource*&> >(boost::_bi::type<void>, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>&, boost::_bi::list1<gr::Resource*&>&, int)
+#21 0x4f3f29 grive void boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >::operator()<gr::Resource*>(gr::Resource*&)
+#22 0x4f32f0 grive boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > std::for_each<__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > > >(__gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, __gnu_cxx::__normal_iterator<gr::Resource**, std::vector<gr::Resource*, std::allocator<gr::Resource*> > >, boost::_bi::bind_t<void, boost::_mfi::mf3<void, gr::Resource, gr::Syncer*, gr::DateTime&, gr::Val const&>, boost::_bi::list4<boost::arg<1>, boost::_bi::value<gr::Syncer*>, boost::reference_wrapper<gr::DateTime>, boost::_bi::value<gr::Val> > >)
+#23 0x4f1374 grive gr::Resource::Sync(gr::Syncer*, gr::DateTime&, gr::Val const&)
+#24 0x4e80e3 grive gr::State::Sync(gr::Syncer*, gr::Val const&)
+#25 0x4ee4db grive gr::Drive::Update()
+#26 0x4c7e2f grive Main(int, char**)
+#27 0x4c89ea grive main
+#28 0x7ff7dc772830 /lib/x86_64-linux-gnu/libc.so.6 __libc_start_main
+#29 0x4c69d9 grive _start
+
+[gr::http::CurlCodeTag*] = 35
+[gr::http::CurlErrMsgTag*] = Unknown SSL protocol error in connection to doc-0o-4c-docs.googleusercontent.com:443 
+[gr::http::RequestHeadersTag*] = Authorization: Bearer ya29.CjPrAo-xbW6ifBX4bRrk-l7wO1wDe0pRe8jSq4owYzMExL-R1B2Ht41IKe3B4_myhWFWcDg
+GData-Version: 3.0
+
+[gr::http::UrlTag*] = https://doc-0o-4c-docs.googleusercontent.com/docs/securesc/3n1dl3kbipf429t1u1jvtrl0vqhijoau/9niknl2vc7r80u0816ohov0u8hqm7ssc/1464033600000/13644572222843067987/13644572222843067987/0B5_8Tfew8JB9UE9JLWlfQ1ZwbTg?e=download&gd=true
+
+status 	     : completed
+time         : Tue May 24 04:25:17 IST 2016
+-----------------------------------------------------------
