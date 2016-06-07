@@ -274,3 +274,15 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Sat Jun  4 01:00:01 PDT 2016
 status       : started
+[master dace411] Sat Jun  4 01:00:01 PDT 2016
+ 1 file changed, 12 insertions(+)
+To git@github.com:marannan/repo_1.git
+   67210ef..dace411  master -> master
+status 	     : completed
+time         : Sat Jun  4 01:00:09 PDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Tue Jun  7 01:00:02 PDT 2016
+status       : started

@@ -1692,3 +1692,33 @@ GData-Version: 3.0
 status 	     : completed
 time         : Tue May 24 04:25:17 IST 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2
+time         : Sat Jun  4 03:00:01 PDT 2016
+status       : started
+Reading local directories
+Synchronizing folders
+Reading remote server file list
+Detecting changes from last sync
+Synchronizing files
+sync "./Docs/Github/repo_1/.git/COMMIT_EDITMSG" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/index" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/HEAD" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/objects/63/b907a85dac16470b0c0ccbb933f5045c117870" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/63/f1d8a6b383aae1942a2ed86ce481126aa776b1" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/76/7a593c343648470140daea9fc71cd9a63ff0ef" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/81/0bdc106a9764be73b67fd21c47565c3b8c1064" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/da/ce411be9f1bf7fbb405f3bc4bda93d46f2b852" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/git_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_1_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_2_sync.log" changed in local. uploading
+sync "./Others/TitaniumBackup/com.flipkart.android-065829ab4e81242ebb218590c793b03b.apk.gz" changed in remote. downloading
+Finished!
+status 	     : completed
+time         : Sat Jun  4 03:03:25 PDT 2016
+-----------------------------------------------------------
