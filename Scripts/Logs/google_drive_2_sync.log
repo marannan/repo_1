@@ -1722,3 +1722,48 @@ Finished!
 status 	     : completed
 time         : Sat Jun  4 03:03:25 PDT 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2
+time         : Tue Jun  7 03:00:01 PDT 2016
+status       : started
+Reading local directories
+Synchronizing folders
+Reading remote server file list
+Detecting changes from last sync
+Synchronizing files
+sync "./Docs/Github/repo_1/.git/COMMIT_EDITMSG" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/index" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/HEAD" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/objects/23/cd837293e0c7b4db3b27384310bedb4b7bbe6f" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/6f/852fd7ab7771b729161b4cceac6eba09bc5529" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/78/16ec8c1e4ac0b639b32e196c4ff0eae491f8e6" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/ac/463477beb4b3844ff59fbe1d92b26c39b1c2fb" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/37/f87a70a5ba4301a6031b37f21d6bcf30adf9ff" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/86/434954ecb567c571d934f91b67ca4d454794c4" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/8f/d983510f67d6f36dc54cb3d56f0f76ff9d9241" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/90/19709220b70763f9e0f7aa7dd4482012cef60b" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/e0/56af0b55042928677216baccde3fd4472be8f0" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/e2/35d210b844ddea79bf6ef627d925eee0791406" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/f2/349dafd6d592e2bc14bdc153a12fff38b703b6" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/44/356fcc20d632761ff6181928fcf92f1f485fd2" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/50/214cb3f426e7119878cda4aca72fec8c3dc6ba" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/53/1f24fde060d9c6bd04803b9ac49cc5795d01b3" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/Interview/Code_Snippets/java" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/Interview/Code_Snippets/java/Demo.class" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/Interview/Code_Snippets/java/Demo.java" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/Interview/Code_Snippets/java/DemoWithArgs.class" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/Interview/Code_Snippets/java/DemoWithArgs.java" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/git_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_1_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_2_sync.log" changed in local. uploading
+sync "./Docs/PayPal/Docs" doesn't exist in server, uploading
+sync "./Docs/PayPal/Docs/Most Recent I-94.pdf" doesn't exist in server, uploading
+Finished!
+status 	     : completed
+time         : Tue Jun  7 03:03:59 PDT 2016
+-----------------------------------------------------------

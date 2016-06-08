@@ -286,3 +286,19 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Tue Jun  7 01:00:02 PDT 2016
 status       : started
+[master 6f852fd] Tue Jun  7 01:00:06 PDT 2016
+ 7 files changed, 65 insertions(+)
+ create mode 100644 Interview/Code_Snippets/java/Demo.class
+ create mode 100644 Interview/Code_Snippets/java/Demo.java
+ create mode 100644 Interview/Code_Snippets/java/DemoWithArgs.class
+ create mode 100644 Interview/Code_Snippets/java/DemoWithArgs.java
+To git@github.com:marannan/repo_1.git
+   dace411..6f852fd  master -> master
+status 	     : completed
+time         : Tue Jun  7 01:00:13 PDT 2016
+-----------------------------------------------------------
+----------------------------------------------------------
+git          : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
+time         : Wed Jun  8 01:00:01 PDT 2016
+status       : started
