@@ -302,3 +302,10 @@ git          : sync
 directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2/Docs/Github/repo_1
 time         : Wed Jun  8 01:00:01 PDT 2016
 status       : started
+[master 1651a8c] Wed Jun  8 01:00:01 PDT 2016
+ 3 files changed, 69 insertions(+)
+To git@github.com:marannan/repo_1.git
+   6f852fd..1651a8c  master -> master
+status 	     : completed
+time         : Wed Jun  8 01:00:09 PDT 2016
+-----------------------------------------------------------

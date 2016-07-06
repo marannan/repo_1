@@ -1767,3 +1767,35 @@ Finished!
 status 	     : completed
 time         : Tue Jun  7 03:03:59 PDT 2016
 -----------------------------------------------------------
+----------------------------------------------------------
+google drive : sync
+directory    : /media/ashok/My_Drive/Ashok/Google_Drive_2
+time         : Wed Jun  8 03:00:01 PDT 2016
+status       : started
+Reading local directories
+Synchronizing folders
+Reading remote server file list
+Detecting changes from last sync
+Synchronizing files
+sync "./Docs/Github/repo_1/.git/COMMIT_EDITMSG" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/index" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/HEAD" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/logs/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/objects/0b/cca28e523d239b21b4c32e694ac96f4a553cbd" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/16" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/16/51a8ca507c90b7d9bfa289485c945b73fb7021" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/61/150e8ee570e6f839b32f6c9f6249ae9928d03b" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/70/69c58358e8ad8385ec8fcc3197f3a1c58eefa7" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/cb/5ab9b82332925d41b1d870410e7a2245b0c460" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/27/052ecdad9613e1cd047c6dca2618a04c4ae283" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/objects/ed/a65db27c7ea9a176cb9c4f51aeab4ae29f59c6" doesn't exist in server, uploading
+sync "./Docs/Github/repo_1/.git/refs/heads/master" changed in local. uploading
+sync "./Docs/Github/repo_1/.git/refs/remotes/origin/master" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/git_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_1_sync.log" changed in local. uploading
+sync "./Docs/Github/repo_1/Scripts/Logs/google_drive_2_sync.log" changed in local. uploading
+Finished!
+status 	     : completed
+time         : Wed Jun  8 03:03:18 PDT 2016
+-----------------------------------------------------------
